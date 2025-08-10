@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700;900&display=swap');
+
+:root {
+    --bg-primary: #0a0a0a;
+    --bg-secondary: #1a1a1a;
+    --text-primary: #ffffff;
+    --text-secondary: #cccccc;
+    --accent-primary: #dc2626;
+    --accent-secondary: #991b1b;
+    --border-color: #333333;
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    transition: all 0.3s ease;
+    padding-bottom: 70px; /* Always account for mobile nav space */
+}
+
+.bg-primary {
+    background-color: var(--bg-primary);
+}
+
+.bg-secondary {
+    background-color: var(--bg-secondary);
+}
+
+.text-primary {
+    color: var(--text-primary);
+}
+
+.text-secondary {
+    color: var(--text-secondary);
+}
+
+.border-custom {
+    border-color: var(--border-color);
+}
+
+.accent-primary {
+    color: var(--accent-primary);
+}
+
+.bg-accent {
+    background-color: var(--accent-primary);
+}
+
+.bg-accent-hover:hover {
+    background-color: var(--accent-secondary);
+}
+
+.game-card {
+    background: linear-gradient(135deg, var(--bg-secondary) 0%, rgba(220, 38, 38, 0.1) 100%);
+    border: 2px solid var(--border-color);
+    transition: all 0.3s ease;
+}
+
+.game-card:hover, .game-card.selected-item, .game-card:focus {
+    border-color: var(--accent-primary);
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(220, 38, 38, 0.3);
+    outline: none;
+}
+
+.game-logo {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    aspect-ratio: 902/439;
+    object-fit: contain;
+    margin: 0 auto;
+}
+
+.character-card {
+    background: linear-gradient(135deg, var(--bg-secondary) 0%, rgba(220, 38, 38, 0.05) 100%);
+    border: 1px solid var(--border-color);
+    transition: all 0.3s ease;
+}
+
+.character-card:hover, .character-card.selected-item, .character-card:focus {
+    border-color: var(--accent-primary);
+    transform: scale(1.02);
+    outline: none;
+}
+
+.substory-item {
+    background-color: var(--bg-secondary);
+    border-left: 4px solid var(--border-color);
+    transition: all 0.3s ease;
+}
+
+.substory-item:hover, .substory-item.selected-item, .substory-item:focus {
+    background: linear-gradient(90deg, var(--bg-secondary) 0%, rgba(220, 38, 38, 0.1) 100%);
+    border-left-color: var(--accent-primary);
+    outline: none;
+}
+
+.japanese-text {
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.fade-in {
+    animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, var(--accent-primary) 0%, var(--accent-secondary) 100%);
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(220, 38, 38, 0.4);
+}
+
+/* Guide formatting */
+#substoryGuide {
+    white-space: pre-line;
+    line-height: 1.6;
+}
+
+#substoryGuide br {
+    display: block;
+    content: "";
+    margin-bottom: 0.5rem;
+}
+
+.character-image {
+    border-radius: 8px;
+    border: 2px solid var(--accent-primary);
+    transition: transform 0.2s ease;
+}
+
+.character-card:hover .character-image {
+    transform: scale(1.03);
+    border-color: var(--accent-secondary);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Character grid adjustments */
+#charactersGrid {
+    justify-items: center;
+}
+
+/* Single character case */
+.character-card.single-character {
+    width: 80%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Dynamic image sizing */
+.character-image {
+    object-fit: cover;
+    border-radius: 8px;
+    border: 2px solid var(--accent-primary);
+    transition: transform 0.2s ease;
+}
+
+.character-card:hover .character-image {
+    transform: scale(1.05);
+    border-color: var(--accent-secondary);
+}
+
+/* Home button hover effect */
+.home-btn {
+    transition: all 0.2s ease;
+}
+
+.home-btn:hover {
+    transform: scale(1.05);
+    text-shadow: 0 0 10px rgba(220, 38, 38, 0.7);
+    cursor: pointer;
+}
+
+/* Mobile navigation bar */
+.mobile-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--bg-secondary);
+    border-top: 1px solid var(--border-color);
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    z-index: 100;
+}
+
+.mobile-nav-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--text-primary);
+    font-size: 0.8rem;
+    padding: 5px 10px;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+}
+
+.mobile-nav-btn:hover {
+    background-color: var(--accent-primary);
+}
+
+.mobile-nav-btn i {
+    font-size: 1.2rem;
+    margin-bottom: 3px;
+}
+
+/* Header adjustments for mobile centering */
+header .container {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+header .flex {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    header .container {
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+    }
+    
+    header .flex {
+        flex-direction: row;
+        justify-content: flex-start;
+        width: auto;
+    }
+    
+    #homeBtn {
+        margin-bottom: 0;
+    }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .game-logo {
+        max-width: 200px;
+    }
+    
+    #gamesGrid {
+        grid-template-columns: 1fr !important;
+        gap: 1rem !important;
+    }
+    
+    #charactersGrid {
+        grid-template-columns: 1fr 1fr !important;
+        gap: 1rem !important;
+    }
+    
+    .character-card {
+        height: auto !important;
+        padding: 1rem !important;
+    }
+    
+    .character-image {
+        height: 120px !important;
+    }
+    
+    header {
+        padding: 1rem;
+    }
+    
+    main {
+        padding: 1rem;
+    }
+    
+    /* Mobile-specific header adjustments */
+    header .flex {
+        margin-bottom: 0.5rem;
+    }
+    
+    .mobile-nav-btn {
+        padding: 5px 8px;
+        font-size: 0.7rem;
+    }
+    
+    .mobile-nav-btn i {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    #charactersGrid {
+        grid-template-columns: 1fr !important;
+    }
+    
+    .home-btn {
+        font-size: 1.5rem;
+    }
+}

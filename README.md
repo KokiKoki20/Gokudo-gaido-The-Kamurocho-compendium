@@ -7,13 +7,13 @@
 
 ### Mainline Series
 `Yakuza 0` 🟡 (5%)  
-`Yakuza Kiwami` 🔴 (100%)  
-`Yakuza Kiwami 2` 🔴 (75%)  
+`Yakuza Kiwami` 🔴 (0%)  
+`Yakuza Kiwami 2` 🔴 (0%)  
 `Yakuza 3` 🔴 (0%)  
 `Yakuza 4` 🔴 (0%)  
 `Yakuza 5` 🔴 (0%)  
 `Yakuza 6` 🔴 (0%)  
-`Like a Dragon` 🔴 (40%)  
+`Like a Dragon` 🔴 (0%)  
 `Infinite Wealth` 🔴 (0%)  
 
 ### Spin-Offs

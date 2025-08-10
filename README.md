@@ -25,5 +25,5 @@
 ### Japanese Exclusives
 `Kenzan!` 🔴 (0%)  
 `Kurohyō 1` 🔴 (0%)  
-`Kurohyō 2` 🔴 (0%)
-`RGG: Ishin` 🔴 (0%)  
+`Kurohyō 2` 🔴 (0%)          
+`RGG: Ishin` 🔴 (0%)            

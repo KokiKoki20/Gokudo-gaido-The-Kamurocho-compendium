@@ -11,7 +11,7 @@
 `Yakuza Kiwami 2` 🔴 (0%)  
 `Yakuza 3` 🔴 (0%)  
 `Yakuza 4` 🔴 (0%)  
-`Yakuza 5` 🟡 (23.08%)  
+`Yakuza 5` 🟢 (100%)  
 `Yakuza 6` 🔴 (0%)  
 `Like a Dragon` 🔴 (0%)  
 `Infinite Wealth` 🔴 (0%)  

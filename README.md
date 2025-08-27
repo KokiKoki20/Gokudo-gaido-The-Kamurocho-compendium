@@ -13,7 +13,7 @@
 `Yakuza 4` 🔴 (0%)  
 `Yakuza 5` 🟢 (100%)  
 `Yakuza 6` 🟢 (100%)  
-`Like a Dragon` 🔴 (0%)  
+`Like a Dragon` 🟢 (100%)  
 `Infinite Wealth` 🔴 (0%)  
 
 ### Spin-Offs

@@ -20,7 +20,7 @@
 `Judgment` 🔴 (0%)  
 `Lost Judgment` 🔴 (0%)  
 `Ishin! Kiwami` 🔴 (0%)  
-`Gaiden` 🔴 (0%)  
+`Gaiden` 🟢 (100%)  
 
 ### Japanese Exclusives
 `Kenzan!` 🔴 (0%)  

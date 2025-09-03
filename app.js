@@ -4094,7 +4094,527 @@ const gameData = {
     characters: {
       "Joryu Jozuma / Kiryu Kazuma": {
         image: "😄",
-        substories: [],
+        substories: [
+  {
+    index: 1,
+    rank: "No Rank",
+    name: "Investigation Request",
+    location: "Sotenbori: Shofukucho (SE corner) → Sotenbori Theater → Club Heavenly",
+    reward: "Completes Request",
+    requirements: "Obtain Hornet Gadget",
+    guide: [
+      "1. Investigate Namioka Family activity in Shofukucho (SE corner)",
+      "2. Lose target, head to Sotenbori Theater (choose any option)",
+      "3. Investigate final spot near Club Heavenly"
+    ].join("\n"),
+    videoId: ""
+  },
+  {
+    index: 2,
+    rank: "No Rank",
+    name: "Film Assistant Needed",
+    location: "Sotenbori: Smile Burger (2nd floor)",
+    reward: "Completes Request",
+    requirements: "Obtain Hornet Gadget",
+    guide: [
+      "1. Meet Kitayama on 2nd floor of Smile Burger",
+      "2. Go through filming scenes",
+      "3. Defeat boss with a knife"
+    ].join("\n"),
+    videoId: ""
+  },
+  {
+    index: 3,
+    rank: "No Rank",
+    name: "Vanquish the Red Peacocks",
+    location: "Sotenbori: West Shofukucho Parking Lot → Various locations",
+    reward: "Completes Request",
+    requirements: "Obtain Hornet Gadget",
+    guide: [
+      "1. Defeat 4 gang members (1 mini-boss) in West Shofukucho parking lot",
+      "2. Defeat 6 gang members (1 mini-boss) on Sotenbori Footpath",
+      "3. Defeat 4 gang members (1 boss) in East Shofukucho",
+      "4. Defeat 4 gang members (1 boss) southeast near Akame's",
+      "5. Defeat leader + 7 members in southwest Shofukucho parking lot"
+    ].join("\n"),
+    videoId: ""
+  },
+  {
+    index: 4,
+    rank: "No Rank",
+    name: "Emergency Request! - Investigate the Immersive Cabaret Club",
+    location: "Sotenbori: Club Heavenly",
+    reward: "Nutriment of the Conquering Emperor x5",
+    requirements: "Automatic story progression",
+    guide: [
+      "1. Visit Club Heavenly (bring 10,000 yen)",
+      "2. Spend time with a hostess",
+      "3. Report back to Akame"
+    ].join("\n"),
+    videoId: ""
+  },
+  {
+    index: 5,
+    rank: "Silver",
+    name: "A Simple Heavy-Lifting Job",
+    location: "Sotenbori: Wild Jackson → Bishamon Bridge → Office Building → Ashitaba Park",
+    reward: "Completes Request",
+    requirements: "Reach Silver Rank",
+    guide: [
+      "1. Meet Matsumura at Wild Jackson",
+      "2. Speak to homeless man under south side of Bishamon Bridge",
+      "3. Go to office building between Bar New Momoko and Kiss Shot",
+      "4. Defeat 2 yakuza inside",
+      "5. Defeat 5 yakuza + boss at Ashitaba Park"
+    ].join("\n"),
+    videoId: ""
+  },
+  {
+    index: 6,
+    rank: "Silver",
+    name: "Ghost of Sotenbori",
+    location: "Sotenbori: East Sotenbori St. → South Shofukucho → Ashitaba Park",
+    reward: "Completes Request",
+    requirements: "Reach Silver Rank",
+    guide: [
+      "1. Defeat 3 yakuza + mini-boss at east end of Sotenbori St.",
+      "2. Defeat 1 enemy in middle of South Shofukucho",
+      "3. Enter door near north end of Ashitaba Park",
+      "4. Defeat 5 yakuza + boss (3 health bars)"
+    ].join("\n"),
+    videoId: ""
+  },
+  {
+    index: 7,
+    rank: "Silver",
+    name: "Seeking Advice",
+    location: "Sotenbori: Smile Burger → Iwao Bridge → Ganko Sushi → River Footpath",
+    reward: "Completes Request",
+    requirements: "Reach Silver Rank",
+    guide: [
+      "1. Talk to young person at Smile Burger",
+      "2. Find him near west edge of Iwao Bridge",
+      "3. Follow to Ganko Sushi, defeat nearby enemy",
+      "4. Chase to north side of river footpath",
+      "5. Defeat weak enemy"
+    ].join("\n"),
+    videoId: ""
+  },
+  {
+    index: 8,
+    rank: "Silver",
+    name: "Recruit Homeless Yamanaka",
+    location: "Sotenbori: Ashitaba Park",
+    reward: "Homeless Yamanaka joins Joryu Clan",
+    requirements: "Reach Silver Rank",
+    guide: [
+      "1. Find Yamanaka at Ashitaba Park",
+      "2. Accept his challenge",
+      "3. Defeat him in combat"
+    ].join("\n"),
+    videoId: ""
+  },
+  {
+    index: 9,
+    rank: "Silver",
+    name: "The Strongest Convenience Store Clerk",
+    location: "Sotenbori: Poppo (West Shofukucho)",
+    reward: "Ryusei Tobashira joins Joryu Clan",
+    requirements: "Reach Silver Rank",
+    guide: [
+      "1. Go to Poppo in West Shofukucho",
+      "2. Defeat Tobashira's manager",
+      "3. Defeat Tobashira"
+    ].join("\n"),
+    videoId: ""
+  },
+  {
+    index: 10,
+    rank: "Silver",
+    name: "Save the Pro Wrestler",
+    location: "Sotenbori: River Footpath (under Iwao Bridge) → Various locations",
+    reward: "Excellent Sujiya joins Joryu Clan",
+    requirements: "Complete 'The Strongest Convenience Store Clerk'",
+    guide: [
+      "1. Meet wrestler under Iwao Bridge",
+      "2. Hand out flyers at 10 locations:",
+      " • North Iwao Bridge",
+      " • West of Club Heavenly",
+      " • North of Shigano Cigarettes",
+      " • Outside Kiss Shot",
+      " • Near Wild Jackson",
+      " • Northwest corner of Sotenbori",
+      " • North of Kushikatsu Daruma",
+      " • SW of Kushikatsu Daruma on river footpath",
+      " • Near Poppo on Sotenbori St.",
+      " • North of Hiratai on southern river footpath",
+      "3. Return and defeat the wrestler"
+    ].join("\n"),
+    videoId: ""
+  },
+  {
+    index: 11,
+    rank: "Silver",
+    name: "The Cat-Lovin' Rapper",
+    location: "Sotenbori: East Shofukucho → Various locations",
+    reward: "KATSUWO joins Joryu Clan",
+    requirements: "Complete 'Recruit Homeless Yamanaka'",
+    guide: [
+      "1. Find rapper near taxi in East Shofukucho",
+      "2. Defeat him in combat",
+      "3. Defeat cat abusers at 3 locations:",
+      " • Southwest Shofukucho Parking Lot",
+      " • Parking lot SE of Coin Lockers",
+      " • Under south side of Iwao Bridge",
+      "4. Return to rapper, defeat 4 enemies including boss"
+    ].join("\n"),
+    videoId: ""
+  },
+  {
+    index: 12,
+    rank: "Silver",
+    name: "The Struggling Host",
+    location: "Sotenbori: Central Shofukucho → Various locations",
+    reward: "Renji joins Joryu Clan",
+    requirements: "Complete 'Liberate the Hammer Man'",
+    guide: [
+      "1. Find host near Club Heavenly in central Shofukucho",
+      "2. Talk to customers at 7 locations:",
+      " • The Grand (NW corner)",
+      " • Near Poppo in Shofukucho",
+      " • Southwest Shofukucho corner",
+      " • East Sotenbori St. near Poppo",
+      " • Behind pillars at 'Hotel Turtle' in West Shofukucho",
+      " • South of Iwao Bridge (red-haired guy)",
+      " • Southwest Shofukucho near Club Sunshine",
+      "3. Defeat rival host Itsuki",
+      "4. Return and defeat Renji"
+    ].join("\n"),
+    videoId: ""
+  },
+  {
+    index: 13,
+    rank: "Silver",
+    name: "Liberate the Hammer Man",
+    location: "Sotenbori: South Sotenbori Footpath → East near river",
+    reward: "Yuji Nunokawa joins Joryu Clan",
+    requirements: "Reach Silver Rank",
+    guide: [
+      "1. Find big guy with hammer on south Sotenbori Footpath (need 1,000,000 yen)",
+      "2. Offer to pay his debt",
+      "3. Give money to foreman in high-vis vest east near river",
+      "4. Defeat the big guy",
+      "5. Defeat foreman + 5 lackeys"
+    ].join("\n"),
+    videoId: ""
+  },
+  {
+    index: 14,
+    rank: "Silver",
+    name: "Final Showdown: Red Peacocks",
+    location: "Sotenbori: Outside Four Shine",
+    reward: "Akira Guren joins Joryu Clan",
+    requirements: "Complete 'Vanquish the Red Peacocks'",
+    guide: [
+      "1. Go to area outside Four Shine",
+      "2. Defeat 16 Red Peacocks including their leader"
+    ].join("\n"),
+    videoId: ""
+  },
+  {
+    index: 15,
+    rank: "Silver",
+    name: "Vanquish the White Knights",
+    location: "Sotenbori: Hiratai → Various locations → East Sotenbori St.",
+    reward: "Completes Request",
+    requirements: "Complete 'Final Showdown: Red Peacocks'",
+    guide: [
+      "1. Defeat 4 White Knights (1 mini-boss) at Hiratai on Sotenbori Footpath",
+      "2. Defeat 3 White Knights (1 mini-boss) at Bunzameon Outdoor Mall",
+      "3. Defeat 3 White Knights (1 mini-boss) in Central Shofukucho",
+      "4. Defeat 4 White Knights (1 mini-boss) in South Shofukucho",
+      "5. Defeat boss + 4 members on east side of Sotenbori St."
+    ].join("\n"),
+    videoId: ""
+  },
+  {
+    index: 16,
+    rank: "Silver",
+    name: "Final Showdown: White Knights",
+    location: "Sotenbori: West Sotenbori St. (outside Kinryu Ramen)",
+    reward: "Koji Shiranita joins Joryu Clan",
+    requirements: "Complete 'Vanquish the White Knights'",
+    guide: [
+      "1. Go to area outside Kinryu Ramen on west Sotenbori St.",
+      "2. Defeat 15 White Knights including their leader (4 health bars)"
+    ].join("\n"),
+    videoId: ""
+  },
+  {
+    index: 17,
+    rank: "Silver",
+    name: "The Golden Samurai",
+    location: "Random encounter throughout city",
+    reward: "Completes Request",
+    requirements: "Reach Silver Rank",
+    guide: [
+      "1. Find Golden Samurai with purple arrow on minimap",
+      "2. Defeat him (4 health bars, uses sword)"
+    ].join("\n"),
+    videoId: ""
+  },
+  {
+    index: 18,
+    rank: "Silver",
+    name: "Reach Gold Tier",
+    location: "Akame's Hideout",
+    reward: "Advances Akame Network Rank",
+    requirements: "Reach Akame Network Rank 10 + Win 3 Silver Rank Coliseum fights",
+    guide: [
+      "1. Reach Akame Network Rank 10",
+      "2. Win 3 Silver Rank fights in Coliseum",
+      "3. Report back to Akame"
+    ].join("\n"),
+    videoId: ""
+  },
+  {
+    index: 19,
+    rank: "Gold",
+    name: "End the Destruction",
+    location: "Sotenbori: Shofukucho Construction Site → West → SE of Bishamon Bridge",
+    reward: "Masaharu Kaito and Toru Higashi assist Joryu Clan",
+    requirements: "Reach Gold Rank",
+    guide: [
+      "1. Defeat 'gorilla man' at Shofukucho construction site (2 health bars)",
+      "2. Talk to homeless guy west of construction site",
+      "3. Defeat 4 thugs",
+      "4. Defeat detective (5 health bars)",
+      "5. Go to door southeast of Bishamon Bridge",
+      "6. Defeat 9 enemies including boss (with 2 allies)"
+    ].join("\n"),
+    videoId: ""
+  },
+  {
+    index: 20,
+    rank: "Gold",
+    name: "Gotta Catch 'em Balls!",
+    location: "Various locations → Back alley near Fukuru",
+    reward: "Varies based on wish choice",
+    requirements: "Chapter 4 + Reach Gold Rank",
+    guide: [
+      "Find all 7 Gold Balls:",
+      "1. Purchase from Ebisu Pawn for ¥77,777",
+      "2. Trade 777 Pool points at Kiss Shot",
+      "3. Purchase from Akame Shop (3rd level) for 777 Akame Points",
+      "4. Use Wire on flexing fellow on eastward boat on river",
+      "5. Use Wire on muscle guy's pants in Castle dance club",
+      "6. Use Wire on oni statue's skirt in Fighter's Lounge stairwell",
+      "7. Complete 'Solve the Mysterious Note' Stroll 'n Patrol mission",
+      "8. Return to Akame, then meet guy in back alley near Fukuru",
+      "9. Choose a wish:",
+      " • 'Endless riches' = ¥1,000,000",
+      " • 'Eternal life' = Nourishment of the Sea King x100",
+      " • 'Sexy panties' = Shen-san's Panties (sell for ¥1,500,000)"
+    ].join("\n"),
+    videoId: ""
+  },
+  {
+    index: 21,
+    rank: "Gold",
+    name: "Vanquish the Black Swallowtails",
+    location: "Sotenbori: Near Coin Lockers → Various locations → Yotsudera Kaikan",
+    reward: "Completes Request",
+    requirements: "Complete 'Final Showdown: White Knights'",
+    guide: [
+      "1. Defeat 5 Black Swallowtails (1 boss with katana) near Coin Lockers",
+      "2. Defeat 4 Black Swallowtails (1 boss with katana) near Riichi Towers Mahjong",
+      "3. Defeat 4 Black Swallowtails (1 boss with hammer) near Kushikatsu Daruma",
+      "4. Defeat 5 Black Swallowtails (1 boss, most have pistols) near Shigano Cigarettes",
+      "5. Defeat 7 Black Swallowtails (armed with various weapons) on 2nd floor of Yotsudera Kaikan"
+    ].join("\n"),
+    videoId: ""
+  },
+  {
+    index: 22,
+    rank: "Gold",
+    name: "Final Showdown: Black Swallowtails",
+    location: "Sotenbori: Iwao Bridge",
+    reward: "Keita Kuroyanagi joins Joryu Clan",
+    requirements: "Complete 'Vanquish the Black Swallowtails'",
+    guide: [
+      "1. Go to Iwao Bridge",
+      "2. Defeat 16 Black Swallowtails including their leader"
+    ].join("\n"),
+    videoId: ""
+  },
+  {
+    index: 23,
+    rank: "Gold",
+    name: "The Golden Scourge",
+    location: "Random encounter throughout city",
+    reward: "Completes Request",
+    requirements: "Complete 'The Golden Samurai'",
+    guide: [
+      "1. Find Golden Samurai with purple arrow on minimap",
+      "2. Defeat him (5 health bars, increased attack power)"
+    ].join("\n"),
+    videoId: ""
+  },
+  {
+    index: 24,
+    rank: "Gold",
+    name: "Reach Platinum Tier",
+    location: "Akame's Hideout",
+    reward: "Advances Akame Network Rank",
+    requirements: "Reach Akame Network Rank 20 + Win 3 Gold Rank Coliseum fights",
+    guide: [
+      "1. Reach Akame Network Rank 20",
+      "2. Win 3 Gold Rank fights in Coliseum",
+      "3. Report back to Akame"
+    ].join("\n"),
+    videoId: ""
+  },
+  {
+    index: 25,
+    rank: "Gold",
+    name: "Friends in Special Places",
+    location: "Various bars in Sotenbori",
+    reward: "Strengthens bond with Akame",
+    requirements: "Reach Gold Rank + Akame Network Levels 13, 16, and 19",
+    guide: [
+      "1. Reach Akame Network Level 13, 16, and 19",
+      "2. Accept drink offers from Akame each time",
+      "3. On fourth outing, defeat 5 enemies including a boss"
+    ].join("\n"),
+    videoId: ""
+  },
+  {
+    index: 26,
+    rank: "Platinum",
+    name: "Golden Gauntlet Throwdown",
+    location: "Sotenbori: Yotsudera Kaikan (roof)",
+    reward: "Completes Request",
+    requirements: "Complete 'The Golden Scourge'",
+    guide: [
+      "1. Go to roof of Yotsudera Kaikan",
+      "2. Defeat Golden Samurai (6 health bars, enhanced armor and blocking)"
+    ].join("\n"),
+    videoId: ""
+  },
+  {
+    index: 27,
+    rank: "Coliseum",
+    name: "The Four Kings of the Coliseum",
+    location: "Castle: Coliseum",
+    reward: "Progresses Coliseum story",
+    requirements: "Chapter 4 (automatic after leaving Castle)",
+    guide: [
+      "1. Automatically triggered after leaving Castle in Chapter 4",
+      "2. Defeat Dan Brody (uses knife, drones, and flash grenades)"
+    ].join("\n"),
+    videoId: ""
+  },
+  {
+    index: 28,
+    rank: "Coliseum",
+    name: "King Dan Brody",
+    location: "Castle: Coliseum",
+    reward: "Progresses Coliseum story",
+    requirements: "Reach Platinum Coliseum Rank + Complete 'The Four Kings of the Coliseum'",
+    guide: [
+      "1. Reach Platinum Rank in Coliseum",
+      "2. Challenge Dan Brody in Hell Team Rumble",
+      "3. Defeat 4 teen punks + Dan Brody (approx. 15 health bars) within 3 minutes"
+    ].join("\n"),
+    videoId: ""
+  },
+  {
+    index: 29,
+    rank: "Coliseum",
+    name: "Mizorogi's Big Dreams",
+    location: "Akame's Hideout",
+    reward: "Unlocks 'Heat Action: Daidoji Martial Mastery' upgrade",
+    requirements: "Defeat first Coliseum King + Upgrade all Gadgets to Level 5",
+    guide: [
+      "1. Upgrade all Gadgets to Level 5",
+      "2. Return to Mizorogi at Akame's Hideout",
+      "3. Purchase the new Heat Action upgrade"
+    ].join("\n"),
+    videoId: ""
+  },
+  {
+    index: 30,
+    rank: "Coliseum",
+    name: "King Kunemitsu Samejima",
+    location: "Castle: Coliseum",
+    reward: "Progresses Coliseum story",
+    requirements: "Defeat first Coliseum King",
+    guide: [
+      "1. Challenge Kunemitsu Samejima in one-on-one fight",
+      "2. Defeat him (uses dual pistols and Serpent shoes)"
+    ].join("\n"),
+    videoId: ""
+  },
+  {
+    index: 31,
+    rank: "Coliseum",
+    name: "King JUSTICE",
+    location: "Castle: Coliseum",
+    reward: "Progresses Coliseum story",
+    requirements: "Defeat previous Coliseum Kings",
+    guide: [
+      "1. Challenge JUSTICE in Three King brawl (Hell Team Rumble)",
+      "2. Defeat 16 thugs + Dan Brody + Samejima + JUSTICE",
+      "3. JUSTICE uses laser beam and has healing ability"
+    ].join("\n"),
+    videoId: ""
+  },
+  {
+    index: 32,
+    rank: "Coliseum",
+    name: "King Kiyoshi Ugajin",
+    location: "Castle: Coliseum",
+    reward: "Progresses Coliseum story",
+    requirements: "Defeat previous Coliseum Kings",
+    guide: [
+      "1. Challenge Kiyoshi Ugajin in one-on-one fight",
+      "2. Defeat him (uses Spider wire, Hornets, has 6 health bars)"
+    ].join("\n"),
+    videoId: ""
+  },
+  {
+    index: 33,
+    rank: "Coliseum",
+    name: "Operation Family Welfare",
+    location: "Castle: Coliseum",
+    reward: "Completes Coliseum storyline",
+    requirements: "Defeat all Four Kings of Coliseum",
+    guide: [
+      "1. Check Requests at Akame's Hideout after defeating Four Kings",
+      "2. Automatically go to fight",
+      "3. Defeat 8 yakuza + boss (uses Hornet drones)"
+    ].join("\n"),
+    videoId: ""
+  },
+  {
+    index: 34,
+    rank: "Coliseum",
+    name: "Path to the Strongest",
+    location: "Castle: Coliseum → Helipad",
+    reward: "War God Talisman",
+    requirements: "Complete Minamida Grand Prix (all Coliseum fights and substories)",
+    guide: [
+      "Part 1 - Hell Team Rumble:",
+      "1. Defeat 10 silver bots + Tetsu Amon (gold bot)",
+      "2. Use Agent Style, Extreme Heat strategy",
+      "Part 2 - Gai Amon:",
+      "1. Defeat Gai Amon on helipad",
+      "2. Counter his attacks: Hornet heart (summon your own), explosive discs, Spider Wire, explosives, knives, caltrops, drones",
+      "3. Final phase (4 health bars): He heals when hitting you, use Tiger Drop and Heat Actions"
+    ].join("\n"),
+    videoId: ""
+  }
+],
       },
     },
   },
@@ -4376,6 +4896,7 @@ function showSubstories() {
                 <p class="text-secondary text-sm mb-1">📍 ${substory.location}</p>
                 <p class="text-secondary text-sm">🎁 ${substory.reward}</p>
                 <p class="text-secondary text-sm"> 🔍 Chapter ${substory.chapter}</p>
+                <p class="text-secondary text-sm"> 🔍 Rank(Gaiden) : ${substory.rank}</p>
                 <p class="text-secondary text-sm"> 📌 Substory number # ${substory.index}</p>
             </div>
         `;
@@ -4401,6 +4922,7 @@ function showSubstoryDetail(substoryIndex) {
   document.getElementById("substoryReward").textContent = substory.reward;
   document.getElementById("substoryRequirements").textContent = substory.requirements;
   document.getElementById("substoryChapter").textContent = substory.chapter;
+    document.getElementById("substoryRank").textContent = substory.rank;
   // Format the guide with proper line breaks
   document.getElementById("substoryGuide").innerHTML = substory.guide.replace(
     /\n/g,

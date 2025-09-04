@@ -4705,6 +4705,7 @@ let currentView = "games";
 let selectedGame = "";
 let selectedCharacter = "";
 let viewHistory = [];
+
 // DOM elements
 const homeBtn = document.getElementById("homeBtn");
 const mobileHomeBtn = document.getElementById("mobileHomeBtn");
@@ -4849,7 +4850,23 @@ function showSubstories(gameName, characterName) {
   substoriesList.innerHTML = '';
 
   const substories = gameData[gameName].characters[characterName].substories;
+  const isGaiden = gameName.startsWith('Like a Dragon Gaiden');
+
   substories.forEach((substory, index) => {
+    let chapterHtml = '';
+    let rankHtml = '';
+    if (isGaiden) {
+      // Only show Rank for Gaiden
+      if (substory.rank) {
+        rankHtml = `<p class="text-secondary text-sm"> 🔍 Rank(Gaiden) : ${substory.rank}</p>`;
+      }
+    } else {
+      // Only show Chapter for non-Gaiden
+      if (substory.chapter) {
+        chapterHtml = `<p class="text-secondary text-sm"> 🔍 Chapter ${substory.chapter}</p>`;
+      }
+    }
+
     const substoryItem = document.createElement('div');
     substoryItem.className = 'substory-item p-4 rounded cursor-pointer flex items-start gap-3';
     substoryItem.innerHTML = `
@@ -4860,8 +4877,8 @@ function showSubstories(gameName, characterName) {
         <h4 class="font-semibold text-primary mb-2">${substory.name}</h4>
         <p class="text-secondary text-sm mb-1">📍 ${substory.location}</p>
         <p class="text-secondary text-sm">🎁 ${substory.reward}</p>
-        <p class="text-secondary text-sm"> 🔍 Chapter ${substory.chapter}</p>
-        <p class="text-secondary text-sm"> 🔍 Rank(Gaiden) : ${substory.rank}</p>
+        ${chapterHtml}
+        ${rankHtml}
         <p class="text-secondary text-sm"> 📌 Substory number # ${substory.index}</p>
       </div>
     `;
@@ -4948,6 +4965,8 @@ function initializeFromURL() {
   // Update the view
   updateView(view, game, character, substory);
 }
+
+
 
 // Initialize the app when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {

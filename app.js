@@ -4705,260 +4705,239 @@ let currentView = "games";
 let selectedGame = "";
 let selectedCharacter = "";
 let viewHistory = [];
-
 // DOM elements
 const homeBtn = document.getElementById("homeBtn");
-const backBtn = document.getElementById("backBtn");
 const mobileHomeBtn = document.getElementById("mobileHomeBtn");
-const mobileBackBtn = document.getElementById("mobileBackBtn");
 
-// Navigation functions
-function showView(viewName) {
-  document
-    .querySelectorAll(
-      "#gamesView, #charactersView, #substoriesView, #substoryDetailView"
-    )
-    .forEach((view) => {
-      view.classList.add("hidden");
-    });
-  document.getElementById(viewName + "View").classList.remove("hidden");
+// Navigation functions using browser history
+function showView(viewName, game = "", character = "", substoryIndex = -1) {
+  // Update URL without page reload
+  const params = new URLSearchParams();
+  if (game) params.set('game', game);
+  if (character) params.set('character', character);
+  if (substoryIndex >= 0) params.set('substory', substoryIndex);
+  
+  const newUrl = `${window.location.pathname}?view=${viewName}&${params.toString()}`;
+  window.history.pushState({view: viewName, game, character, substoryIndex}, '', newUrl);
+  
+  // Update the view
+  updateView(viewName, game, character, substoryIndex);
+}
 
-  // Show/hide back button based on current view
-  if (viewName === "games") {
-    backBtn.classList.add("hidden");
-  } else {
-    backBtn.classList.remove("hidden");
-  }
-
+function updateView(viewName, game = "", character = "", substoryIndex = -1) {
+  // Hide all views
+  document.querySelectorAll('#gamesView, #charactersView, #substoriesView, #substoryDetailView').forEach(view => {
+    view.classList.add('hidden');
+  });
+  
+  // Show the requested view
+  document.getElementById(`${viewName}View`).classList.remove('hidden');
   currentView = viewName;
-
+  selectedGame = game;
+  selectedCharacter = character;
+  currentSubstoryIndex = substoryIndex;
+  
+  // Update content based on the view
+  if (viewName === 'games') {
+    initializeGamesGrid();
+  } else if (viewName === 'characters') {
+    showCharacters(game);
+  } else if (viewName === 'substories') {
+    showSubstories(game, character);
+  } else if (viewName === 'substoryDetail') {
+    showSubstoryDetail(game, character, substoryIndex);
+  }
+  
   // Update mobile nav button states
-  mobileBackBtn.style.display = viewName !== "games" ? "flex" : "none";
-}
-
-function goBack() {
-  if (viewHistory.length > 0) {
-    const previousView = viewHistory.pop();
-    if (previousView === "games") {
-      selectedGame = "";
-      showView("games");
-    } else if (previousView === "characters") {
-      selectedCharacter = "";
-      showCharacters();
-    } else if (previousView === "substories") {
-      showSubstories();
-    }
-  } else {
-    goHome();
-  }
-}
-
-function goHome() {
-  // Add current state to history if not already home
-  if (currentView !== "games") {
-    viewHistory.push(currentView);
-  }
-
-  viewHistory = [];
-  selectedGame = "";
-  selectedCharacter = "";
-  showView("games");
+  const mobileBackBtn = document.getElementById('mobileBackBtn');
+  mobileBackBtn.style.display = viewName !== 'games' ? 'flex' : 'none';
 }
 
 // Initialize games grid with logo images
 function initializeGamesGrid() {
-  const gamesGrid = document.getElementById("gamesGrid");
-  gamesGrid.innerHTML = "";
+  const gamesGrid = document.getElementById('gamesGrid');
+  gamesGrid.innerHTML = '';
 
-  Object.keys(gameData).forEach((gameName) => {
-    const gameCard = document.createElement("div");
-    gameCard.className =
-      "game-card p-6 rounded-lg cursor-pointer text-center flex flex-col items-center";
+  Object.keys(gameData).forEach(gameName => {
+    const gameCard = document.createElement('div');
+    gameCard.className = 'game-card p-6 rounded-lg cursor-pointer text-center flex flex-col items-center';
     gameCard.innerHTML = `
-            <img src="${gameData[gameName].logo}" 
-                 alt="${gameName} Logo" 
-                 class="game-logo mb-4"
-                 loading="lazy">
-            <h3 class="text-xl font-bold text-primary mb-2">${gameName}</h3>
-        `;
-    gameCard.addEventListener("click", () => {
-      selectGame(gameName);
+      <img src="${gameData[gameName].logo}" 
+           alt="${gameName} Logo" 
+           class="game-logo mb-4"
+           loading="lazy">
+      <h3 class="text-xl font-bold text-primary mb-2">${gameName}</h3>
+    `;
+    gameCard.addEventListener('click', () => {
+      showView('characters', gameName);
     });
     gamesGrid.appendChild(gameCard);
   });
 }
 
-function selectGame(gameName) {
-  selectedGame = gameName;
-  viewHistory.push("games");
-
-  // Skip character selection if only one exists
-  const characterCount = Object.keys(gameData[gameName].characters).length;
-  if (characterCount === 1) {
-    selectCharacter(Object.keys(gameData[gameName].characters)[0]);
-  } else {
-    showCharacters();
-  }
-}
-
-function showCharacters() {
-  const charactersGrid = document.getElementById("charactersGrid");
-  const gameTitle = document.getElementById("gameTitle");
-  const characters = gameData[selectedGame].characters;
+function showCharacters(gameName) {
+  const charactersGrid = document.getElementById('charactersGrid');
+  const gameTitle = document.getElementById('gameTitle');
+  const characters = gameData[gameName].characters;
   const characterCount = Object.keys(characters).length;
 
-  gameTitle.textContent = selectedGame;
-  charactersGrid.innerHTML = "";
+  gameTitle.textContent = gameName;
+  charactersGrid.innerHTML = '';
 
   // Set grid layout based on character count
-  let gridClass = "grid gap-4 ";
+  let gridClass = 'grid gap-4 ';
   if (characterCount === 1) {
-    gridClass += "grid-cols-1 justify-items-center";
+    gridClass += 'grid-cols-1 justify-items-center';
   } else if (characterCount === 2) {
-    gridClass += "grid-cols-2 justify-items-center";
+    gridClass += 'grid-cols-2 justify-items-center';
   } else {
-    gridClass += "grid-cols-2 md:grid-cols-3 lg:grid-cols-4";
+    gridClass += 'grid-cols-2 md:grid-cols-3 lg:grid-cols-4';
   }
   charactersGrid.className = gridClass;
 
-  Object.keys(characters).forEach((characterName) => {
+  Object.keys(characters).forEach(characterName => {
     const character = characters[characterName];
-    const characterCard = document.createElement("div");
+    const characterCard = document.createElement('div');
 
     // Card sizing logic
-    let cardClass = "character-card p-4 rounded-lg cursor-pointer text-center ";
-    let imageClass = "character-image mb-3 mx-auto object-cover ";
+    let cardClass = 'character-card p-4 rounded-lg cursor-pointer text-center ';
+    let imageClass = 'character-image mb-3 mx-auto object-cover ';
 
     if (characterCount <= 2) {
-      cardClass += "h-80 w-full max-w-xs ";
-      imageClass += "w-full h-48 ";
+      cardClass += 'h-80 w-full max-w-xs ';
+      imageClass += 'w-full h-48 ';
     } else {
-      cardClass += "h-64 ";
-      imageClass += "w-full h-36 ";
+      cardClass += 'h-64 ';
+      imageClass += 'w-full h-36 ';
     }
 
     characterCard.className = cardClass;
     characterCard.innerHTML = `
-            <img src="${character.image}" 
-                 alt="${characterName}" 
-                 class="${imageClass}"
-                 style="aspect-ratio: 902/439">
-            <h4 class="font-semibold text-primary ${
-              characterCount <= 2 ? "text-lg" : "text-sm"
-            } mt-2">${characterName}</h4>
-            <p class="text-secondary ${
-              characterCount <= 2 ? "text-sm" : "text-xs"
-            } mt-1">${character.substories.length} Substories</p>
-        `;
+      <img src="${character.image}" 
+           alt="${characterName}" 
+           class="${imageClass}"
+           style="aspect-ratio: 902/439">
+      <h4 class="font-semibold text-primary ${characterCount <= 2 ? 'text-lg' : 'text-sm'} mt-2">${characterName}</h4>
+      <p class="text-secondary ${characterCount <= 2 ? 'text-sm' : 'text-xs'} mt-1">${character.substories.length} Substories</p>
+    `;
 
-    characterCard.addEventListener("click", (e) => {
+    characterCard.addEventListener('click', (e) => {
       e.stopPropagation();
-      selectCharacter(characterName);
+      showView('substories', gameName, characterName);
     });
     charactersGrid.appendChild(characterCard);
   });
-
-  showView("characters");
 }
 
-function selectCharacter(characterName) {
-  selectedCharacter = characterName;
+function showSubstories(gameName, characterName) {
+  const substoriesList = document.getElementById('substoriesList');
+  const characterTitle = document.getElementById('characterTitle');
 
-  // Special case: If coming directly from games view for single character
-  if (currentView === "games") {
-    viewHistory = ["games"];
-  } else {
-    viewHistory.push("characters");
-  }
+  characterTitle.textContent = `${characterName} - ${gameName}`;
+  substoriesList.innerHTML = '';
 
-  showSubstories();
-}
-
-function showSubstories() {
-  const substoriesList = document.getElementById("substoriesList");
-  const characterTitle = document.getElementById("characterTitle");
-
-  characterTitle.textContent = `${selectedCharacter} - ${selectedGame}`;
-  substoriesList.innerHTML = "";
-
-  const substories =
-    gameData[selectedGame].characters[selectedCharacter].substories;
+  const substories = gameData[gameName].characters[characterName].substories;
   substories.forEach((substory, index) => {
-    const substoryItem = document.createElement("div");
-    substoryItem.className =
-      "substory-item p-4 rounded cursor-pointer flex items-start gap-3";
+    const substoryItem = document.createElement('div');
+    substoryItem.className = 'substory-item p-4 rounded cursor-pointer flex items-start gap-3';
     substoryItem.innerHTML = `
-            <div class="bg-accent text-white rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0 mt-1">
-                ${index + 1}
-            </div>
-            <div>
-                <h4 class="font-semibold text-primary mb-2">${substory.name}</h4>
-                <p class="text-secondary text-sm mb-1">📍 ${substory.location}</p>
-                <p class="text-secondary text-sm">🎁 ${substory.reward}</p>
-                <p class="text-secondary text-sm"> 🔍 Chapter ${substory.chapter}</p>
-                <p class="text-secondary text-sm"> 🔍 Rank(Gaiden) : ${substory.rank}</p>
-                <p class="text-secondary text-sm"> 📌 Substory number # ${substory.index}</p>
-            </div>
-        `;
+      <div class="bg-accent text-white rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0 mt-1">
+        ${index + 1}
+      </div>
+      <div>
+        <h4 class="font-semibold text-primary mb-2">${substory.name}</h4>
+        <p class="text-secondary text-sm mb-1">📍 ${substory.location}</p>
+        <p class="text-secondary text-sm">🎁 ${substory.reward}</p>
+        <p class="text-secondary text-sm"> 🔍 Chapter ${substory.chapter}</p>
+        <p class="text-secondary text-sm"> 🔍 Rank(Gaiden) : ${substory.rank}</p>
+        <p class="text-secondary text-sm"> 📌 Substory number # ${substory.index}</p>
+      </div>
+    `;
 
-    substoryItem.addEventListener("click", (e) => {
+    substoryItem.addEventListener('click', (e) => {
       e.stopPropagation();
-      showSubstoryDetail(index);
+      showView('substoryDetail', gameName, characterName, index);
     });
     substoriesList.appendChild(substoryItem);
   });
-
-  showView("substories");
 }
 
-function showSubstoryDetail(substoryIndex) {
-  const substory =
-    gameData[selectedGame].characters[selectedCharacter].substories[
-      substoryIndex
-    ];
+function showSubstoryDetail(gameName, characterName, substoryIndex) {
+  const substory = gameData[gameName].characters[characterName].substories[substoryIndex];
 
-  document.getElementById("substoryTitle").textContent = substory.name;
-  document.getElementById("substoryLocation").textContent = substory.location;
-  document.getElementById("substoryReward").textContent = substory.reward;
-  document.getElementById("substoryRequirements").textContent = substory.requirements;
-  document.getElementById("substoryChapter").textContent = substory.chapter;
-    document.getElementById("substoryRank").textContent = substory.rank;
+  document.getElementById('substoryTitle').textContent = substory.name;
+  document.getElementById('substoryLocation').textContent = substory.location;
+  document.getElementById('substoryReward').textContent = substory.reward;
+  document.getElementById('substoryRequirements').textContent = substory.requirements;
+  document.getElementById('substoryChapter').textContent = substory.chapter;
+  document.getElementById('substoryRank').textContent = substory.rank;
+  
   // Format the guide with proper line breaks
-  document.getElementById("substoryGuide").innerHTML = substory.guide.replace(
-    /\n/g,
-    "<br>"
-  );
+  document.getElementById('substoryGuide').innerHTML = substory.guide.replace(/\n/g, '<br>');
 
   // Video embed
-  const videoContainer = document.getElementById("videoContainer");
-  videoContainer.innerHTML = `
-        <iframe 
-            width="100%" 
-            height="100%" 
-            src="https://www.youtube.com/embed/${substory.videoId}" 
-            frameborder="0" 
-            allowfullscreen
-            class="rounded"
-        ></iframe>
+  const videoContainer = document.getElementById('videoContainer');
+  if (substory.videoId) {
+    videoContainer.innerHTML = `
+      <iframe 
+        width="100%" 
+        height="100%" 
+        src="https://www.youtube.com/embed/${substory.videoId}" 
+        frameborder="0" 
+        allowfullscreen
+        class="rounded"
+      ></iframe>
     `;
-
-  viewHistory.push("substories");
-  showView("substoryDetail");
+  } else {
+    videoContainer.innerHTML = '<p class="text-secondary">No video available for this substory</p>';
+  }
 }
 
-// Event listeners for navigation
-homeBtn.addEventListener("click", goHome);
-mobileHomeBtn.addEventListener("click", goHome);
-mobileBackBtn.addEventListener("click", goBack);
-
-// Mouse button navigation
-window.addEventListener("mouseup", (e) => {
-  if (e.button === 3) {
-    // Mouse4 - Back
-    goBack();
+// Handle browser back/forward navigation
+window.addEventListener('popstate', (event) => {
+  if (event.state) {
+    updateView(
+      event.state.view, 
+      event.state.game || '', 
+      event.state.character || '', 
+      event.state.substoryIndex || -1
+    );
+  } else {
+    // Default to games view if no state
+    updateView('games');
   }
 });
 
-// Initialize the app
-initializeGamesGrid();
-showView("games");
+// Event listeners for navigation
+homeBtn.addEventListener('click', () => {
+  showView('games');
+});
+
+mobileHomeBtn.addEventListener('click', () => {
+  showView('games');
+});
+
+// Mobile back button
+document.getElementById('mobileBackBtn').addEventListener('click', () => {
+  window.history.back();
+});
+
+// Initialize the app based on URL parameters
+function initializeFromURL() {
+  const urlParams = new URLSearchParams(window.location.search);
+  const view = urlParams.get('view') || 'games';
+  const game = urlParams.get('game') || '';
+  const character = urlParams.get('character') || '';
+  const substory = parseInt(urlParams.get('substory')) || -1;
+  
+  // Set initial history state
+  window.history.replaceState({view, game, character, substoryIndex: substory}, '');
+  
+  // Update the view
+  updateView(view, game, character, substory);
+}
+
+// Initialize the app when DOM is loaded
+document.addEventListener('DOMContentLoaded', () => {
+  initializeFromURL();
+});

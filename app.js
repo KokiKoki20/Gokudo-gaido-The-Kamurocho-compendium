@@ -4711,18 +4711,30 @@ const mobileHomeBtn = document.getElementById("mobileHomeBtn");
 
 // Navigation functions using browser history
 function showView(viewName, game = "", character = "", substoryIndex = -1) {
+  // If navigating to 'characters' and only one character, skip to substories
+  if (
+    viewName === 'characters' &&
+    game &&
+    Object.keys(gameData[game].characters).length === 1
+  ) {
+    const onlyCharacter = Object.keys(gameData[game].characters)[0];
+    showView('substories', game, onlyCharacter);
+    return;
+  }
+
   // Update URL without page reload
   const params = new URLSearchParams();
   if (game) params.set('game', game);
   if (character) params.set('character', character);
   if (substoryIndex >= 0) params.set('substory', substoryIndex);
-  
+
   const newUrl = `${window.location.pathname}?view=${viewName}&${params.toString()}`;
   window.history.pushState({view: viewName, game, character, substoryIndex}, '', newUrl);
-  
+
   // Update the view
   updateView(viewName, game, character, substoryIndex);
 }
+
 
 function updateView(viewName, game = "", character = "", substoryIndex = -1) {
   // Hide all views

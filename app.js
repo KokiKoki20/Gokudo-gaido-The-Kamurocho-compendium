@@ -1334,50 +1334,51 @@ const gameData = {
     characters: {
       "Kazuma Kiryu": {
         image: "👨‍💼",
-        substories: [          {
-            "index": 1,
-            "chapter": 4,
-            "name": "The Price of a D-Cup",
-            "location": "Alley near Bantam bar (ex-Baachus)",
-            "reward": "1,000 EXP, Hidden Casino info",
-            "requirements": "Available in Chapter 4",
-            "guide": [
+        substories: [
+          {
+            index: 1,
+            chapter: 4,
+            name: "The Price of a D-Cup",
+            location: "Alley near Bantam bar (ex-Baachus)",
+            reward: "1,000 EXP, Hidden Casino info",
+            requirements: "Available in Chapter 4",
+            guide: [
               "1. Witness a woman being harassed by a drunk man in the alley.",
               "2. Select 'You better watch your mouth' to intervene.",
               "3. At the bar, select 'If you fall for me, you'll only get burned'.",
               "4. For both drink offers, select 'I don't feel like drinking right now'.",
               "5. When bartender gets angry, select 'I told you I'm not gonna drink'.",
               "6. Defeat the drunk man and his goons.",
-              "7. When offered money, select 'Hell no' to get casino information instead."
+              "7. When offered money, select 'Hell no' to get casino information instead.",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 2,
-            "chapter": 4,
-            "name": "My Lover's a Showgirl",
-            "location": "Pink Street (marked location)",
-            "reward": "Lifetime strip club pass, 3,000 EXP",
-            "requirements": "After accessing Serena's hideout",
-            "guide": [
+            index: 2,
+            chapter: 4,
+            name: "My Lover's a Showgirl",
+            location: "Pink Street (marked location)",
+            reward: "Lifetime strip club pass, 3,000 EXP",
+            requirements: "After accessing Serena's hideout",
+            guide: [
               "1. Receive call from Yuya after leaving Serena's.",
               "2. Go to marked location on Pink Street.",
               "3. Select 'Sounds like fun, for a change' then 'Of course'.",
               "4. Defeat the Mysterious Hitman (be careful of his shotgun).",
               "5. After cutscene, rush outside and answer Yuya's call.",
               "6. Select 'Wait till I get there!' and go to the green marker.",
-              "7. Defeat all enemies in the room (prioritize katana user)."
+              "7. Defeat all enemies in the room (prioritize katana user).",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 3,
-            "chapter": 5,
-            "name": "A Doctor's Duty",
-            "location": "West Park entrance",
-            "reward": "3,000 EXP",
-            "requirements": "Morning, before entering West Park",
-            "guide": [
+            index: 3,
+            chapter: 5,
+            name: "A Doctor's Duty",
+            location: "West Park entrance",
+            reward: "3,000 EXP",
+            requirements: "Morning, before entering West Park",
+            guide: [
               "PART 1 (Chapter 5):",
               "1. Buy any Bento box from convenience store.",
               "2. Talk to starving boy at West Park entrance.",
@@ -1387,34 +1388,35 @@ const gameData = {
               "4. Buy another Bento box in Chapter 7.",
               "5. Find the boy at Public Park 3, give him the Bento.",
               "6. When he gets sick, quickly find the clinic (green marker).",
-              "7. Defeat the Ali brothers inside the clinic."
+              "7. Defeat the Ali brothers inside the clinic.",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 4,
-            "chapter": 8,
-            "name": "The Yakuza's Wife",
-            "location": "Purgatory → Marked building",
-            "reward": "3,000 EXP",
-            "requirements": "After informing Date about Haruka",
-            "guide": [
+            index: 4,
+            chapter: 8,
+            name: "The Yakuza's Wife",
+            location: "Purgatory → Marked building",
+            reward: "3,000 EXP",
+            requirements: "After informing Date about Haruka",
+            guide: [
               "1. Receive call from Kage after informing Date.",
               "2. Go to Kage's office in Purgatory.",
               "3. Head to the marked building on map.",
               "4. Defeat the ex-Dojima gangsters inside.",
-              "5. Watch concluding cutscene."
+              "5. Watch concluding cutscene.",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 5,
-            "chapter": 7,
-            "name": "Casino Royale",
-            "location": "Kyushu No. 1 Star casino",
-            "reward": "¥100,000, 3,000 EXP",
-            "requirements": "Access to hidden casino, Haruka with you, Red Gem recommended",
-            "guide": [
+            index: 5,
+            chapter: 7,
+            name: "Casino Royale",
+            location: "Kyushu No. 1 Star casino",
+            reward: "¥100,000, 3,000 EXP",
+            requirements:
+              "Access to hidden casino, Haruka with you, Red Gem recommended",
+            guide: [
               "1. Enter Kyushu No. 1 Star in Pink Alley (give password if first time).",
               "2. Talk to counter clerk about suspicious man.",
               "3. Meet Motoki near exit, accept briefcase with ¥10,000,000.",
@@ -1422,144 +1424,144 @@ const gameData = {
               "5. Equip Red Gem, play roulette: bet 5,555 on all red numbers + 10 on red.",
               "6. Exit game after winning, talk to Yakuza who approach.",
               "7. Defeat Yakuza thugs (they have daggers).",
-              "8. Confront Motoki after fight, select 'Not yet' twice when he asks for chips."
+              "8. Confront Motoki after fight, select 'Not yet' twice when he asks for chips.",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 6,
-            "chapter": 7,
-            "name": "The Boxing Gamble",
-            "location": "Bantam bar",
-            "reward": "3,000 EXP",
-            "requirements": "Before dropping off Haruka at West Park",
-            "guide": [
+            index: 6,
+            chapter: 7,
+            name: "The Boxing Gamble",
+            location: "Bantam bar",
+            reward: "3,000 EXP",
+            requirements: "Before dropping off Haruka at West Park",
+            guide: [
               "1. Enter Bantam bar with Haruka.",
               "2. After Jackal slaps Haruka, demand he apologizes.",
               "3. Defeat Jackal outside (he's a skilled boxer).",
               "4. Get password from bartender: 'I need shelter from the rain'.",
               "5. Go to green marker location, give password to guard.",
               "6. Defeat Sawda inside to end the blackmail.",
-              "BONUS: Re-enter Bantam with Haruka for extra cutscene."
+              "BONUS: Re-enter Bantam with Haruka for extra cutscene.",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 7,
-            "chapter": 11,
-            "name": "The Truth About the Fake Mizuki",
-            "location": "Purgatory → Pares bar (Champion District)",
-            "reward": "2,000 EXP",
-            "requirements": "After obtaining pass to Shangri-La",
-            "guide": [
+            index: 7,
+            chapter: 11,
+            name: "The Truth About the Fake Mizuki",
+            location: "Purgatory → Pares bar (Champion District)",
+            reward: "2,000 EXP",
+            requirements: "After obtaining pass to Shangri-La",
+            guide: [
               "1. After getting Shangri-La pass, go to Kage's room in Purgatory FIRST (don't talk to Date).",
               "2. Exit Purgatory, go to green-marked Pares bar in Champion District.",
               "3. During hostess session, select 'Buy her a drink' twice to get all info.",
-              "4. Defeat the owner and 2 men outside."
+              "4. Defeat the owner and 2 men outside.",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 8,
-            "chapter": 7,
-            "name": "The Man who Wanted to Die",
-            "location": "West of West Park",
-            "reward": "3,000 EXP",
-            "requirements": "Haruka must be with you",
-            "guide": [
+            index: 8,
+            chapter: 7,
+            name: "The Man who Wanted to Die",
+            location: "West of West Park",
+            reward: "3,000 EXP",
+            requirements: "Haruka must be with you",
+            guide: [
               "1. After leaving West Park, find crowd west of the park.",
               "2. Select 'Let's get to the roof!'",
               "3. On roof, choose these exact dialogue options:",
-              "   - 'Tell us what happened.'",
-              "   - 'Who's Mizuki?'",
-              "   - 'How much money did you spend on her?'"
+              " - 'Tell us what happened.'",
+              " - 'Who's Mizuki?'",
+              " - 'How much money did you spend on her?'",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 9,
-            "chapter": 6,
-            "name": "Drunk Guy",
-            "location": "Beside Stardust club",
-            "reward": "¥30,000, 200 EXP",
-            "requirements": "Available in Chapter 6",
-            "guide": [
+            index: 9,
+            chapter: 6,
+            name: "Drunk Guy",
+            location: "Beside Stardust club",
+            reward: "¥30,000, 200 EXP",
+            requirements: "Available in Chapter 6",
+            guide: [
               "1. Buy 2 bottles of sake and 1 Staminan X.",
               "2. Talk to drunk man beside Stardust.",
               "3. Give him first bottle of sake (get ¥500).",
               "4. Give him second bottle of sake (get ¥500).",
-              "5. When he feels sick, give him Staminan X."
+              "5. When he feels sick, give him Staminan X.",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 10,
-            "chapter": 6,
-            "name": "Suspicious Man",
-            "location": "Theatre Alley",
-            "reward": "¥30,000, 200 EXP",
-            "requirements": "Available in Chapter 6",
-            "guide": [
+            index: 10,
+            chapter: 6,
+            name: "Suspicious Man",
+            location: "Theatre Alley",
+            reward: "¥30,000, 200 EXP",
+            requirements: "Available in Chapter 6",
+            guide: [
               "1. Talk to suspicious man in Theatre Alley.",
               "2. Select 'Depends. Tell me about it' then 'Okay, explain.'",
               "3. Accept ¥1,000 and go to woman near HEAVEN pachinko parlor.",
               "4. Tell her 'You're so damn hot, babe' and select 'Pay her'.",
-              "5. Return to man, select 'Don't open it' when prompted."
+              "5. Return to man, select 'Don't open it' when prompted.",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 11,
-            "chapter": 2,
-            "name": "Suspected Molester",
-            "location": "Theater Square (near Volcano pachinko)",
-            "reward": "¥20,000, 200 EXP",
-            "requirements": "After beating Punk-Ass Abe",
-            "guide": [
+            index: 11,
+            chapter: 2,
+            name: "Suspected Molester",
+            location: "Theater Square (near Volcano pachinko)",
+            reward: "¥20,000, 200 EXP",
+            requirements: "After beating Punk-Ass Abe",
+            guide: [
               "1. Woman near Volcano pachinko will accuse you.",
               "2. Man will threaten you to pay up.",
               "3. Select 'There's no way I'm gonna pay you.'",
-              "4. Defeat the man."
+              "4. Defeat the man.",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 12,
-            "chapter": 10,
-            "name": "Street Fighter",
-            "location": "Shichifuku Park parking lot",
-            "reward": "¥70,000, 200 EXP",
-            "requirements": "Available in Chapter 10",
-            "guide": [
+            index: 12,
+            chapter: 10,
+            name: "Street Fighter",
+            location: "Shichifuku Park parking lot",
+            reward: "¥70,000, 200 EXP",
+            requirements: "Available in Chapter 10",
+            guide: [
               "1. Talk to brute in Shichifuku Park parking lot.",
               "2. Select 'Okay, let's do this' to fight him 1-on-1.",
               "3. After winning, select 'I'll help you warm up before you go to work'.",
-              "4. Defeat the brute and his cronies."
+              "4. Defeat the brute and his cronies.",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 13,
-            "chapter": 4,
-            "name": "At Good Café",
-            "location": "Good Café on Nakamichi Street",
-            "reward": "¥10,000, 200 EXP",
-            "requirements": "Available in Chapter 4",
-            "guide": [
+            index: 13,
+            chapter: 4,
+            name: "At Good Café",
+            location: "Good Café on Nakamichi Street",
+            reward: "¥10,000, 200 EXP",
+            requirements: "Available in Chapter 4",
+            guide: [
               "1. Find thugs blocking Good Café entrance.",
               "2. Talk to them and select 'I don't think so.'",
-              "3. Defeat the thugs."
+              "3. Defeat the thugs.",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 14,
-            "chapter": 4,
-            "name": "The Price for a Palm Reading",
-            "location": "Senryo Avenue",
-            "reward": "¥30,000, Lifestone, 500 EXP",
-            "requirements": "Available in Chapter 4",
-            "guide": [
+            index: 14,
+            chapter: 4,
+            name: "The Price for a Palm Reading",
+            location: "Senryo Avenue",
+            reward: "¥30,000, Lifestone, 500 EXP",
+            requirements: "Available in Chapter 4",
+            guide: [
               "1. Talk to Suspicious Tout on Senryo Avenue.",
               "2. Select 'Yeah, tell me' and follow to café.",
               "3. For first 2 offers, select 'No thanks'.",
@@ -1567,537 +1569,537 @@ const gameData = {
               "5. Defeat assistant outside.",
               "6. Select 'Threaten Him' to get tout's location.",
               "7. Find tout north of café, select 'Don't f*ck with me!'",
-              "8. Defeat the tout (he's very weak)."
+              "8. Defeat the tout (he's very weak).",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 15,
-            "chapter": 6,
-            "name": "The Bag Search",
-            "location": "East Taihei Blvd",
-            "reward": "¥10,000, 500 EXP",
-            "requirements": "Complete Substory #53 (Golden Lighter)",
-            "guide": [
+            index: 15,
+            chapter: 6,
+            name: "The Bag Search",
+            location: "East Taihei Blvd",
+            reward: "¥10,000, 500 EXP",
+            requirements: "Complete Substory #53 (Golden Lighter)",
+            guide: [
               "1. Talk to woman in red on East Taihei Blvd.",
               "2. Go to Theatre Square, talk to 2 girls about the bag.",
               "3. Go to Champion District, find punk in black jacket.",
               "4. He reveals bag is at Public Park 3.",
               "5. Go to Public Park 3, defeat thugs to get bag.",
-              "6. Return to woman."
+              "6. Return to woman.",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 16,
-            "chapter": 4,
-            "name": "Chase the Pickpocket",
-            "location": "Shichifuku Street (behind Millennium Tower)",
-            "reward": "Stolen money returned, 500 EXP",
-            "requirements": "Available in Chapter 4",
-            "guide": [
+            index: 16,
+            chapter: 4,
+            name: "Chase the Pickpocket",
+            location: "Shichifuku Street (behind Millennium Tower)",
+            reward: "Stolen money returned, 500 EXP",
+            requirements: "Available in Chapter 4",
+            guide: [
               "1. Bump into snickering man behind Millennium Tower.",
               "2. Chase him to Park Blvd, then east.",
               "3. When you catch him, he'll fight using 'Secret Assassination Art'.",
-              "4. Defeat him (he's very weak)."
+              "4. Defeat him (he's very weak).",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 17,
-            "chapter": 4,
-            "name": "Stalker",
-            "location": "Alley connecting Pink Street",
-            "reward": "¥30,000, 200 EXP",
-            "requirements": "Available in Chapter 4",
-            "guide": [
+            index: 17,
+            chapter: 4,
+            name: "Stalker",
+            location: "Alley connecting Pink Street",
+            reward: "¥30,000, 200 EXP",
+            requirements: "Available in Chapter 4",
+            guide: [
               "1. Talk to scared woman in alley.",
               "2. Select 'Alright, leave it to me.'",
               "3. Approach stalker, select 'Go Ahead!' when he threatens you.",
               "4. Defeat the stalker and his Yakuza brother.",
-              "5. Return to woman."
+              "5. Return to woman.",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 18,
-            "chapter": 4,
-            "name": "Yakuza Hater",
-            "location": "West Shichifuku Street (near Children's Park)",
-            "reward": "200 EXP",
-            "requirements": "Available in Chapter 4",
-            "guide": [
+            index: 18,
+            chapter: 4,
+            name: "Yakuza Hater",
+            location: "West Shichifuku Street (near Children's Park)",
+            reward: "200 EXP",
+            requirements: "Available in Chapter 4",
+            guide: [
               "1. A citizen will approach and ask if you're Yakuza.",
               "2. Any response leads to fight.",
-              "3. Defeat the man."
+              "3. Defeat the man.",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 19,
-            "chapter": 4,
-            "name": "Collection Call",
-            "location": "Park Blvd → Near Purgatory",
-            "reward": "¥20,000, 500 EXP",
-            "requirements": "Complete Substory #14 (Price for a Palm Reading)",
-            "guide": [
+            index: 19,
+            chapter: 4,
+            name: "Collection Call",
+            location: "Park Blvd → Near Purgatory",
+            reward: "¥20,000, 500 EXP",
+            requirements: "Complete Substory #14 (Price for a Palm Reading)",
+            guide: [
               "1. Receive unknown call while walking on Park Blvd.",
               "2. Select 'Is that so?' → 'I don't know about any loan.' → 'There's no way in hell I'll pay'.",
               "3. Continue toward Purgatory until debt collector appears.",
               "4. Select 'I don't have it'.",
-              "5. Defeat the debt collector."
+              "5. Defeat the debt collector.",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 20,
-            "chapter": 4,
-            "name": "Eat and Run",
-            "location": "Akagyu restaurant (Tenkaichi Street)",
-            "reward": "¥30,000, 500 EXP",
-            "requirements": "Available in Chapter 4",
-            "guide": [
+            index: 20,
+            chapter: 4,
+            name: "Eat and Run",
+            location: "Akagyu restaurant (Tenkaichi Street)",
+            reward: "¥30,000, 500 EXP",
+            requirements: "Available in Chapter 4",
+            guide: [
               "1. Approach arguing worker and man at Akagyu entrance.",
               "2. Chase the man: right to truck, then to Nakamichi Street right side.",
               "3. He then runs to Public Park 3 in Tenkaichi Alley.",
-              "4. Return to Akagyu to complete."
+              "4. Return to Akagyu to complete.",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 21,
-            "chapter": 4,
-            "name": "The Accusation",
-            "location": "Theater North",
-            "reward": "500 EXP",
-            "requirements": "Complete Substory #11",
-            "guide": [
+            index: 21,
+            chapter: 4,
+            name: "The Accusation",
+            location: "Theater North",
+            reward: "500 EXP",
+            requirements: "Complete Substory #11",
+            guide: [
               "1. Bump into three thugs near Theatre North.",
               "2. Select 'Why the hell would I pay you?'",
-              "3. Defeat the thugs."
+              "3. Defeat the thugs.",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 22,
-            "chapter": 4,
-            "name": "The Bouncer",
-            "location": "Showa Street (near telephone booth)",
-            "reward": "¥20,000, 500 EXP",
-            "requirements": "Available in Chapter 4",
-            "guide": [
+            index: 22,
+            chapter: 4,
+            name: "The Bouncer",
+            location: "Showa Street (near telephone booth)",
+            reward: "¥20,000, 500 EXP",
+            requirements: "Available in Chapter 4",
+            guide: [
               "1. Talk to club owner near telephone booth.",
               "2. Select 'Yeah, sure.' and stand in her spot.",
               "3. Wait for thug to approach, defeat him.",
               "4. Wait for thug to return with ally, defeat them.",
               "5. Wait for them to return with brute, defeat all three.",
-              "6. Talk to club owner when she returns."
+              "6. Talk to club owner when she returns.",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 23,
-            "chapter": 4,
-            "name": "Art and Talent",
-            "location": "Park Blvd (left from Purgatory)",
-            "reward": "500 EXP (and 4 paintings)",
-            "requirements": "Available in Chapter 4",
-            "guide": [
+            index: 23,
+            chapter: 4,
+            name: "Art and Talent",
+            location: "Park Blvd (left from Purgatory)",
+            reward: "500 EXP (and 4 paintings)",
+            requirements: "Available in Chapter 4",
+            guide: [
               "1. Talk to homeless painter with displayed paintings.",
               "2. Select 'Yes' to view paintings.",
-              "3. Buy all 4 paintings (costs ¥105,000 total)."
+              "3. Buy all 4 paintings (costs ¥105,000 total).",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 24,
-            "chapter": 5,
-            "name": "Art and Talent 2",
-            "location": "West Park (top right)",
-            "reward": "Book by a Struggling Water, 500 EXP",
-            "requirements": "Complete Substory #23",
-            "guide": [
+            index: 24,
+            chapter: 5,
+            name: "Art and Talent 2",
+            location: "West Park (top right)",
+            reward: "Book by a Struggling Water, 500 EXP",
+            requirements: "Complete Substory #23",
+            guide: [
               "1. Find man lying down at top right of West Park.",
-              "2. Give him the 'Painting of Lady with Onion'."
+              "2. Give him the 'Painting of Lady with Onion'.",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 25,
-            "chapter": 5,
-            "name": "Art and Talent 3",
-            "location": "Park Blvd (painter's original spot)",
-            "reward": "Painting of a Cat on a Carrot, 1,000 EXP",
-            "requirements": "Complete Substory #24",
-            "guide": [
+            index: 25,
+            chapter: 5,
+            name: "Art and Talent 3",
+            location: "Park Blvd (painter's original spot)",
+            reward: "Painting of a Cat on a Carrot, 1,000 EXP",
+            requirements: "Complete Substory #24",
+            guide: [
               "1. Return to painter's original spot on Park Blvd.",
-              "2. Give him the 'Book by a Struggling Water'."
+              "2. Give him the 'Book by a Struggling Water'.",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 26,
-            "chapter": 5,
-            "name": "Art and Talent 4",
-            "location": "Café Alps (Nakamichi Street)",
-            "reward": "¥100,000, 100 EXP",
-            "requirements": "Complete Substory #25",
-            "guide": [
+            index: 26,
+            chapter: 5,
+            name: "Art and Talent 4",
+            location: "Café Alps (Nakamichi Street)",
+            reward: "¥100,000, 100 EXP",
+            requirements: "Complete Substory #25",
+            guide: [
               "1. Enter Café Alps on Nakamichi Street.",
               "2. Select 'Yes' when asked about hanging a painting.",
               "3. Select 'Painting of a Cat on a Carrot'.",
-              "4. During bargaining: Select 'No' → 'No' → 'Yes'."
+              "4. During bargaining: Select 'No' → 'No' → 'Yes'.",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 27,
-            "chapter": 5,
-            "name": "Art and Talent 5",
-            "location": "Park Blvd (painter's spot)",
-            "reward": "500 EXP",
-            "requirements": "Complete Substory #26",
-            "guide": [
+            index: 27,
+            chapter: 5,
+            name: "Art and Talent 5",
+            location: "Park Blvd (painter's spot)",
+            reward: "500 EXP",
+            requirements: "Complete Substory #26",
+            guide: [
               "1. Return to painter's spot to find art dealer.",
               "2. Select 'Yes' → 'Yes' when asked about paintings.",
-              "3. Select any painting and sell it for ¥130,000."
+              "3. Select any painting and sell it for ¥130,000.",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 28,
-            "chapter": 6,
-            "name": "The Graffiti Writer",
-            "location": "North Senryo Avenue (near Shangri-La)",
-            "reward": "¥50,000, 500 EXP",
-            "requirements": "Available in Chapter 6",
-            "guide": [
+            index: 28,
+            chapter: 6,
+            name: "The Graffiti Writer",
+            location: "North Senryo Avenue (near Shangri-La)",
+            reward: "¥50,000, 500 EXP",
+            requirements: "Available in Chapter 6",
+            guide: [
               "1. Talk to old man in suit on North Senryo Avenue.",
               "2. Select 'Yes' to guard his restaurant.",
               "3. Wait for youngster to appear, then chase him.",
               "4. Defeat youngster and his friends near Shangri-La.",
-              "5. Return to old man."
+              "5. Return to old man.",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 29,
-            "chapter": 10,
-            "name": "Chase the Pickpocket 2",
-            "location": "Shichifuku Park → Hotel District",
-            "reward": "Money returned, Pimp Bracelet, 200 EXP",
-            "requirements": "Complete Substories #16 and #38",
-            "guide": [
+            index: 29,
+            chapter: 10,
+            name: "Chase the Pickpocket 2",
+            location: "Shichifuku Park → Hotel District",
+            reward: "Money returned, Pimp Bracelet, 200 EXP",
+            requirements: "Complete Substories #16 and #38",
+            guide: [
               "1. Bump into man in all blue with blue cap in Shichifuku Park.",
               "2. Find him behind truck at vending machine, defeat him.",
               "3. Find him again at Hotel District intersection, defeat him.",
-              "4. Select 'I don't believe you' to get additional reward."
+              "4. Select 'I don't believe you' to get additional reward.",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 30,
-            "chapter": 6,
-            "name": "Ex-Baseball Player",
-            "location": "Batting Cage",
-            "reward": "¥150,000 total, 1,000 EXP",
-            "requirements": "Available in Chapter 6",
-            "guide": [
+            index: 30,
+            chapter: 6,
+            name: "Ex-Baseball Player",
+            location: "Batting Cage",
+            reward: "¥150,000 total, 1,000 EXP",
+            requirements: "Available in Chapter 6",
+            guide: [
               "1. Talk to man inside batting cage.",
               "2. Challenge him 3 times to hit 10+ home runs.",
               "3. Win all 3 challenges (pitches get faster each time).",
-              "4. Aim for the high home run target on glass windows."
+              "4. Aim for the high home run target on glass windows.",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 31,
-            "chapter": 10,
-            "name": "Gang Busters",
-            "location": "Hotel District (right of Batting Cage)",
-            "reward": "200 EXP",
-            "requirements": "Available in Chapter 10",
-            "guide": [
+            index: 31,
+            chapter: 10,
+            name: "Gang Busters",
+            location: "Hotel District (right of Batting Cage)",
+            reward: "200 EXP",
+            requirements: "Available in Chapter 10",
+            guide: [
               "1. Approach Gang Buster member near batting cage.",
-              "2. Defeat the 3 members (prioritize taser user first)."
+              "2. Defeat the 3 members (prioritize taser user first).",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 32,
-            "chapter": 10,
-            "name": "Gang Busters 2",
-            "location": "East Shichifuku Street → Shangri-La",
-            "reward": "600 EXP total",
-            "requirements": "Complete Substory #31",
-            "guide": [
+            index: 32,
+            chapter: 10,
+            name: "Gang Busters 2",
+            location: "East Shichifuku Street → Shangri-La",
+            reward: "600 EXP total",
+            requirements: "Complete Substory #31",
+            guide: [
               "1. Find and defeat first group near truck (same as #31).",
               "2. Find and defeat second group on left side of East Shichifuku Street.",
-              "3. Find and defeat third group beside Shangri-La (2 tasers, 1 bat)."
+              "3. Find and defeat third group beside Shangri-La (2 tasers, 1 bat).",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 33,
-            "chapter": 10,
-            "name": "Gang Busters 3",
-            "location": "Pink Alley → East Showa Street → Pink Street entrance",
-            "reward": "600 EXP total",
-            "requirements": "Complete Substory #32",
-            "guide": [
+            index: 33,
+            chapter: 10,
+            name: "Gang Busters 3",
+            location: "Pink Alley → East Showa Street → Pink Street entrance",
+            reward: "600 EXP total",
+            requirements: "Complete Substory #32",
+            guide: [
               "1. Find and defeat group in Pink Alley.",
               "2. Find and defeat group on East Showa Street.",
-              "3. Find and defeat group at Pink Street entrance."
+              "3. Find and defeat group at Pink Street entrance.",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 34,
-            "chapter": 10,
-            "name": "Gang Busters 4",
-            "location": "Nakamichi Street Poppo → Nakamichi Alley",
-            "reward": "400 EXP total",
-            "requirements": "Complete Substory #33",
-            "guide": [
+            index: 34,
+            chapter: 10,
+            name: "Gang Busters 4",
+            location: "Nakamichi Street Poppo → Nakamichi Alley",
+            reward: "400 EXP total",
+            requirements: "Complete Substory #33",
+            guide: [
               "1. Find and defeat group near Nakamichi Street Poppo.",
-              "2. Find and defeat group in Nakamichi Alley (left side)."
+              "2. Find and defeat group in Nakamichi Alley (left side).",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 35,
-            "chapter": 10,
-            "name": "Gang Busters 5",
-            "location": "Theatre Square → Theatre Northwest",
-            "reward": "200 EXP",
-            "requirements": "Complete Substory #34",
-            "guide": [
+            index: 35,
+            chapter: 10,
+            name: "Gang Busters 5",
+            location: "Theatre Square → Theatre Northwest",
+            reward: "200 EXP",
+            requirements: "Complete Substory #34",
+            guide: [
               "1. Talk to Aoki in Theatre Square.",
               "2. Find and defeat group in Theatre Northwest.",
-              "3. Threaten defeated member (won't reveal boss)."
+              "3. Threaten defeated member (won't reveal boss).",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 36,
-            "chapter": 10,
-            "name": "The Leader of Gang Busters",
-            "location": "West Tahei Blvd (left of Akagyu)",
-            "reward": "1,000 EXP",
-            "requirements": "Complete Substory #35",
-            "guide": [
+            index: 36,
+            chapter: 10,
+            name: "The Leader of Gang Busters",
+            location: "West Tahei Blvd (left of Akagyu)",
+            reward: "1,000 EXP",
+            requirements: "Complete Substory #35",
+            guide: [
               "1. Find and defeat the Gang Buster Leader (brute with 2 health bars).",
-              "2. He reveals mastermind is at Hotel District."
+              "2. He reveals mastermind is at Hotel District.",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 37,
-            "chapter": 10,
-            "name": "Asano the Mastermind",
-            "location": "Hotel District (near batting cage)",
-            "reward": "¥150,000, 1,000 EXP",
-            "requirements": "Complete Substory #36",
-            "guide": [
+            index: 37,
+            chapter: 10,
+            name: "Asano the Mastermind",
+            location: "Hotel District (near batting cage)",
+            reward: "¥150,000, 1,000 EXP",
+            requirements: "Complete Substory #36",
+            guide: [
               "1. Confront Asano near batting cage.",
               "2. Defeat him (he dodges frequently).",
-              "3. He reveals his motives and apologizes."
+              "3. He reveals his motives and apologizes.",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 38,
-            "chapter": 10,
-            "name": "The Truth About Her",
-            "location": "Alley near Kotobuki Drugs",
-            "reward": "¥100,000, 1,000 EXP",
-            "requirements": "Available in Chapter 10",
-            "guide": [
+            index: 38,
+            chapter: 10,
+            name: "The Truth About Her",
+            location: "Alley near Kotobuki Drugs",
+            reward: "¥100,000, 1,000 EXP",
+            requirements: "Available in Chapter 10",
+            guide: [
               "1. Talk to 'Ruby' in alley near Kotobuki Drugs.",
               "2. Select 'Okay' to go to Hotel District.",
               "3. At hotel, select 'No' → 'No, I can't'.",
               "4. Defeat Ruby's 'brother'.",
-              "5. Defeat Ruby (2 health bars)."
+              "5. Defeat Ruby (2 health bars).",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 39,
-            "chapter": 4,
-            "name": "The Handbag Snatcher",
-            "location": "Nakamichi Street → Public Park 3",
-            "reward": "¥10,000, 500 EXP",
-            "requirements": "Available in Chapter 4",
-            "guide": [
+            index: 39,
+            chapter: 4,
+            name: "The Handbag Snatcher",
+            location: "Nakamichi Street → Public Park 3",
+            reward: "¥10,000, 500 EXP",
+            requirements: "Available in Chapter 4",
+            guide: [
               "1. Witness handbag theft on Nakamichi Street.",
               "2. Agree to help woman.",
               "3. Go to Public Park 3, talk to man with wooden katana.",
-              "4. Defeat him, return bag to woman."
+              "4. Defeat him, return bag to woman.",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 40,
-            "chapter": 7,
-            "name": "B-King Disaster",
-            "location": "Theatre Square",
-            "reward": "Coin locker key, ¥100,000, 500 EXP",
-            "requirements": "Available in Chapter 7",
-            "guide": [
+            index: 40,
+            chapter: 7,
+            name: "B-King Disaster",
+            location: "Theatre Square",
+            reward: "Coin locker key, ¥100,000, 500 EXP",
+            requirements: "Available in Chapter 7",
+            guide: [
               "1. Find B-King arguing with Yakuza in Theatre Square.",
               "2. Select 'Yes' to help him.",
-              "3. Defeat the Yakuza members."
+              "3. Defeat the Yakuza members.",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 41,
-            "chapter": 6,
-            "name": "Horse Racing Freak",
-            "location": "Front of Millennium Tower",
-            "reward": "¥200,000, 500 EXP",
-            "requirements": "Available in Chapter 6",
-            "guide": [
+            index: 41,
+            chapter: 6,
+            name: "Horse Racing Freak",
+            location: "Front of Millennium Tower",
+            reward: "¥200,000, 500 EXP",
+            requirements: "Available in Chapter 6",
+            guide: [
               "1. Talk to man in purple jacket in front of Millennium Tower.",
               "2. Select 'I'd bet on 3-7'.",
               "3. Wait some time (explore or progress story).",
-              "4. Return to same spot, collect reward."
+              "4. Return to same spot, collect reward.",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 42,
-            "chapter": 10,
-            "name": "Dying Man's Request",
-            "location": "Senryo Avenue (bottom small street)",
-            "reward": "Part 1 of multi-part substory",
-            "requirements": "Available in Chapter 10",
-            "guide": [
+            index: 42,
+            chapter: 10,
+            name: "Dying Man's Request",
+            location: "Senryo Avenue (bottom small street)",
+            reward: "Part 1 of multi-part substory",
+            requirements: "Available in Chapter 10",
+            guide: [
               "1. Find collapsed man in small street at bottom of Senryo Avenue.",
               "2. Select 'What did they look like?'",
-              "3. He describes 2 men in Red Jumpers."
+              "3. He describes 2 men in Red Jumpers.",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 43,
-            "chapter": 10,
-            "name": "Dying Man's Wish",
-            "location": "Theatre Square",
-            "reward": "Medication bag",
-            "requirements": "Complete Substory #42",
-            "guide": [
+            index: 43,
+            chapter: 10,
+            name: "Dying Man's Wish",
+            location: "Theatre Square",
+            reward: "Medication bag",
+            requirements: "Complete Substory #42",
+            guide: [
               "1. DO NOT USE TAXI (man will die if you do).",
               "2. Find Red Jumpers in Theatre Square.",
               "3. Select 'You jacked someone's bag, didn't you?'",
-              "4. Defeat them to get medication bag."
+              "4. Defeat them to get medication bag.",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 44,
-            "chapter": 10,
-            "name": "Dying Man's Hope",
-            "location": "Senryo Avenue (original location)",
-            "reward": "¥150,000, 500 EXP",
-            "requirements": "Complete Substory #43",
-            "guide": [
+            index: 44,
+            chapter: 10,
+            name: "Dying Man's Hope",
+            location: "Senryo Avenue (original location)",
+            reward: "¥150,000, 500 EXP",
+            requirements: "Complete Substory #43",
+            guide: [
               "1. DO NOT USE TAXI.",
               "2. Return to original location with medication bag.",
-              "3. Select 'Yes' to give him the bag."
+              "3. Select 'Yes' to give him the bag.",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 45,
-            "chapter": 6,
-            "name": "Yakuza Candidate",
-            "location": "Senryo Avenue → Shellac bar",
-            "reward": "¥20,000, 500 EXP",
-            "requirements": "Available in Chapter 6",
-            "guide": [
+            index: 45,
+            chapter: 6,
+            name: "Yakuza Candidate",
+            location: "Senryo Avenue → Shellac bar",
+            reward: "¥20,000, 500 EXP",
+            requirements: "Available in Chapter 6",
+            guide: [
               "1. Talk to Kano on Senryo Avenue.",
               "2. Select 'I guess that's okay' to accept him as 'brother'.",
               "3. Find him again on East Senryo Avenue, select 'Tell me'.",
               "4. Go to Shellac bar in Champion District.",
               "5. Talk to bartender, select 'Did something happen?'",
               "6. When henchman appears, select 'Fuck you!'",
-              "7. Defeat Shimano henchmen outside."
+              "7. Defeat Shimano henchmen outside.",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 46,
-            "chapter": 6,
-            "name": "Yakuza Candidate 2",
-            "location": "Shichifuku Street → Marked location",
-            "reward": "French scarf, ¥50,000, 500 EXP",
-            "requirements": "Complete Substory #45",
-            "guide": [
+            index: 46,
+            chapter: 6,
+            name: "Yakuza Candidate 2",
+            location: "Shichifuku Street → Marked location",
+            reward: "French scarf, ¥50,000, 500 EXP",
+            requirements: "Complete Substory #45",
+            guide: [
               "1. Find Kano on Shichifuku Street (south of batting cage).",
               "2. He'll talk about girls and leave.",
               "3. Find him again further east, select 'Okay'.",
               "4. At marked location, select 'Why don't you let it slide this time?'",
-              "5. Defeat yakuza and his men."
+              "5. Defeat yakuza and his men.",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 47,
-            "chapter": 10,
-            "name": "Yakuza Candidate Part 3",
-            "location": "North Pink Street → Various chase locations",
-            "reward": "¥100,000, coin locker key, 1,000 EXP",
-            "requirements": "Complete Substories #45 and #46",
-            "guide": [
+            index: 47,
+            chapter: 10,
+            name: "Yakuza Candidate Part 3",
+            location: "North Pink Street → Various chase locations",
+            reward: "¥100,000, coin locker key, 1,000 EXP",
+            requirements: "Complete Substories #45 and #46",
+            guide: [
               "1. Find Kano on North Pink Street.",
               "2. Select 'Okay', then 'Yeah I see her'.",
               "3. Follow woman: right → left side of screen → Shichifuku Park crowd → North Senryo Avenue.",
               "4. When Yakuza appear, select 'How about I piss on you instead?'",
-              "5. Defeat the 3 Yakuza members."
+              "5. Defeat the 3 Yakuza members.",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 48,
-            "chapter": 10,
-            "name": "Yakuza Candidate Part 4",
-            "location": "Shangri-La → Nakamichi Alley",
-            "reward": "¥200,000, Musashi's Dagger, 2,000 EXP",
-            "requirements": "Complete first 3 Yakuza Candidate substories",
-            "guide": [
+            index: 48,
+            chapter: 10,
+            name: "Yakuza Candidate Part 4",
+            location: "Shangri-La → Nakamichi Alley",
+            reward: "¥200,000, Musashi's Dagger, 2,000 EXP",
+            requirements: "Complete first 3 Yakuza Candidate substories",
+            guide: [
               "1. Find Kano in front of Shangri-La.",
               "2. Find him again in Nakamichi Alley (north).",
               "3. Select 'What's Up?' → 'Take me to him'.",
               "4. Defeat Tojo Clan gangsters (captain has second health bar).",
-              "5. Select 'It's not worth it' when Kano asks to be killed."
+              "5. Select 'It's not worth it' when Kano asks to be killed.",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 49,
-            "chapter": 10,
-            "name": "Runaway Yakuza",
-            "location": "Nakamichi Alley (south near Poppo)",
-            "reward": "500 EXP, Charming Picture",
-            "requirements": "Available in Chapter 10",
-            "guide": [
+            index: 49,
+            chapter: 10,
+            name: "Runaway Yakuza",
+            location: "Nakamichi Alley (south near Poppo)",
+            reward: "500 EXP, Charming Picture",
+            requirements: "Available in Chapter 10",
+            guide: [
               "1. Wait in Nakamichi Alley (south near Poppo) for running man.",
               "2. Bump into him, defeat him.",
               "3. Select 'Did we meet somewhere?'",
               "4. Go to coin lockers, defeat Yakuza who interrupt.",
-              "5. Open locker to get Charming Picture."
+              "5. Open locker to get Charming Picture.",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 50,
-            "chapter": 4,
-            "name": "UFO Catcher",
-            "location": "Club SEGA (Nakamichi Street)",
-            "reward": "Various rewards, 200+500+1,500 EXP",
-            "requirements": "Complete Substory #16 (Chase the Pickpocket)",
-            "guide": [
+            index: 50,
+            chapter: 4,
+            name: "UFO Catcher",
+            location: "Club SEGA (Nakamichi Street)",
+            reward: "Various rewards, 200+500+1,500 EXP",
+            requirements: "Complete Substory #16 (Chase the Pickpocket)",
+            guide: [
               "PART 1:",
               "1. Talk to old man at UFO Catcher machines.",
               "2. Play game (¥500) to win Golden Dora-yan Dragon.",
@@ -2112,64 +2114,64 @@ const gameData = {
               "7. Return to arcade, find thug requesting black Dora-yan.",
               "8. Win it, give to him for counterfeit ¥200,000.",
               "9. Find thug outside, defeat him to get coin locker key.",
-              "10. Open locker for Musashi's Dagger, get 1,500 EXP."
+              "10. Open locker for Musashi's Dagger, get 1,500 EXP.",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 51,
-            "chapter": 10,
-            "name": "Suspicious Cop",
-            "location": "Alley between Senryo Ave and Pink Street",
-            "reward": "¥70,000, 500 EXP",
-            "requirements": "Available in Chapter 10",
-            "guide": [
+            index: 51,
+            chapter: 10,
+            name: "Suspicious Cop",
+            location: "Alley between Senryo Ave and Pink Street",
+            reward: "¥70,000, 500 EXP",
+            requirements: "Available in Chapter 10",
+            guide: [
               "1. Get stopped by 'cop' in alley.",
               "2. Select 'Why do I have to show an ID to you?'",
               "3. When he hints at bribe, select 'No'.",
               "4. Chase him to bottom of Senryo Avenue (right side).",
-              "5. Defeat him."
+              "5. Defeat him.",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 52,
-            "chapter": 4,
-            "name": "The Little Match Girl",
-            "location": "East Showa Street (near Senryo Ave)",
-            "reward": "Macho Cologne, 300 EXP",
-            "requirements": "Complete Substory #55 (My Contact Lenses)",
-            "guide": [
+            index: 52,
+            chapter: 4,
+            name: "The Little Match Girl",
+            location: "East Showa Street (near Senryo Ave)",
+            reward: "Macho Cologne, 300 EXP",
+            requirements: "Complete Substory #55 (My Contact Lenses)",
+            guide: [
               "1. Find girl selling matches on East Showa Street.",
               "2. Select 'I'll buy some' (¥100).",
               "3. Leave and return to area (enter/exit Pink Street if she doesn't appear).",
-              "4. Talk to her again to get Macho Cologne."
+              "4. Talk to her again to get Macho Cologne.",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 53,
-            "chapter": 4,
-            "name": "Golden Lighter",
-            "location": "Champion District (bottom right)",
-            "reward": "Coin locker key, 500 EXP",
-            "requirements": "Available in Chapter 4",
-            "guide": [
+            index: 53,
+            chapter: 4,
+            name: "Golden Lighter",
+            location: "Champion District (bottom right)",
+            reward: "Coin locker key, 500 EXP",
+            requirements: "Available in Chapter 4",
+            guide: [
               "1. Talk to old man in bottom right of Champion District.",
               "2. Select 'I may have dropped it'.",
               "3. When asked which lighter, select 'It's the plastic lighter'.",
-              "4. Get coin locker key (contains Lucky Bracelet)."
+              "4. Get coin locker key (contains Lucky Bracelet).",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 54,
-            "chapter": 6,
-            "name": "Found Cell Phone",
-            "location": "Public Park 3 → Various locations",
-            "reward": "Bulletproof Vest, 500 EXP",
-            "requirements": "Available in Chapter 6",
-            "guide": [
+            index: 54,
+            chapter: 6,
+            name: "Found Cell Phone",
+            location: "Public Park 3 → Various locations",
+            reward: "Bulletproof Vest, 500 EXP",
+            requirements: "Available in Chapter 6",
+            guide: [
               "1. Find thugs and dead man at Public Park 3.",
               "2. Examine scene, answer phone: select 'Yes'.",
               "3. Exit to Nakamichi Street, get another call.",
@@ -2178,110 +2180,110 @@ const gameData = {
               "6. Get coin locker key, open #20 for Long Dagger.",
               "7. Walk away from lockers, get call: 'What's the assignment?'",
               "8. Go to Theatre Square, get call: 'I can see him' → 'Yeah'.",
-              "9. Go to batting cage, defeat the hitman."
+              "9. Go to batting cage, defeat the hitman.",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 55,
-            "chapter": 4,
-            "name": "My Contact Lenses",
-            "location": "Right of Ebisu Pawn",
-            "reward": "¥20,000, 500 EXP",
-            "requirements": "Available in Chapter 4",
-            "guide": [
+            index: 55,
+            chapter: 4,
+            name: "My Contact Lenses",
+            location: "Right of Ebisu Pawn",
+            reward: "¥20,000, 500 EXP",
+            requirements: "Available in Chapter 4",
+            guide: [
               "1. Man will stop you right of Ebisu Pawn.",
               "2. He claims you broke his contacts.",
               "3. Select 'I won't pay.'",
-              "4. Defeat him."
+              "4. Defeat him.",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 56,
-            "chapter": 4,
-            "name": "No.1 Host",
-            "location": "Pink Street entrance",
-            "reward": "300 EXP",
-            "requirements": "Wear Macho Cologne or other attractive gear",
-            "guide": [
+            index: 56,
+            chapter: 4,
+            name: "No.1 Host",
+            location: "Pink Street entrance",
+            reward: "300 EXP",
+            requirements: "Wear Macho Cologne or other attractive gear",
+            guide: [
               "1. Wear Macho Cologne (from Substory #52) or other attractive items.",
               "2. Enter Pink Street front entrance.",
               "3. Host will stop you, select 'No' when asked to remove clothes.",
-              "4. Defeat him."
+              "4. Defeat him.",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 57,
-            "chapter": 6,
-            "name": "The Scout",
-            "location": "Senryo Avenue",
-            "reward": "¥50,000, 200 EXP",
-            "requirements": "Complete Substory #15 (The Bag Search)",
-            "guide": [
+            index: 57,
+            chapter: 6,
+            name: "The Scout",
+            location: "Senryo Avenue",
+            reward: "¥50,000, 200 EXP",
+            requirements: "Complete Substory #15 (The Bag Search)",
+            guide: [
               "1. Scout Sasaki will approach you on Senryo Avenue.",
               "2. Select 'Okay, tell me more' → 'I'll pay' (¥10,000).",
               "3. Leave and return to area, get call from Sasaki.",
               "4. Leave and return again, meet Shiraishi.",
-              "5. Get reward and explanation."
+              "5. Get reward and explanation.",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 58,
-            "chapter": 4,
-            "name": "Smile Burger Catastrophe",
-            "location": "Smile Burger (Nakamichi Street)",
-            "reward": "¥50,000, 300 EXP",
-            "requirements": "May need to reload area",
-            "guide": [
+            index: 58,
+            chapter: 4,
+            name: "Smile Burger Catastrophe",
+            location: "Smile Burger (Nakamichi Street)",
+            reward: "¥50,000, 300 EXP",
+            requirements: "May need to reload area",
+            guide: [
               "1. Find Yakuza arguing with employee at Smile Burger.",
               "2. Select 'Stop bothering them!'",
-              "3. Defeat the Yakuza."
+              "3. Defeat the Yakuza.",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 59,
-            "chapter": 6,
-            "name": "Gelato Shop Cataclysm",
-            "location": "Gelato Shop (across from Akagyu)",
-            "reward": "¥50,000, 300 EXP",
-            "requirements": "Complete Substory #58",
-            "guide": [
+            index: 59,
+            chapter: 6,
+            name: "Gelato Shop Cataclysm",
+            location: "Gelato Shop (across from Akagyu)",
+            reward: "¥50,000, 300 EXP",
+            requirements: "Complete Substory #58",
+            guide: [
               "1. Find same Yakuza from Smile Burger at Gelato Shop.",
               "2. Select 'Stop bothering them!'",
-              "3. Defeat the Yakuza."
+              "3. Defeat the Yakuza.",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 60,
-            "chapter": 10,
-            "name": "Substitute Debt Collector",
-            "location": "Shellac bar → Hidden Casino",
-            "reward": "¥50,000, 1,000 EXP",
-            "requirements": "Available in Chapter 10",
-            "guide": [
+            index: 60,
+            chapter: 10,
+            name: "Substitute Debt Collector",
+            location: "Shellac bar → Hidden Casino",
+            reward: "¥50,000, 1,000 EXP",
+            requirements: "Available in Chapter 10",
+            guide: [
               "1. Talk to Shellac bar owner about unpaid tab.",
               "2. Select 'Do you want me to collect from him?'",
               "3. Go to hidden casino (Kyushu No. 1 Star).",
               "4. Find yakuza at roulette table, give him tab.",
               "5. Get Lucky Beads (from Deborah coin locker #44 or casino prizes).",
               "6. Give beads to yakuza.",
-              "7. Return to Shellac bar to confirm payment."
+              "7. Return to Shellac bar to confirm payment.",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 61,
-            "chapter": 4,
-            "name": "Unworthy Son",
-            "location": "Park Alley → Children's Park → Champion District",
-            "reward": "Family Photo, coin locker, 500 EXP",
-            "requirements": "Complete Substory #63 (The Tough Guy)",
-            "guide": [
+            index: 61,
+            chapter: 4,
+            name: "Unworthy Son",
+            location: "Park Alley → Children's Park → Champion District",
+            reward: "Family Photo, coin locker, 500 EXP",
+            requirements: "Complete Substory #63 (The Tough Guy)",
+            guide: [
               "1. Find middle-aged man in Park Alley (past tough guy spot).",
               "2. Select 'Father?' when he mistakes you for Kenji.",
               "3. Go to Children's Park, talk to homeless man: 'You could say that'.",
@@ -2289,163 +2291,164 @@ const gameData = {
               "5. Go to Park Alley road, find street punks.",
               "6. Select 'You the ones that beat up Gen-San?'",
               "7. Defeat them, get Gen-San's Wallet.",
-              "8. Return to Gen-San's location, talk to homeless man."
+              "8. Return to Gen-San's location, talk to homeless man.",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 62,
-            "chapter": 6,
-            "name": "Suspicious Gun",
-            "location": "Theatre Square (small street)",
-            "reward": "Coin locker key, 200 EXP",
-            "reward_item": "Pistol (in locker #50)",
-            "requirements": "Available in Chapter 6",
-            "guide": [
+            index: 62,
+            chapter: 6,
+            name: "Suspicious Gun",
+            location: "Theatre Square (small street)",
+            reward: "Coin locker key, 200 EXP",
+            reward_item: "Pistol (in locker #50)",
+            requirements: "Available in Chapter 6",
+            guide: [
               "1. Talk to suspicious man in small street south of Theatre Square.",
               "2. Select 'I'll take it' (¥95,000).",
               "3. Get coin locker key.",
-              "4. Open locker #50 for pistol."
+              "4. Open locker #50 for pistol.",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 63,
-            "chapter": 4,
-            "name": "The Tough Guy",
-            "location": "Park Alley entrance",
-            "reward": "¥10,000, 500 EXP",
-            "requirements": "Available in Chapter 4",
-            "guide": [
+            index: 63,
+            chapter: 4,
+            name: "The Tough Guy",
+            location: "Park Alley entrance",
+            reward: "¥10,000, 500 EXP",
+            requirements: "Available in Chapter 4",
+            guide: [
               "1. Brute will stop you at Park Alley entrance.",
               "2. Select 'Yes' → 'F*ck you' when asked to pay toll.",
-              "3. Defeat him."
+              "3. Defeat him.",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 64,
-            "chapter": 10,
-            "name": "Kyoka and Takashi",
-            "location": "Park Blvd → Batting Cage",
-            "reward": "¥100,000, 500 EXP",
-            "requirements": "Available in Chapter 10",
-            "guide": [
+            index: 64,
+            chapter: 10,
+            name: "Kyoka and Takashi",
+            location: "Park Blvd → Batting Cage",
+            reward: "¥100,000, 500 EXP",
+            requirements: "Available in Chapter 10",
+            guide: [
               "1. Talk to Ichi on Park Blvd (near Park Alley intersection).",
               "2. Select 'Who the hell are you?' → 'Okay'.",
               "3. Get Mashiko Teacup, go to batting cage.",
               "4. Give teacup to Kyoka, get Kyoka's Ring.",
-              "5. Return to Ichi, give him the ring."
+              "5. Return to Ichi, give him the ring.",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 65,
-            "chapter": 10,
-            "name": "Wrong Person",
-            "location": "Alley across Public Park 3",
-            "reward": "Coin locker key, 500 EXP",
-            "reward_item": "Tortoiseshell Plate (in locker)",
-            "requirements": "Available in Chapter 10",
-            "guide": [
+            index: 65,
+            chapter: 10,
+            name: "Wrong Person",
+            location: "Alley across Public Park 3",
+            reward: "Coin locker key, 500 EXP",
+            reward_item: "Tortoiseshell Plate (in locker)",
+            requirements: "Available in Chapter 10",
+            guide: [
               "1. Enter alley across Public Park 3.",
               "2. Man with gun will attack immediately.",
               "3. Defeat him (dodge his gunshots).",
-              "4. He apologizes for mistaken identity."
+              "4. He apologizes for mistaken identity.",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 66,
-            "chapter": 6,
-            "name": "Drain the Lizard",
-            "location": "Children's Park washroom",
-            "reward": "¥80,000, 500 EXP, business card",
-            "requirements": "Available in Chapter 6",
-            "guide": [
+            index: 66,
+            chapter: 6,
+            name: "Drain the Lizard",
+            location: "Children's Park washroom",
+            reward: "¥80,000, 500 EXP, business card",
+            requirements: "Available in Chapter 6",
+            guide: [
               "1. Hear man freaking out in washroom stall at Children's Park.",
               "2. Get tissue pack from salesperson (white gown, holding sign).",
-              "3. Interact with stall, select 'Yes' to give tissues."
+              "3. Interact with stall, select 'Yes' to give tissues.",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 67,
-            "chapter": 4,
-            "name": "Revenge of the Accusation",
-            "location": "Theater North",
-            "reward": "¥10,000, 500 EXP",
-            "requirements": "Complete Substory #68",
-            "guide": [
+            index: 67,
+            chapter: 4,
+            name: "Revenge of the Accusation",
+            location: "Theater North",
+            reward: "¥10,000, 500 EXP",
+            requirements: "Complete Substory #68",
+            guide: [
               "1. Reload area, find group of 6 thugs.",
               "2. Bump into them, select 'Go f*ck yourself.'",
-              "3. Defeat them (3 with golf clubs + 2 big thugs)."
+              "3. Defeat them (3 with golf clubs + 2 big thugs).",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 68,
-            "chapter": 4,
-            "name": "Return of the Accusation",
-            "location": "Theater North",
-            "reward": "500 EXP",
-            "requirements": "Complete Substory #21",
-            "guide": [
+            index: 68,
+            chapter: 4,
+            name: "Return of the Accusation",
+            location: "Theater North",
+            reward: "500 EXP",
+            requirements: "Complete Substory #21",
+            guide: [
               "1. Reload area, find same 3 thugs.",
               "2. Bump into them, select 'There's no way I'm gonna pay.'",
-              "3. Defeat them (armed with bats and golf club)."
+              "3. Defeat them (armed with bats and golf club).",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 69,
-            "chapter": 4,
-            "name": "The Accusation - Afterwards",
-            "location": "Theater North",
-            "reward": "1,000 EXP",
-            "requirements": "Complete Substory #67",
-            "guide": [
+            index: 69,
+            chapter: 4,
+            name: "The Accusation - Afterwards",
+            location: "Theater North",
+            reward: "1,000 EXP",
+            requirements: "Complete Substory #67",
+            guide: [
               "1. Reload area one last time, find the 3 thugs.",
-              "2. Bump into them for final friendly conversation."
+              "2. Bump into them for final friendly conversation.",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 70,
-            "chapter": 4,
-            "name": "Search for the Manuscript",
-            "location": "Champion District entrance",
-            "reward": "500 EXP",
-            "requirements": "Available in Chapter 4",
-            "guide": [
+            index: 70,
+            chapter: 4,
+            name: "Search for the Manuscript",
+            location: "Champion District entrance",
+            reward: "500 EXP",
+            requirements: "Available in Chapter 4",
+            guide: [
               "1. Talk to woman with green arrow at Champion District entrance.",
               "2. Find manuscript in bottom left corner of Champion District.",
-              "3. Return it to her (Momoko Kawai)."
+              "3. Return it to her (Momoko Kawai).",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 71,
-            "chapter": 6,
-            "name": "Save Momoko Kawai",
-            "location": "Senryo Avenue (near Shangri-La)",
-            "reward": "¥40,000, 500 EXP",
-            "requirements": "Complete Substory #70",
-            "guide": [
+            index: 71,
+            chapter: 6,
+            name: "Save Momoko Kawai",
+            location: "Senryo Avenue (near Shangri-La)",
+            reward: "¥40,000, 500 EXP",
+            requirements: "Complete Substory #70",
+            guide: [
               "1. Find Momoko Kawai being harassed by Tojo gangsters.",
               "2. Select 'Help her'.",
-              "3. Defeat the gangsters."
+              "3. Defeat the gangsters.",
             ].join("\n"),
-            "videoId": ""
+            videoId: "",
           },
           {
-            "index": 72,
-            "chapter": 11,
-            "name": "The Last Assassin",
-            "location": "Theatre Square (across save phone)",
-            "reward": "¥10,000,000, 893 EXP",
-            "requirements": "Complete all 71 other substories, max Soul/Tech stats, complete Komaki training, watch Boxing Gamble bonus scene",
-            "guide": [
+            index: 72,
+            chapter: 11,
+            name: "The Last Assassin",
+            location: "Theatre Square (across save phone)",
+            reward: "¥10,000,000, 893 EXP",
+            requirements:
+              "Complete all 71 other substories, max Soul/Tech stats, complete Komaki training, watch Boxing Gamble bonus scene",
+            guide: [
               "PREREQUISITES:",
               "- Complete all 71 other substories",
               "- Max Soul and Tech stats (Body recommended)",
@@ -2459,10 +2462,11 @@ const gameData = {
               "2. Use Cursed Sengetsu Swords to stun-lock Jo Amon.",
               "3. He has 3 phases with multiple health bars.",
               "4. If sword breaks, switch to another.",
-              "5. Defeat him for ultimate reward."
+              "5. Defeat him for ultimate reward.",
             ].join("\n"),
-            "videoId": ""
-          },],
+            videoId: "",
+          },
+        ],
       },
     },
   },
@@ -2490,7 +2494,7 @@ const gameData = {
       "Kazuma Kiryu": {
         image: "👨‍💼",
         substories: [
-                    {
+          {
             index: 1,
             chapter: 12,
             name: "Date's Pride",
@@ -2502,7 +2506,7 @@ const gameData = {
               "2. Walk with him back to Serena",
               "3. Go to Public Park 3 after the drama",
               "4. Defeat punks behind Serena",
-              "5. Get call to Nakamichi Alley, defeat bad guys"
+              "5. Get call to Nakamichi Alley, defeat bad guys",
             ].join("\n"),
             videoId: "",
           },
@@ -2519,7 +2523,7 @@ const gameData = {
               "3. Find Mikio on the beach, beat Kansai yakuza",
               "4. Find father near Mahjong Camp, beat more yakuza",
               "5. Go to Ryudo Office, then to Umachi restaurant",
-              "6. Beat guys, chase Commerce Union President"
+              "6. Beat guys, chase Commerce Union President",
             ].join("\n"),
             videoId: "",
           },
@@ -2527,14 +2531,16 @@ const gameData = {
             index: 3,
             chapter: 6,
             name: "Hometown Girl",
-            location: "Asia → Batting Center → Millennium Tower → Nakamichi Alley",
+            location:
+              "Asia → Batting Center → Millennium Tower → Nakamichi Alley",
             reward: "Experience",
-            requirements: "Must be done with Rikiya, after returning to New Serena",
+            requirements:
+              "Must be done with Rikiya, after returning to New Serena",
             guide: [
               "1. Speak to Rikiya at New Serena instead of Date",
               "2. Escort him to Asia bikini bar",
               "3. Receive calls to various locations: Batting Center, Millennium Tower, Nakamichi Alley",
-              "4. Defeat multiple waves of punks"
+              "4. Defeat multiple waves of punks",
             ].join("\n"),
             videoId: "",
           },
@@ -2548,7 +2554,7 @@ const gameData = {
             guide: [
               "1. Go to Divine Dragon in Pink Alley with Rikiya",
               "2. After being refused, leave and find an altercation outside",
-              "3. Beat down the thugs with Rikiya"
+              "3. Beat down the thugs with Rikiya",
             ].join("\n"),
             videoId: "",
           },
@@ -2558,7 +2564,8 @@ const gameData = {
             name: "Early Honeymoon",
             location: "Beach → Public Market → Stone Market → Beach",
             reward: "Large amount of Experience",
-            requirements: "Daytime, Haruka with you, Kiryu in suit (late Chapter 4)",
+            requirements:
+              "Daytime, Haruka with you, Kiryu in suit (late Chapter 4)",
             guide: [
               "1. Walk towards beach to meet Akimoto and Mizuki",
               "2. Follow them to Public Market food court, then to Stone Market jewelry shop",
@@ -2568,7 +2575,7 @@ const gameData = {
               " • 'She probably couldn't say no to her mom.'",
               " • 'That's honorable of her.'",
               " • 'She's going to be a great wife.'",
-              " • 'She must really want kids with you.'"
+              " • 'She must really want kids with you.'",
             ].join("\n"),
             videoId: "",
           },
@@ -2582,7 +2589,7 @@ const gameData = {
             guide: [
               "1. Find office worker in front of Millennium Tower",
               "2. Agree to help, go to back elevators and ride up",
-              "3. Approach the shoes at the edge of the roof"
+              "3. Approach the shoes at the edge of the roof",
             ].join("\n"),
             videoId: "",
           },
@@ -2603,7 +2610,7 @@ const gameData = {
               " • Use Heat Actions in order: Wall Crush, Komaki Sword Slash, Essence of Brick Breaking",
               " • Say: 'I'll make you apologize to my father... in hell!'",
               " • Let Yamashiro get your health to red before defeating him",
-              " • Say: 'Keep your money. I want justice.'"
+              " • Say: 'Keep your money. I want justice.'",
             ].join("\n"),
             videoId: "",
           },
@@ -2613,14 +2620,15 @@ const gameData = {
             name: "The Comforting Yakuza",
             location: "South of Shichifuku Parking Lot → Bar → Hotel",
             reward: "Experience",
-            requirements: "Complete 'Mr. Try and Flee Me', defeat Kanda, not with Rikiya",
+            requirements:
+              "Complete 'Mr. Try and Flee Me', defeat Kanda, not with Rikiya",
             guide: [
               "1. Help woman being harassed south of parking lot",
               "2. Accept her drink offer, go to the bar",
               "3. When her date arrives, say 'Is that any way to speak to her?'",
               "4. Agree to take her to her hotel",
               "5. Refuse to pay 100,000 yen, beat up the guy",
-              "6. Return to bar, beat another guy"
+              "6. Return to bar, beat another guy",
             ].join("\n"),
             videoId: "",
           },
@@ -2653,7 +2661,7 @@ const gameData = {
               " • Asai's Testimony",
               " • Yuko's Business Card",
               " • Wakazo's Testimony",
-              " • Florist's Testimony"
+              " • Florist's Testimony",
             ].join("\n"),
             videoId: "",
           },
@@ -2661,7 +2669,8 @@ const gameData = {
             index: 10,
             chapter: 6,
             name: "Another Stardust",
-            location: "Stardust → Bantam → Café Alps → Public Park No. 3 → Millennium Tower",
+            location:
+              "Stardust → Bantam → Café Alps → Public Park No. 3 → Millennium Tower",
             reward: "100,000 yen",
             requirements: "Complete 'Anything for Grandma's Love'",
             guide: [
@@ -2671,7 +2680,7 @@ const gameData = {
               "4. Return to Stardust, talk to Yuya and Kazuki",
               "5. Go to Café Alps to find Kazuki",
               "6. Go to Public Park No. 3, tail and beat up Eiji",
-              "7. Go to Millennium Tower, fight more bad guys"
+              "7. Go to Millennium Tower, fight more bad guys",
             ].join("\n"),
             videoId: "",
           },
@@ -2686,7 +2695,7 @@ const gameData = {
               "1. Talk to three schoolgirls outside M Store",
               "2. Approach the lockers, defeat thugs",
               "3. Use dropped key on Locker #44",
-              "4. Defeat more thugs downstairs"
+              "4. Defeat more thugs downstairs",
             ].join("\n"),
             videoId: "",
           },
@@ -2704,7 +2713,7 @@ const gameData = {
               "4. Fight a guy, get Catnip Stick",
               "5. Find another cat west, use Catnip on it",
               "6. Follow cat to lot, find old lady with chest pains",
-              "7. Get Suntory Mineral Water from M Store, give to her"
+              "7. Get Suntory Mineral Water from M Store, give to her",
             ].join("\n"),
             videoId: "",
           },
@@ -2718,7 +2727,7 @@ const gameData = {
             guide: [
               "1. Find schoolgirls on Kitaryu Bridge",
               "2. Find black man in green shirt, accept tour offer",
-              "3. Defeat four tough dudes"
+              "3. Defeat four tough dudes",
             ].join("\n"),
             videoId: "",
           },
@@ -2734,7 +2743,7 @@ const gameData = {
               "2. Talk to kid, then shop lady",
               "3. Buy ingredients from woman east of market stairs:",
               " • bitter melon, brown sugar (kuruzata), aloe (dugwai), island bananas (basanai), shikwasa (lemon)",
-              "4. Return ingredients to shop lady"
+              "4. Return ingredients to shop lady",
             ].join("\n"),
             videoId: "",
           },
@@ -2751,7 +2760,7 @@ const gameData = {
               "3. Get pickpocketed by a lady at the south arcade corner (lose 50,000 yen)",
               "4. Talk to vendor, he directs you south of Ryudo Office",
               "5. Talk to manufacturer, select 'Return the Necklace'",
-              "6. Defeat bad dudes"
+              "6. Defeat bad dudes",
             ].join("\n"),
             videoId: "",
           },
@@ -2766,7 +2775,7 @@ const gameData = {
               "1. Find schoolgirls at Public Market entrance",
               "2. Enter market, talk to pair of people, then the man",
               "3. Go northeast of Flawless",
-              "4. Defeat the piggish man selling fake pork"
+              "4. Defeat the piggish man selling fake pork",
             ].join("\n"),
             videoId: "",
           },
@@ -2775,7 +2784,8 @@ const gameData = {
             chapter: 10,
             name: "The Seven Mysteries of Ryukyu 7",
             location: "East Bridge → Hatsumachi Crossroads",
-            reward: "50,000 yen, Azure Gem, Lucky Coin (if you return to girls)",
+            reward:
+              "50,000 yen, Azure Gem, Lucky Coin (if you return to girls)",
             requirements: "Complete previous Mysteries",
             guide: [
               "1. Find schoolgirls on the east bridge",
@@ -2783,7 +2793,7 @@ const gameData = {
               "3. Agree to go to their office, agree to their terms",
               "4. Find punk on eastern bridge again, refuse new terms",
               "5. Defeat all bad guys",
-              "6. (Optional) Return to schoolgirls for Lucky Coin"
+              "6. (Optional) Return to schoolgirls for Lucky Coin",
             ].join("\n"),
             videoId: "",
           },
@@ -2791,7 +2801,8 @@ const gameData = {
             index: 18,
             chapter: 5,
             name: "Instant Ramen Takes Time",
-            location: "Kyushu No. 1 Star (Tokyo) → Millennium Tower → Ryukyu (Ch.10)",
+            location:
+              "Kyushu No. 1 Star (Tokyo) → Millennium Tower → Ryukyu (Ch.10)",
             reward: "Kyushu No. 1 Star Ramen Sample",
             requirements: "Start in Ch.5, cannot finish until Ch.10",
             guide: [
@@ -2804,7 +2815,7 @@ const gameData = {
               "5. Find Ueda south of Ebisu Pawn in Ryukyu near a car",
               "6. Tell him to find Okinawan soba stand",
               "7. Go to soba stand, talk to him",
-              "8. Return to Tokyo, go to Kyushu No. 1 Star"
+              "8. Return to Tokyo, go to Kyushu No. 1 Star",
             ].join("\n"),
             videoId: "",
           },
@@ -2819,7 +2830,7 @@ const gameData = {
               "1. Talk to old man in orange shirt outside Ebisu Pawn",
               "2. He gives you a map",
               "3. Go to parking garage southwest of Karaokekan in Hatsumachi",
-              "4. Examine the spot, call the old man over"
+              "4. Examine the spot, call the old man over",
             ].join("\n"),
             videoId: "",
           },
@@ -2827,16 +2838,18 @@ const gameData = {
             index: 20,
             chapter: 4,
             name: "Bottled Love",
-            location: "Beach → Kariyushi Arcade → Ryukyu Shogi → Monorail Station",
+            location:
+              "Beach → Kariyushi Arcade → Ryukyu Shogi → Monorail Station",
             reward: "Sata Andagi",
-            requirements: "Complete 'Early Honeymoon', meet Mack, learn about Revelations",
+            requirements:
+              "Complete 'Early Honeymoon', meet Mack, learn about Revelations",
             guide: [
               "1. Find bottle on west side of beach (alone)",
               "2. Haruka joins, suggests checking Kariyushi Arcade",
               "3. Find woman at south end of arcade",
               "4. She mentions a boy at the Shogi parlor",
               "5. Go to Ryukyu Shogi, talk to the boy",
-              "6. Follow him to the Monorail Station"
+              "6. Follow him to the Monorail Station",
             ].join("\n"),
             videoId: "",
           },
@@ -2844,7 +2857,8 @@ const gameData = {
             index: 21,
             chapter: 7,
             name: "A Boy and his Balloon",
-            location: "Nakamichi/Taihei intersection → East Millennium Tower St. → Children's Park",
+            location:
+              "Nakamichi/Taihei intersection → East Millennium Tower St. → Children's Park",
             reward: "Caviar Skin Bag",
             requirements: "Complete 'Catch Those Shoplifters!'",
             guide: [
@@ -2853,7 +2867,7 @@ const gameData = {
               "2. Chase the red balloon:",
               " • Up East Millennium Tower St.",
               " • West on Shichifuku to Children's Park",
-              "3. Meet the mom in the park, reunite them"
+              "3. Meet the mom in the park, reunite them",
             ].join("\n"),
             videoId: "",
           },
@@ -2869,7 +2883,7 @@ const gameData = {
               "2. Mysterious Old Man will challenge you as you leave",
               "3. Re-enter Batting Center, find guy in baseball uniform",
               "4. Play alternating 10-ball game, prioritize bingos and two-panel hits",
-              "5. Defeat him"
+              "5. Defeat him",
             ].join("\n"),
             videoId: "",
           },
@@ -2885,7 +2899,7 @@ const gameData = {
               "2. Carefully navigate through the crowd without bumping anyone:",
               " • Path is straight up the middle between red and blue ladies",
               "3. At the front, say 'I've met this guy before.'",
-              "4. Defeat yakuza jerks"
+              "4. Defeat yakuza jerks",
             ].join("\n"),
             videoId: "",
           },
@@ -2893,14 +2907,15 @@ const gameData = {
             index: 24,
             chapter: 4,
             name: "Shisa Shakedown",
-            location: "Kariyushi Arcade entrance → Dead-end street NE Hatsumachi",
+            location:
+              "Kariyushi Arcade entrance → Dead-end street NE Hatsumachi",
             reward: "50,000 yen",
             requirements: "Complete 'Out of His League'",
             guide: [
               "1. Find couple at entrance to Kariyushi Arcade",
               "2. They want a shisa figure with its mouth closed",
               "3. Go to dead-end street in northeast Hatsumachi",
-              "4. Automatically spot it, approach and call the couple"
+              "4. Automatically spot it, approach and call the couple",
             ].join("\n"),
             videoId: "",
           },
@@ -2916,7 +2931,7 @@ const gameData = {
               "2. A man in a red jacket appears, follow him slowly (~50 ft distance)",
               "3. He talks to a guy in glasses, follow the glasses guy",
               "4. Glasses guy talks to a bald guy, follow the bald guy",
-              "5. Meet back up with Emi and all involved, defeat them"
+              "5. Meet back up with Emi and all involved, defeat them",
             ].join("\n"),
             videoId: "",
           },
@@ -2924,7 +2939,8 @@ const gameData = {
             index: 26,
             chapter: 5,
             name: "Kiryu the Collector",
-            location: "Theater Square → One of five random locations (Park Blvd, Smile Burger, Pink St. sign, Earth Angel, Mach Bowl)",
+            location:
+              "Theater Square → One of five random locations (Park Blvd, Smile Burger, Pink St. sign, Earth Angel, Mach Bowl)",
             reward: "100,000 yen (decreases by 20k each failure/move)",
             requirements: "None",
             guide: [
@@ -2938,7 +2954,7 @@ const gameData = {
               " • Inside Earth Angel",
               " • Inside Mach Bowl",
               "4. Talk to him, fight him (he dodges, use Komaki Dodge Shot)",
-              "5. If he moves, you get another call with new location"
+              "5. If he moves, you get another call with new location",
             ].join("\n"),
             videoId: "",
           },
@@ -2953,7 +2969,7 @@ const gameData = {
               "1. Win three games of Nine-Ball at Aqua Sky",
               "2. Depart table, meet mustached gentleman",
               "3. Leave and return to bar, he challenges you to a game for a bar owner's debt",
-              "4. Play one game (win or lose completes it, win for 100,000 yen)"
+              "4. Play one game (win or lose completes it, win for 100,000 yen)",
             ].join("\n"),
             videoId: "",
           },
@@ -2963,14 +2979,15 @@ const gameData = {
             name: "Talking About Me?",
             location: "Bantam",
             reward: "50% discount on Standard Massage at Love in Heart",
-            requirements: "Visit Love in Heart once, complete 'Bullseye of Love'",
+            requirements:
+              "Visit Love in Heart once, complete 'Bullseye of Love'",
             guide: [
               "1. Find young lady sitting alone in Bantam",
               "2. Mention you know her from 'Love in Heart'",
               "3. Hear out her troubles (do not refuse)",
               "4. Ask all three questions about the man",
               "5. She leaves, talk to Yuya",
-              "6. She returns, hear her out, say 'No, not at all.'"
+              "6. She returns, hear her out, say 'No, not at all.'",
             ].join("\n"),
             videoId: "",
           },
@@ -2993,7 +3010,7 @@ const gameData = {
               "7. Go to Maeda Pharmacy, talk to writer's father",
               "8. Find writer on eastern bridge",
               "9. Tell editor 'he's giving up on his dream'",
-              "10. (Optional) If possible, give magazines to Taichi at orphanage gate"
+              "10. (Optional) If possible, give magazines to Taichi at orphanage gate",
             ].join("\n"),
             videoId: "",
           },
@@ -3009,7 +3026,7 @@ const gameData = {
               "2. Get Suntory Mineral Water from Poppo, give to him",
               "3. Leave and return, find him again, give any answer",
               "4. Leave and return again, find him a third time, give any answer",
-              "5. He gets angry, defeat him"
+              "5. He gets angry, defeat him",
             ].join("\n"),
             videoId: "",
           },
@@ -3024,7 +3041,7 @@ const gameData = {
               "1. Find forlorn man in front of Smile Burger",
               "2. Agree to help him",
               "3. Choose any dialogue, correct final choice is 'I'll tell her for you.'",
-              "4. Go inside, pick 'Will you read his love letter?'"
+              "4. Go inside, pick 'Will you read his love letter?'",
             ].join("\n"),
             videoId: "",
           },
@@ -3038,7 +3055,7 @@ const gameData = {
             guide: [
               "1. Find the teenager at Flawless after a makeover",
               "2. Talk to him, he moves, talk again",
-              "3. Story resolves based on if you've met hostess Mika"
+              "3. Story resolves based on if you've met hostess Mika",
             ].join("\n"),
             videoId: "",
           },
@@ -3052,7 +3069,7 @@ const gameData = {
             guide: [
               "1. Return to Morning Glory, find the guy outside",
               "2. He runs up and talks to you",
-              "3. Choose any dialogue options, he runs off in shame"
+              "3. Choose any dialogue options, he runs off in shame",
             ].join("\n"),
             videoId: "",
           },
@@ -3067,7 +3084,7 @@ const gameData = {
               "1. Find the dude outside Smile Burger",
               "2. He goes inside, follow him",
               "3. Punks show up, defeat them",
-              "4. Couple talks, choose either dialogue option"
+              "4. Couple talks, choose either dialogue option",
             ].join("\n"),
             videoId: "",
           },
@@ -3081,7 +3098,7 @@ const gameData = {
             guide: [
               "1. Find Mr. Try and Hit Me in Shichifuku Parking Lot",
               "2. Pay 3,000 yen for a chance to earn 50,000",
-              "3. Use Komaki Dodge Shot (quickstep forward + Triangle) to easily tag him"
+              "3. Use Komaki Dodge Shot (quickstep forward + Triangle) to easily tag him",
             ].join("\n"),
             videoId: "",
           },
@@ -3089,14 +3106,15 @@ const gameData = {
             index: 36,
             chapter: 6,
             name: "Mr. Try and Flee Me",
-            location: "Shichifuku Parking Lot → Senryo Ave. → Champion District",
+            location:
+              "Shichifuku Parking Lot → Senryo Ave. → Champion District",
             reward: "70,000 yen",
             requirements: "Complete 'Mr. Try and Hit Me Again'",
             guide: [
               "1. Find Mr. Try and Flee Me in Shichifuku Parking Lot",
               "2. Pay 5,000 yen",
               "3. Run ahead of him down Senryo Ave., then into Champion District",
-              "4. Avoid collisions, he gives up after a short chase"
+              "4. Avoid collisions, he gives up after a short chase",
             ].join("\n"),
             videoId: "",
           },
@@ -3111,7 +3129,7 @@ const gameData = {
               "1. Find third member in Shichifuku Parking Lot",
               "2. Chase and capture him around the parking lot block",
               "3. His jukes change each lap, can be difficult",
-              "4. May need Mack's Running Training to improve chances"
+              "4. May need Mack's Running Training to improve chances",
             ].join("\n"),
             videoId: "",
           },
@@ -3129,7 +3147,7 @@ const gameData = {
               " • Taichi: On the roof (look up from yard)",
               " • Shiro: Behind the lumber pile",
               " • Eri: Under the table in the yard",
-              " • Izumi: Behind the baseball target (find last)"
+              " • Izumi: Behind the baseball target (find last)",
             ].join("\n"),
             videoId: "",
           },
@@ -3137,7 +3155,8 @@ const gameData = {
             index: 39,
             chapter: 5,
             name: "The Old Man's Memories",
-            location: "Millennium Tower → Suppon St. → Champion District → Millennium Tower",
+            location:
+              "Millennium Tower → Suppon St. → Champion District → Millennium Tower",
             reward: "100,000 yen",
             requirements: "Complete 'Hor D'oeuvres'",
             guide: [
@@ -3147,7 +3166,7 @@ const gameData = {
               "4. He directs you to Champion District (southeast part)",
               "5. Beat up debt collector shaking a man",
               "6. Return to old man, 'Ask About the Situation' optional",
-              "7. Take him to Champion District, beat more bad guys"
+              "7. Take him to Champion District, beat more bad guys",
             ].join("\n"),
             videoId: "",
           },
@@ -3163,7 +3182,7 @@ const gameData = {
               "2. Agree to help her husband",
               "3. Go to Orchid Palace Mahjong parlor, find man in red sportswear",
               "4. Tail him up Nakamichi St. (he will spot you)",
-              "5. Defeat him, he explains everything"
+              "5. Defeat him, he explains everything",
             ].join("\n"),
             videoId: "",
           },
@@ -3178,7 +3197,7 @@ const gameData = {
               "1. Enter and exit Showa Poppo",
               "2. Employee accuses you, then apologizes and asks for help",
               "3. Watch three potentially suspicious people",
-              "4. Only stop the second person"
+              "4. Only stop the second person",
             ].join("\n"),
             videoId: "",
           },
@@ -3193,7 +3212,7 @@ const gameData = {
               "1. Find woman and doctor talking south of Umachi",
               "2. Speak to them, agree to help the woman",
               "3. Go to exchange area, choose 'Jump Right In'",
-              "4. Defeat the kidnapper"
+              "4. Defeat the kidnapper",
             ].join("\n"),
             videoId: "",
           },
@@ -3201,7 +3220,8 @@ const gameData = {
             index: 43,
             chapter: 4,
             name: "Sea Bream Strongarm",
-            location: "Public Market fish stand → Restaurant north of South Island",
+            location:
+              "Public Market fish stand → Restaurant north of South Island",
             reward: "Silver Plate (if honest)",
             requirements: "Complete 'Walking the Plank'",
             guide: [
@@ -3211,7 +3231,7 @@ const gameData = {
               "4. Return to fishmonger with fish/money:",
               " • If bought fish: Option to say it cost 300,000 yen or not",
               " • If gave tuna: Option to return money or not",
-              "5. If you try to return money, he refuses and gives Silver Plate"
+              "5. If you try to return money, he refuses and gives Silver Plate",
             ].join("\n"),
             videoId: "",
           },
@@ -3226,7 +3246,7 @@ const gameData = {
               "1. Witness purse-snatching south of Kariyushi Arcade",
               "2. Snatcher runs into Public Market",
               "3. Find culprit in southeast corner of first floor",
-              "4. Take him to the old lady"
+              "4. Take him to the old lady",
             ].join("\n"),
             videoId: "",
           },
@@ -3242,7 +3262,7 @@ const gameData = {
               "2. He asks for help stopping a wildcat trafficking ring",
               "3. Go upstairs, find man in green hat, red shirt, with a carrier",
               "4. Approach the one on the left, tell him 'I don't need proof'",
-              "5. Defeat the two guys"
+              "5. Defeat the two guys",
             ].join("\n"),
             videoId: "",
           },
@@ -3258,7 +3278,7 @@ const gameData = {
               "2. Agree to go on patrol",
               "3. Walk VERY SLOWLY with him to stalls: NE, nearby, east, SE",
               "4. Hear a shriek, fight thugs (good for Essence of Stove/Hammer)",
-              "5. Get fish reward"
+              "5. Get fish reward",
             ].join("\n"),
             videoId: "",
           },
@@ -3268,12 +3288,13 @@ const gameData = {
             name: "Hit-and-Stop",
             location: "Intersection near Ebisu Pawn",
             reward: "30,000 yen OR 50,000 yen (with specific Heat Action)",
-            requirements: "Complete 'Let's Learn English 3' AND 'I Want To Go to Tokyo 3'",
+            requirements:
+              "Complete 'Let's Learn English 3' AND 'I Want To Go to Tokyo 3'",
             guide: [
               "1. Listen to two guys talking at intersection",
               "2. Cross street while traffic is moving, collide with a black sedan",
               "3. Beat up the driver and his dudes",
-              "4. For 50,000 yen: Knock a guy down, grab his legs, drag him to car, use Heat Action to slam into windshield"
+              "4. For 50,000 yen: Knock a guy down, grab his legs, drag him to car, use Heat Action to slam into windshield",
             ].join("\n"),
             videoId: "",
           },
@@ -3289,7 +3310,7 @@ const gameData = {
               "2. A dine-and-dasher has skipped, agree to help",
               "3. Chase the man (can retry infinitely)",
               "4. Strategy: Don't hold sprint (R2/RT) unless open ground, avoid collisions",
-              "5. Catch him"
+              "5. Catch him",
             ].join("\n"),
             videoId: "",
           },
@@ -3302,7 +3323,7 @@ const gameData = {
             requirements: "Complete 'Hor D'ouevres' and 'Suspicious Spouses'",
             guide: [
               "1. Dine-and-dasher is at Kyushu No. 1 Star again",
-              "2. Chase him (easier than first, figure-8 path, two hits to down)"
+              "2. Chase him (easier than first, figure-8 path, two hits to down)",
             ].join("\n"),
             videoId: "",
           },
@@ -3317,7 +3338,7 @@ const gameData = {
               "1. Find lady outside Gelateria Kamuro",
               "2. Chase the big man around Taihei and Theater Square",
               "3. Takes about six hits to get him down",
-              "4. Choose either dialogue option afterwards"
+              "4. Choose either dialogue option afterwards",
             ].join("\n"),
             videoId: "",
           },
@@ -3332,7 +3353,7 @@ const gameData = {
               "1. Find shop owner with red apron outside Ebisu Pawn",
               "2. Yet another dine-and-dash",
               "3. Chase the guy throughout Ryukyu alleys",
-              "4. Catch him"
+              "4. Catch him",
             ].join("\n"),
             videoId: "",
           },
@@ -3346,7 +3367,7 @@ const gameData = {
             guide: [
               "1. Find drunk dude in Aqua Sky",
               "2. He challenges you to 'Look the Other Way' drinking game (random)",
-              "3. Win three times for 50,000 yen, lose and pay 20,000 yen"
+              "3. Win three times for 50,000 yen, lose and pay 20,000 yen",
             ].join("\n"),
             videoId: "",
           },
@@ -3359,7 +3380,7 @@ const gameData = {
             requirements: "Play Darts 01 Games five times (Tokyo or Ryukyu)",
             guide: [
               "1. Dude in Bantam asks you to play darts and let him win",
-              "2. Agree, then crush him with your darts skills"
+              "2. Agree, then crush him with your darts skills",
             ].join("\n"),
             videoId: "",
           },
@@ -3373,7 +3394,7 @@ const gameData = {
             guide: [
               "1. See scene on a taxi, speak to driver",
               "2. Agree to help with drunks",
-              "3. Defeat the drunks (do not use Heat Action near taxi)"
+              "3. Defeat the drunks (do not use Heat Action near taxi)",
             ].join("\n"),
             videoId: "",
           },
@@ -3387,7 +3408,7 @@ const gameData = {
             guide: [
               "1. Find young woman in overalls and pink shirt in Kariyushi Arcade",
               "2. She asks if you're from Tokyo, agree to hang out",
-              "3. Answer questions about Tokyo (responses not important)"
+              "3. Answer questions about Tokyo (responses not important)",
             ].join("\n"),
             videoId: "",
           },
@@ -3404,7 +3425,7 @@ const gameData = {
               "3. Find her at Gelateria, she gets fired again",
               "4. She calls, find her at Mach Bowl, gets fired immediately",
               "5. Kiryu suggests cabaret club, she gets job at Earth Angel",
-              "6. Enter Earth Angel after line clears, Ako gives reward"
+              "6. Enter Earth Angel after line clears, Ako gives reward",
             ].join("\n"),
             videoId: "",
           },
@@ -3417,7 +3438,7 @@ const gameData = {
             requirements: "Complete 'I Want to Go to Tokyo 2'",
             guide: [
               "1. Find the girl north of Ebisu Pawn",
-              "2. Speak to her, receive bag after conversation"
+              "2. Speak to her, receive bag after conversation",
             ].join("\n"),
             videoId: "",
           },
@@ -3432,7 +3453,7 @@ const gameData = {
               "1. Find dude in red/white jacket at intersection",
               "2. He offers club for 5,000 yen:",
               " • Pay 5,000 for quick fight and 50,000 yen",
-              " • Refuse four times for free, fight barkers for 100,000 yen"
+              " • Refuse four times for free, fight barkers for 100,000 yen",
             ].join("\n"),
             videoId: "",
           },
@@ -3450,7 +3471,7 @@ const gameData = {
               "4. Call publishing company, learn photographer drinks at Shellac",
               "5. Go to Shellac, talk to photographer (former Peace Finance owner)",
               "6. Young dude is son seeking revenge, find them NE corner of map",
-              "7. Defeat the son"
+              "7. Defeat the son",
             ].join("\n"),
             videoId: "",
           },
@@ -3467,7 +3488,7 @@ const gameData = {
               " • Find child with straw hat south (not her, swapped hats)",
               " • Now looking for baseball cap: find girl near soba stand west (not her, now ribbon)",
               " • Now looking for ribbon: find girl dancing at Maeda Drugs (not her, now animal backpack)",
-              " • Now looking for animal backpack: find girl SE corner of arcade (finally her)"
+              " • Now looking for animal backpack: find girl SE corner of arcade (finally her)",
             ].join("\n"),
             videoId: "",
           },
@@ -3483,7 +3504,7 @@ const gameData = {
               "2. He owes a loan, needs to find/sell family heirloom",
               "3. Heirloom is buried on the beach",
               "4. Go to west side of beach, find 'Turtle Rock', get 'Look' prompt",
-              "5. Call the guy, dig up a pot together"
+              "5. Call the guy, dig up a pot together",
             ].join("\n"),
             videoId: "",
           },
@@ -3491,7 +3512,8 @@ const gameData = {
             index: 62,
             chapter: 5,
             name: "Return to the Dragon Palace",
-            location: "? marker E of Batting Center → Hotel District → SE punks",
+            location:
+              "? marker E of Batting Center → Hotel District → SE punks",
             reward: "Access to Dragon Palace casino and gambling hall",
             requirements: "None",
             guide: [
@@ -3499,7 +3521,7 @@ const gameData = {
               "2. Go to Hotel District (edge of map), find homeless guy surrounded by punks, defeat them",
               "3. Return to SE punks, defeat all five",
               "4. Defeat their leader (tough fight)",
-              "5. Get phone call from casino owner"
+              "5. Get phone call from casino owner",
             ].join("\n"),
             videoId: "",
           },
@@ -3507,9 +3529,11 @@ const gameData = {
             index: 63,
             chapter: 5,
             name: "Missed Caller",
-            location: "Tenkaichi Alley → Honey Teleclub → Kanrai → Smile Burger",
+            location:
+              "Tenkaichi Alley → Honey Teleclub → Kanrai → Smile Burger",
             reward: "100,000 yen",
-            requirements: "Progress far enough in 'Manga Mania' (editor going to Okinawa)",
+            requirements:
+              "Progress far enough in 'Manga Mania' (editor going to Okinawa)",
             guide: [
               "1. Find old man surrounded by women in Tenkaichi Alley",
               "2. He's looking for daughter Nami, gets tissues for 'Honey' teleclub",
@@ -3517,7 +3541,7 @@ const gameData = {
               "4. Woman says she's at Kanrai, go there (costs 20,000 yen for info)",
               "5. Info: homeless women sleep at burger joint",
               "6. Find woman in yellow jacket outside Smile Burger",
-              "7. Her dad shows up, then sleazebags show up, defeat them with dad"
+              "7. Her dad shows up, then sleazebags show up, defeat them with dad",
             ].join("\n"),
             videoId: "",
           },
@@ -3525,9 +3549,11 @@ const gameData = {
             index: 64,
             chapter: 7,
             name: "The Tuna Fund",
-            location: "Sushi Gin → Ryukyu (Ch.10) → Sushi Gin → Office E of Millennium Tower",
+            location:
+              "Sushi Gin → Ryukyu (Ch.10) → Sushi Gin → Office E of Millennium Tower",
             reward: "Investment back + bonus (max: four Maguros)",
-            requirements: "Complete 'Watch Out for Renovations', Start in Ch.7, finish in Ch.10",
+            requirements:
+              "Complete 'Watch Out for Renovations', Start in Ch.7, finish in Ch.10",
             guide: [
               "Ch.7:",
               "1. At Sushi Gin, order the tuna, talk to fishery guy next to you",
@@ -3537,7 +3563,7 @@ const gameData = {
               "4. Return to Kamurocho, get another text",
               "5. Talk to chef at Sushi Gin, he mentions office east of Millennium Tower",
               "6. Go to building with green awning north of Matsuya, south of Wild Jackson",
-              "7. Enter, fight Sawada and goons, get money back + bonus"
+              "7. Enter, fight Sawada and goons, get money back + bonus",
             ].join("\n"),
             videoId: "",
           },
@@ -3555,7 +3581,7 @@ const gameData = {
               "4. Head towards Pink Street, couple says he took first left",
               "5. Run down Pink Street, left into alley to Nakamichi Poppo, spot dude",
               "6. Choose 'Follow Him' to back lot in Nakamichi",
-              "7. Defeat all jerks"
+              "7. Defeat all jerks",
             ].join("\n"),
             videoId: "",
           },
@@ -3568,7 +3594,7 @@ const gameData = {
             requirements: "None",
             guide: [
               "1. Find man balancing on edge of fence on west river side",
-              "2. Speak to him, choose either option to talk him down"
+              "2. Speak to him, choose either option to talk him down",
             ].join("\n"),
             videoId: "",
           },
@@ -3581,7 +3607,7 @@ const gameData = {
             requirements: "Complete 'Sea Bream Strongarm'",
             guide: [
               "1. Find the guy on the fence again at the bridge",
-              "2. Talk him down, pick either option"
+              "2. Talk him down, pick either option",
             ].join("\n"),
             videoId: "",
           },
@@ -3595,7 +3621,7 @@ const gameData = {
             guide: [
               "1. Find tubby guy with glasses prepping to jump off western bridge",
               "2. Say you can't abandon him",
-              "3. Get led to his loan sharks, defeat them"
+              "3. Get led to his loan sharks, defeat them",
             ].join("\n"),
             videoId: "",
           },
@@ -3609,7 +3635,7 @@ const gameData = {
             guide: [
               "1. Find three suited toughs plodding near Karaokekan",
               "2. Bump into them, refuse to give money",
-              "3. Defeat them"
+              "3. Defeat them",
             ].join("\n"),
             videoId: "",
           },
@@ -3622,7 +3648,7 @@ const gameData = {
             requirements: "Complete 'The Con Menace'",
             guide: [
               "1. Find larger group of dudes on Kitaryu St.",
-              "2. Bump into them, defeat them all"
+              "2. Bump into them, defeat them all",
             ].join("\n"),
             videoId: "",
           },
@@ -3635,7 +3661,7 @@ const gameData = {
             requirements: "Complete 'Under the Table' and 'The Con Wars'",
             guide: [
               "1. Find gaggle of six hoodlums along river bank",
-              "2. Defeat them all"
+              "2. Defeat them all",
             ].join("\n"),
             videoId: "",
           },
@@ -3650,7 +3676,7 @@ const gameData = {
               "1. Go to Bantam in Tokyo, find the scammers again",
               "2. Bump into them, they are fighting another group",
               "3. Choose 'Save the Scammers'",
-              "4. Defeat the punks"
+              "4. Defeat the punks",
             ].join("\n"),
             videoId: "",
           },
@@ -3658,7 +3684,8 @@ const gameData = {
             index: 73,
             chapter: 9,
             name: "Mars Fighters in Tokyo",
-            location: "Millennium Tower → Park Blvd (north of Shichifuku Parking Lot)",
+            location:
+              "Millennium Tower → Park Blvd (north of Shichifuku Parking Lot)",
             reward: "10,000 yen, Minamizawa's Autograph (sells for 50 yen)",
             requirements: "None",
             guide: [
@@ -3666,7 +3693,7 @@ const gameData = {
               "2. He gives photo of his partner",
               "3. Partner is on Park Blvd, north of Shichifuku Parking Lot, near homeless tents",
               "4. Speak to him, defeat him in combat",
-              "5. When he does comedy, say 'So?'"
+              "5. When he does comedy, say 'So?'",
             ].join("\n"),
             videoId: "",
           },
@@ -3674,7 +3701,8 @@ const gameData = {
             index: 74,
             chapter: 5,
             name: "Bargain Sale",
-            location: "SE corner Senryo Ave. → Ebisu Pawn → Millennium Tower white car",
+            location:
+              "SE corner Senryo Ave. → Ebisu Pawn → Millennium Tower white car",
             reward: "300,000 yen (hush money)",
             requirements: "None",
             guide: [
@@ -3684,7 +3712,7 @@ const gameData = {
               "4. Return to guy, he wants to buy back, refuse all offers, he fights you",
               "5. Don't give him the keys found in bag",
               "6. He warns about Millennium Tower, go to white car marked on map",
-              "7. Choose 'Open the trunk', beat up guys who show up"
+              "7. Choose 'Open the trunk', beat up guys who show up",
             ].join("\n"),
             videoId: "",
           },
@@ -3692,16 +3720,18 @@ const gameData = {
             index: 75,
             chapter: 6,
             name: "The Returnee",
-            location: "Tenkaichi St. gate → Emoto Clinic → Millennium Tower → Shangri-La → West Park",
+            location:
+              "Tenkaichi St. gate → Emoto Clinic → Millennium Tower → Shangri-La → West Park",
             reward: "Blood Brooch",
-            requirements: "Complete 'Another Stardust', after defeating Kanda, without Rikiya",
+            requirements:
+              "Complete 'Another Stardust', after defeating Kanda, without Rikiya",
             guide: [
               "1. Find dude asking about Emoto Clinic at Tenkaichi St. gate",
               "2. Take him to clinic (Tenkaichi St. west to Taihei)",
               "3. Offer to show him around town",
               "4. Take him to Millennium Tower, defeat punks",
               "5. Take him to Shangri-La (corner Taihei/Senryo, Roman columns), defeat same three jerks",
-              "6. Take him to West Park (NE corner of map), four jerks show up but no fight"
+              "6. Take him to West Park (NE corner of map), four jerks show up but no fight",
             ].join("\n"),
             videoId: "",
           },
@@ -3709,13 +3739,14 @@ const gameData = {
             index: 76,
             chapter: 9,
             name: "Disconnected",
-            location: "Theater Square phone booth → Slot House (south of New Serena)",
+            location:
+              "Theater Square phone booth → Slot House (south of New Serena)",
             reward: "50,000 yen",
             requirements: "Complete 'Stealing from the Dragon's Hoard'",
             guide: [
               "1. Get call on phone booth in Theater Square",
               "2. Perp has noisy background, he is south of New Serena in front of 'Slot House'",
-              "3. Speak to him, beat him up (skip his wild goose chases)"
+              "3. Speak to him, beat him up (skip his wild goose chases)",
             ].join("\n"),
             videoId: "",
           },
@@ -3729,7 +3760,7 @@ const gameData = {
             guide: [
               "1. Get bumped by guy who steals 40,000 yen",
               "2. Chase him (easy chase battle)",
-              "3. Catch him for 100,000 yen, or collect dropped money for 40k back + 60k profit"
+              "3. Catch him for 100,000 yen, or collect dropped money for 40k back + 60k profit",
             ].join("\n"),
             videoId: "",
           },
@@ -3745,7 +3776,7 @@ const gameData = {
               "2. When granny shows up:",
               " • Select 'We try not to use A/C'",
               " • For tour: 'It's off-limits due to an accident'",
-              "3. Loan shark shows up, select 'Pay the 100,000 yen'"
+              "3. Loan shark shows up, select 'Pay the 100,000 yen'",
             ].join("\n"),
             videoId: "",
           },
@@ -3753,7 +3784,8 @@ const gameData = {
             index: 79,
             chapter: 5,
             name: "Lasagna at Large",
-            location: "Shichifuku (east of Children's Park) → Tenkaichi St./Tenkaichi Alley",
+            location:
+              "Shichifuku (east of Children's Park) → Tenkaichi St./Tenkaichi Alley",
             reward: "30,000 yen",
             requirements: "Complete 'Kiryu the Collector'",
             guide: [
@@ -3761,7 +3793,7 @@ const gameData = {
               "2. Agree to help",
               "3. Buy Catnip Stick from Poppo on Tenkaichi St.",
               "4. Find cat outside blue-walled restaurant on Tenkaichi St. where it meets Tenkaichi Alley",
-              "5. Use Catnip on cat, bring it back to owner"
+              "5. Use Catnip on cat, bring it back to owner",
             ].join("\n"),
             videoId: "",
           },
@@ -3770,7 +3802,8 @@ const gameData = {
             chapter: 9,
             name: "Your Fortunes Told Here",
             location: "Pink Street (south of Club Shine) → Club SEGA Nakamichi",
-            reward: "120,000 yen back OR Fortune-teller's Crystal Ball (sells for 200,000 yen)",
+            reward:
+              "120,000 yen back OR Fortune-teller's Crystal Ball (sells for 200,000 yen)",
             requirements: "None",
             guide: [
               "1. Find fortune-teller with line south of Club Shine on Pink Street",
@@ -3780,7 +3813,7 @@ const gameData = {
               "5. Find ladies outside Club SEGA on Nakamichi",
               "6. Return to teller, see her pay off plants",
               "7. Defeat her sons",
-              "8. Choice: Tell ladies where she is (get 120k back) OR keep silent (get Crystal Ball later)"
+              "8. Choice: Tell ladies where she is (get 120k back) OR keep silent (get Crystal Ball later)",
             ].join("\n"),
             videoId: "",
           },
@@ -3796,7 +3829,7 @@ const gameData = {
               "2. Enter New Serena, mama asks you to mind the bar",
               "3. Dudes from renovation company show up, offer inspection",
               "4. Refuse them three times",
-              "5. They get indignant, defeat them"
+              "5. They get indignant, defeat them",
             ].join("\n"),
             videoId: "",
           },
@@ -3810,7 +3843,7 @@ const gameData = {
             guide: [
               "1. Find woman searching for dropped key in front of Coin Lockers",
               "2. Use first-person mode (R1/RB), look above on second sky-bridge",
-              "3. Find key, she gives it to you"
+              "3. Find key, she gives it to you",
             ].join("\n"),
             videoId: "",
           },
@@ -3824,7 +3857,7 @@ const gameData = {
             guide: [
               "1. Achieve over 200 bowling score",
               "2. 'Death Bowler' challenges you",
-              "3. Beat him in a three-frame game"
+              "3. Beat him in a three-frame game",
             ].join("\n"),
             videoId: "",
           },
@@ -3840,7 +3873,7 @@ const gameData = {
               "2. He attacks, then asks you to be bodyguard for lottery ticket",
               "3. Agree to be bodyguard (do not ask to see ticket)",
               "4. Take him to taxi, leave and return, he's still there",
-              "5. Ticket is fake, he gives 10,000 yen"
+              "5. Ticket is fake, he gives 10,000 yen",
             ].join("\n"),
             videoId: "",
           },
@@ -3855,7 +3888,7 @@ const gameData = {
               "1. Woman in yellow jacket collides with you near Matsuya",
               "2. She accuses you, find strange wallet in your inventory",
               "3. Use wallet to give back, she remains accusatory",
-              "4. Punks show up, defeat them"
+              "4. Punks show up, defeat them",
             ].join("\n"),
             videoId: "",
           },
@@ -3871,7 +3904,7 @@ const gameData = {
               "2. Agree to carry two more cones",
               "3. Walk slowly to M Store without colliding with cars or pedestrians",
               "4. If fail, pay 1200 yen for replacements or give up",
-              "5. Reach family"
+              "5. Reach family",
             ].join("\n"),
             videoId: "",
           },
@@ -3884,7 +3917,7 @@ const gameData = {
             requirements: "Complete some nearby substories",
             guide: [
               "1. Find dude in fancy getup playing sanshin outside Monorail Station",
-              "2. Kiryu steps in, beat up bad guys"
+              "2. Kiryu steps in, beat up bad guys",
             ].join("\n"),
             videoId: "",
           },
@@ -3893,13 +3926,15 @@ const gameData = {
             chapter: 4,
             name: "Presidential Golfer",
             location: "Golf Course",
-            reward: "30,000 yen (lose), 50,000 yen (tie), 100,000 yen + Staminan Spark (win)",
-            requirements: "Daytime, SAVE BEFORE STARTING, must have shot par (±0) previously",
+            reward:
+              "30,000 yen (lose), 50,000 yen (tie), 100,000 yen + Staminan Spark (win)",
+            requirements:
+              "Daytime, SAVE BEFORE STARTING, must have shot par (±0) previously",
             guide: [
               "1. Find company president and subordinate at Golf Course",
               "2. Subordinate asks you to play his boss",
               "3. Play three holes. President shoots -1.",
-              "4. Win for best reward (100,000 yen + Staminan Spark)"
+              "4. Win for best reward (100,000 yen + Staminan Spark)",
             ].join("\n"),
             videoId: "",
           },
@@ -3915,7 +3950,7 @@ const gameData = {
               "2. Find guy in yellow jacket east of Dragon Palace",
               "3. Agree to be led inside, get pitch",
               "4. Refuse to pay both times",
-              "5. Defeat scam artists"
+              "5. Defeat scam artists",
             ].join("\n"),
             videoId: "",
           },
@@ -3932,7 +3967,7 @@ const gameData = {
               " • Mentaiko Tonkotsu Ramen",
               " • Large Kyushu Tonkotsu Ramen",
               " • Double Stewed Tonkotsu Ramen",
-              " • Kyushu Tonkotsu Ramen"
+              " • Kyushu Tonkotsu Ramen",
             ].join("\n"),
             videoId: "",
           },
@@ -3940,7 +3975,8 @@ const gameData = {
             index: 91,
             chapter: 7,
             name: "Queen of Kamurocho",
-            location: "East end of Shichifuku → Park Alley → Kamiyama Works alley → North street → Taxi",
+            location:
+              "East end of Shichifuku → Park Alley → Kamiyama Works alley → North street → Taxi",
             reward: "100,000 yen, Italian Perfume",
             requirements: "Complete 'Mr. Try and Catch Me'",
             guide: [
@@ -3951,7 +3987,7 @@ const gameData = {
               " • Second: Right up Park Alley, in doorway to right",
               " • Third: Left up the street, in alley where Kamiyama Works is",
               " • Fourth: North end of street, left of blue tarp shelter",
-              " • Fifth: Walking near taxi, black cap, no camera up"
+              " • Fifth: Walking near taxi, black cap, no camera up",
             ].join("\n"),
             videoId: "",
           },
@@ -3969,7 +4005,7 @@ const gameData = {
               "4. He flees, agree to chase",
               "5. Talk to guy in black and glasses on street corner, tell him 'black jacket'",
               "6. Go to Children's Park, find the guy, beat him down",
-              "7. Girlfriend shows up, 'Urge Him to Turn Himself In'"
+              "7. Girlfriend shows up, 'Urge Him to Turn Himself In'",
             ].join("\n"),
             videoId: "",
           },
@@ -3977,7 +4013,8 @@ const gameData = {
             index: 93,
             chapter: 3,
             name: "Deliver Race",
-            location: "Waraba Okinawan Soba stall → Maeda Pharmacy → Mahjong Camp → Ryukyu Nights info center",
+            location:
+              "Waraba Okinawan Soba stall → Maeda Pharmacy → Mahjong Camp → Ryukyu Nights info center",
             reward: "10,000 yen",
             requirements: "Visit the soba stall twice first",
             guide: [
@@ -3986,7 +4023,7 @@ const gameData = {
               "3. You have five minutes to deliver three orders:",
               " • Maeda Pharmacy",
               " • Mahjong Camp (up north)",
-              " • Ryukyu Nights info center (northwest)"
+              " • Ryukyu Nights info center (northwest)",
             ].join("\n"),
             videoId: "",
           },
@@ -4006,7 +4043,7 @@ const gameData = {
               " • On roof to southwest (woman in skirt)",
               " • On roof to northwest (woman yelling at cat)",
               " • Clinging to wall to the west (wearing gray)",
-              "4. Beat up the Peeper"
+              "4. Beat up the Peeper",
             ].join("\n"),
             videoId: "",
           },
@@ -4016,12 +4053,13 @@ const gameData = {
             name: "Bouncers Needed",
             location: "Dragon Palace Casino",
             reward: "500,000 yen",
-            requirements: "Complete 'Return to the Dragon Palace', visit Komaki dojo, likely separated from Rikiya",
+            requirements:
+              "Complete 'Return to the Dragon Palace', visit Komaki dojo, likely separated from Rikiya",
             guide: [
               "1. See ruffians hustle casino manager at Dragon Palace",
               "2. Manager asks Kiryu to find bouncers",
               "3. MUST COMPLETE ALL FIVE BOUNCER SUBSTORIES (#96-#100)",
-              "4. Return to casino after completing all five"
+              "4. Return to casino after completing all five",
             ].join("\n"),
             videoId: "",
           },
@@ -4034,7 +4072,7 @@ const gameData = {
             requirements: "Complete 'Bouncers Needed' trigger",
             guide: [
               "1. Find 'Violence Tobita' passed out in NW corner of Champion District",
-              "2. Wake him up, beat him up"
+              "2. Wake him up, beat him up",
             ].join("\n"),
             videoId: "",
           },
@@ -4047,7 +4085,7 @@ const gameData = {
             requirements: "Complete 'The First Bouncer'",
             guide: [
               "1. Get text from manager, find Iwakuma on East Shichifuku marked spot",
-              "2. He is a heavy sumo fighter, defeat him"
+              "2. He is a heavy sumo fighter, defeat him",
             ].join("\n"),
             videoId: "",
           },
@@ -4061,7 +4099,7 @@ const gameData = {
             guide: [
               "1. Get text, find guy in marked back lot in Tenkaichi Alley",
               "2. He sneaks up, answer 'Kiryu. Kazuma Kiryu.'",
-              "3. His name is Nanba, yakuza catch up, defeat them"
+              "3. His name is Nanba, yakuza catch up, defeat them",
             ].join("\n"),
             videoId: "",
           },
@@ -4076,7 +4114,7 @@ const gameData = {
               "1. Get text about weapons enthusiast at Asia",
               "2. Find marked spot near Asia, speak to guy outside to enter",
               "3. Talk to man at door, then man in pink crouched on ground",
-              "4. Fight him in nearby lot (he uses Stun Gun)"
+              "4. Fight him in nearby lot (he uses Stun Gun)",
             ].join("\n"),
             videoId: "",
           },
@@ -4090,7 +4128,7 @@ const gameData = {
             guide: [
               "1. Get final text, find 'Gatling Sendo' at Men's Entertainment Booth on Shichifuku",
               "2. He walks in, speak to him, try to recruit, he refuses",
-              "3. Speak again, fight him, defeat him"
+              "3. Speak again, fight him, defeat him",
             ].join("\n"),
             videoId: "",
           },
@@ -4100,10 +4138,11 @@ const gameData = {
             name: "New Dog, New Tricks: Sit",
             location: "Morning Glory Orphanage yard",
             reward: "Experience",
-            requirements: "Complete 'Morning Glory Hide-and-Seek', after baseball, Haruka not with you",
+            requirements:
+              "Complete 'Morning Glory Hide-and-Seek', after baseball, Haruka not with you",
             guide: [
               "1. Find Izumi and Mame in the yard",
-              "2. Tell Mame to sit, give treat when successful"
+              "2. Tell Mame to sit, give treat when successful",
             ].join("\n"),
             videoId: "",
           },
@@ -4116,7 +4155,7 @@ const gameData = {
             requirements: "Complete 'New Dog, New Tricks: Sit'",
             guide: [
               "1. Speak to Izumi again",
-              "2. Tell Mame to turn around, give treat if successful"
+              "2. Tell Mame to turn around, give treat if successful",
             ].join("\n"),
             videoId: "",
           },
@@ -4129,7 +4168,7 @@ const gameData = {
             requirements: "Complete 'New Dog, New Tricks: Turn Around'",
             guide: [
               "1. Speak to Izumi again",
-              "2. Tell Mame to fetch, give treat if successful"
+              "2. Tell Mame to fetch, give treat if successful",
             ].join("\n"),
             videoId: "",
           },
@@ -4144,7 +4183,7 @@ const gameData = {
               "1. Find woman in suit east of Monorail Station",
               "2. She gives you an English Textbook",
               "3. Go south, find lady crouched by sidewalk (English font)",
-              "4. Say 'Do you need help?'"
+              "4. Say 'Do you need help?'",
             ].join("\n"),
             videoId: "",
           },
@@ -4158,7 +4197,7 @@ const gameData = {
             guide: [
               "1. Return to woman near bridge, buy 'Beginner's Handbook' for 10,000 yen",
               "2. Go to Kariyushi Arcade, find woman near Boba stand",
-              "3. Say 'It's straight this way.'"
+              "3. Say 'It's straight this way.'",
             ].join("\n"),
             videoId: "",
           },
@@ -4172,7 +4211,7 @@ const gameData = {
             guide: [
               "1. Return to lady north of Ebisu Pawn, buy English textbook for 20,000 yen",
               "2. Find 'Stacy' at Aqua Sky",
-              "3. Say 'I don't deserve your love.'"
+              "3. Say 'I don't deserve your love.'",
             ].join("\n"),
             videoId: "",
           },
@@ -4181,13 +4220,14 @@ const gameData = {
             chapter: 10,
             name: "Let's Learn English 4",
             location: "North of Ebisu Pawn → NE of main crossroads",
-            reward: "150,000 yen, Italian Ring (if all responses correct to Stacy)",
+            reward:
+              "150,000 yen, Italian Ring (if all responses correct to Stacy)",
             requirements: "Complete 'Yamashita Treasure Hunt'",
             guide: [
               "1. Return to lady north of Ebisu Pawn, buy dating textbook for 55,000 yen",
               "2. Find Stacy northeast of main crossroads south of Ebisu Pawn",
               "3. Say 'Yes, please!'",
-              "4. Refuse the offer that follows, fight three guys"
+              "4. Refuse the offer that follows, fight three guys",
             ].join("\n"),
             videoId: "",
           },
@@ -4195,9 +4235,11 @@ const gameData = {
             index: 108,
             chapter: 12,
             name: "Amon",
-            location: "HLA Kamuro Castle → Minamida's spot → Mountainside Coliseum (via taxi)",
+            location:
+              "HLA Kamuro Castle → Minamida's spot → Mountainside Coliseum (via taxi)",
             reward: "Substory Completion Reward",
-            requirements: "Complete ALL 119 other Substories, ALL Hitman Missions, ALL Minamida training, must be nighttime",
+            requirements:
+              "Complete ALL 119 other Substories, ALL Hitman Missions, ALL Minamida training, must be nighttime",
             guide: [
               "1. Talk to Ibuki at HLA Kamuro Castle",
               "2. Go talk to Minamida at his spot",
@@ -4207,7 +4249,7 @@ const gameData = {
               "6. Fight Amon in three waves:",
               " • Wave 1: Dual Photon Blades (unblockable, use Tiger Drop during left-right combo)",
               " • Wave 2: Dual Pistols (like Arase, attack from behind, avoid cannonballs)",
-              " • Wave 3: Pistols + Melee (rotating kicks, use Tiger Drop counter)"
+              " • Wave 3: Pistols + Melee (rotating kicks, use Tiger Drop counter)",
             ].join("\n"),
             videoId: "",
           },
@@ -4221,7 +4263,7 @@ const gameData = {
             guide: [
               "1. Find guy in tux vest in front of South Island club (south Hatsumachi)",
               "2. He asks to train a new hostess to become #1",
-              "3. Part of Hostess Maker minigame, only need to complete one hostess for substory"
+              "3. Part of Hostess Maker minigame, only need to complete one hostess for substory",
             ].join("\n"),
             videoId: "",
           },
@@ -4231,8 +4273,11 @@ const gameData = {
             name: "Reimi Betrayed",
             location: "Shine (Kamurocho)",
             reward: "Experience",
-            requirements: "Substory for spending time with Reimi Hanayama (must complete other 9 hostesses first)",
-            guide: ["Complete by spending time with Reimi Hanayama at Shine"].join("\n"),
+            requirements:
+              "Substory for spending time with Reimi Hanayama (must complete other 9 hostesses first)",
+            guide: [
+              "Complete by spending time with Reimi Hanayama at Shine",
+            ].join("\n"),
             videoId: "",
           },
           {
@@ -4242,7 +4287,9 @@ const gameData = {
             location: "Shine (Kamurocho)",
             reward: "Experience",
             requirements: "Substory for spending time with Rin Sasaba",
-            guide: ["Complete by spending time with Rin Sasaba at Shine"].join("\n"),
+            guide: ["Complete by spending time with Rin Sasaba at Shine"].join(
+              "\n"
+            ),
             videoId: "",
           },
           {
@@ -4252,7 +4299,9 @@ const gameData = {
             location: "Shine (Kamurocho)",
             reward: "Experience",
             requirements: "Substory for spending time with Kana Momonogi",
-            guide: ["Complete by spending time with Kana Momonogi at Shine"].join("\n"),
+            guide: [
+              "Complete by spending time with Kana Momonogi at Shine",
+            ].join("\n"),
             videoId: "",
           },
           {
@@ -4262,7 +4311,9 @@ const gameData = {
             location: "Shine (Kamurocho)",
             reward: "Experience",
             requirements: "Substory for spending time with Ranko Yazuki",
-            guide: ["Complete by spending time with Ranko Yazuki at Shine"].join("\n"),
+            guide: [
+              "Complete by spending time with Ranko Yazuki at Shine",
+            ].join("\n"),
             videoId: "",
           },
           {
@@ -4272,7 +4323,9 @@ const gameData = {
             location: "Jewel (Kamurocho)",
             reward: "Experience",
             requirements: "Substory for spending time with Miyu Shiraboshi",
-            guide: ["Complete by spending time with Miyu Shiraboshi at Jewel"].join("\n"),
+            guide: [
+              "Complete by spending time with Miyu Shiraboshi at Jewel",
+            ].join("\n"),
             videoId: "",
           },
           {
@@ -4282,7 +4335,9 @@ const gameData = {
             location: "Jewel (Kamurocho)",
             reward: "Experience",
             requirements: "Substory for spending time with Shiori Nagamori",
-            guide: ["Complete by spending time with Shiori Nagamori at Jewel"].join("\n"),
+            guide: [
+              "Complete by spending time with Shiori Nagamori at Jewel",
+            ].join("\n"),
             videoId: "",
           },
           {
@@ -4292,7 +4347,9 @@ const gameData = {
             location: "Jewel (Kamurocho)",
             reward: "Experience",
             requirements: "Substory for spending time with Yui Hatano",
-            guide: ["Complete by spending time with Yui Hatano at Jewel"].join("\n"),
+            guide: ["Complete by spending time with Yui Hatano at Jewel"].join(
+              "\n"
+            ),
             videoId: "",
           },
           {
@@ -4302,7 +4359,9 @@ const gameData = {
             location: "Flawless (Ryukyu)",
             reward: "Experience",
             requirements: "Substory for spending time with Mika Tsuchiya",
-            guide: ["Complete by spending time with Mika Tsuchiya at Flawless"].join("\n"),
+            guide: [
+              "Complete by spending time with Mika Tsuchiya at Flawless",
+            ].join("\n"),
             videoId: "",
           },
           {
@@ -4312,7 +4371,9 @@ const gameData = {
             location: "Flawless (Ryukyu)",
             reward: "Experience",
             requirements: "Substory for spending time with Nao Kaneshiro",
-            guide: ["Complete by spending time with Nao Kaneshiro at Flawless"].join("\n"),
+            guide: [
+              "Complete by spending time with Nao Kaneshiro at Flawless",
+            ].join("\n"),
             videoId: "",
           },
           {
@@ -4322,7 +4383,9 @@ const gameData = {
             location: "Flawless (Ryukyu)",
             reward: "Experience",
             requirements: "Substory for spending time with Saya Unten",
-            guide: ["Complete by spending time with Saya Unten at Flawless"].join("\n"),
+            guide: [
+              "Complete by spending time with Saya Unten at Flawless",
+            ].join("\n"),
             videoId: "",
           },
         ],
@@ -7059,526 +7122,541 @@ const gameData = {
       "Joryu Jozuma / Kiryu Kazuma": {
         image: "😄",
         substories: [
-  {
-    index: 1,
-    rank: "No Rank",
-    name: "Investigation Request",
-    location: "Sotenbori: Shofukucho (SE corner) → Sotenbori Theater → Club Heavenly",
-    reward: "Completes Request",
-    requirements: "Obtain Hornet Gadget",
-    guide: [
-      "1. Investigate Namioka Family activity in Shofukucho (SE corner)",
-      "2. Lose target, head to Sotenbori Theater (choose any option)",
-      "3. Investigate final spot near Club Heavenly"
-    ].join("\n"),
-    videoId: ""
-  },
-  {
-    index: 2,
-    rank: "No Rank",
-    name: "Film Assistant Needed",
-    location: "Sotenbori: Smile Burger (2nd floor)",
-    reward: "Completes Request",
-    requirements: "Obtain Hornet Gadget",
-    guide: [
-      "1. Meet Kitayama on 2nd floor of Smile Burger",
-      "2. Go through filming scenes",
-      "3. Defeat boss with a knife"
-    ].join("\n"),
-    videoId: ""
-  },
-  {
-    index: 3,
-    rank: "No Rank",
-    name: "Vanquish the Red Peacocks",
-    location: "Sotenbori: West Shofukucho Parking Lot → Various locations",
-    reward: "Completes Request",
-    requirements: "Obtain Hornet Gadget",
-    guide: [
-      "1. Defeat 4 gang members (1 mini-boss) in West Shofukucho parking lot",
-      "2. Defeat 6 gang members (1 mini-boss) on Sotenbori Footpath",
-      "3. Defeat 4 gang members (1 boss) in East Shofukucho",
-      "4. Defeat 4 gang members (1 boss) southeast near Akame's",
-      "5. Defeat leader + 7 members in southwest Shofukucho parking lot"
-    ].join("\n"),
-    videoId: ""
-  },
-  {
-    index: 4,
-    rank: "No Rank",
-    name: "Emergency Request! - Investigate the Immersive Cabaret Club",
-    location: "Sotenbori: Club Heavenly",
-    reward: "Nutriment of the Conquering Emperor x5",
-    requirements: "Automatic story progression",
-    guide: [
-      "1. Visit Club Heavenly (bring 10,000 yen)",
-      "2. Spend time with a hostess",
-      "3. Report back to Akame"
-    ].join("\n"),
-    videoId: ""
-  },
-  {
-    index: 5,
-    rank: "Silver",
-    name: "A Simple Heavy-Lifting Job",
-    location: "Sotenbori: Wild Jackson → Bishamon Bridge → Office Building → Ashitaba Park",
-    reward: "Completes Request",
-    requirements: "Reach Silver Rank",
-    guide: [
-      "1. Meet Matsumura at Wild Jackson",
-      "2. Speak to homeless man under south side of Bishamon Bridge",
-      "3. Go to office building between Bar New Momoko and Kiss Shot",
-      "4. Defeat 2 yakuza inside",
-      "5. Defeat 5 yakuza + boss at Ashitaba Park"
-    ].join("\n"),
-    videoId: ""
-  },
-  {
-    index: 6,
-    rank: "Silver",
-    name: "Ghost of Sotenbori",
-    location: "Sotenbori: East Sotenbori St. → South Shofukucho → Ashitaba Park",
-    reward: "Completes Request",
-    requirements: "Reach Silver Rank",
-    guide: [
-      "1. Defeat 3 yakuza + mini-boss at east end of Sotenbori St.",
-      "2. Defeat 1 enemy in middle of South Shofukucho",
-      "3. Enter door near north end of Ashitaba Park",
-      "4. Defeat 5 yakuza + boss (3 health bars)"
-    ].join("\n"),
-    videoId: ""
-  },
-  {
-    index: 7,
-    rank: "Silver",
-    name: "Seeking Advice",
-    location: "Sotenbori: Smile Burger → Iwao Bridge → Ganko Sushi → River Footpath",
-    reward: "Completes Request",
-    requirements: "Reach Silver Rank",
-    guide: [
-      "1. Talk to young person at Smile Burger",
-      "2. Find him near west edge of Iwao Bridge",
-      "3. Follow to Ganko Sushi, defeat nearby enemy",
-      "4. Chase to north side of river footpath",
-      "5. Defeat weak enemy"
-    ].join("\n"),
-    videoId: ""
-  },
-  {
-    index: 8,
-    rank: "Silver",
-    name: "Recruit Homeless Yamanaka",
-    location: "Sotenbori: Ashitaba Park",
-    reward: "Homeless Yamanaka joins Joryu Clan",
-    requirements: "Reach Silver Rank",
-    guide: [
-      "1. Find Yamanaka at Ashitaba Park",
-      "2. Accept his challenge",
-      "3. Defeat him in combat"
-    ].join("\n"),
-    videoId: ""
-  },
-  {
-    index: 9,
-    rank: "Silver",
-    name: "The Strongest Convenience Store Clerk",
-    location: "Sotenbori: Poppo (West Shofukucho)",
-    reward: "Ryusei Tobashira joins Joryu Clan",
-    requirements: "Reach Silver Rank",
-    guide: [
-      "1. Go to Poppo in West Shofukucho",
-      "2. Defeat Tobashira's manager",
-      "3. Defeat Tobashira"
-    ].join("\n"),
-    videoId: ""
-  },
-  {
-    index: 10,
-    rank: "Silver",
-    name: "Save the Pro Wrestler",
-    location: "Sotenbori: River Footpath (under Iwao Bridge) → Various locations",
-    reward: "Excellent Sujiya joins Joryu Clan",
-    requirements: "Complete 'The Strongest Convenience Store Clerk'",
-    guide: [
-      "1. Meet wrestler under Iwao Bridge",
-      "2. Hand out flyers at 10 locations:",
-      " • North Iwao Bridge",
-      " • West of Club Heavenly",
-      " • North of Shigano Cigarettes",
-      " • Outside Kiss Shot",
-      " • Near Wild Jackson",
-      " • Northwest corner of Sotenbori",
-      " • North of Kushikatsu Daruma",
-      " • SW of Kushikatsu Daruma on river footpath",
-      " • Near Poppo on Sotenbori St.",
-      " • North of Hiratai on southern river footpath",
-      "3. Return and defeat the wrestler"
-    ].join("\n"),
-    videoId: ""
-  },
-  {
-    index: 11,
-    rank: "Silver",
-    name: "The Cat-Lovin' Rapper",
-    location: "Sotenbori: East Shofukucho → Various locations",
-    reward: "KATSUWO joins Joryu Clan",
-    requirements: "Complete 'Recruit Homeless Yamanaka'",
-    guide: [
-      "1. Find rapper near taxi in East Shofukucho",
-      "2. Defeat him in combat",
-      "3. Defeat cat abusers at 3 locations:",
-      " • Southwest Shofukucho Parking Lot",
-      " • Parking lot SE of Coin Lockers",
-      " • Under south side of Iwao Bridge",
-      "4. Return to rapper, defeat 4 enemies including boss"
-    ].join("\n"),
-    videoId: ""
-  },
-  {
-    index: 12,
-    rank: "Silver",
-    name: "The Struggling Host",
-    location: "Sotenbori: Central Shofukucho → Various locations",
-    reward: "Renji joins Joryu Clan",
-    requirements: "Complete 'Liberate the Hammer Man'",
-    guide: [
-      "1. Find host near Club Heavenly in central Shofukucho",
-      "2. Talk to customers at 7 locations:",
-      " • The Grand (NW corner)",
-      " • Near Poppo in Shofukucho",
-      " • Southwest Shofukucho corner",
-      " • East Sotenbori St. near Poppo",
-      " • Behind pillars at 'Hotel Turtle' in West Shofukucho",
-      " • South of Iwao Bridge (red-haired guy)",
-      " • Southwest Shofukucho near Club Sunshine",
-      "3. Defeat rival host Itsuki",
-      "4. Return and defeat Renji"
-    ].join("\n"),
-    videoId: ""
-  },
-  {
-    index: 13,
-    rank: "Silver",
-    name: "Liberate the Hammer Man",
-    location: "Sotenbori: South Sotenbori Footpath → East near river",
-    reward: "Yuji Nunokawa joins Joryu Clan",
-    requirements: "Reach Silver Rank",
-    guide: [
-      "1. Find big guy with hammer on south Sotenbori Footpath (need 1,000,000 yen)",
-      "2. Offer to pay his debt",
-      "3. Give money to foreman in high-vis vest east near river",
-      "4. Defeat the big guy",
-      "5. Defeat foreman + 5 lackeys"
-    ].join("\n"),
-    videoId: ""
-  },
-  {
-    index: 14,
-    rank: "Silver",
-    name: "Final Showdown: Red Peacocks",
-    location: "Sotenbori: Outside Four Shine",
-    reward: "Akira Guren joins Joryu Clan",
-    requirements: "Complete 'Vanquish the Red Peacocks'",
-    guide: [
-      "1. Go to area outside Four Shine",
-      "2. Defeat 16 Red Peacocks including their leader"
-    ].join("\n"),
-    videoId: ""
-  },
-  {
-    index: 15,
-    rank: "Silver",
-    name: "Vanquish the White Knights",
-    location: "Sotenbori: Hiratai → Various locations → East Sotenbori St.",
-    reward: "Completes Request",
-    requirements: "Complete 'Final Showdown: Red Peacocks'",
-    guide: [
-      "1. Defeat 4 White Knights (1 mini-boss) at Hiratai on Sotenbori Footpath",
-      "2. Defeat 3 White Knights (1 mini-boss) at Bunzameon Outdoor Mall",
-      "3. Defeat 3 White Knights (1 mini-boss) in Central Shofukucho",
-      "4. Defeat 4 White Knights (1 mini-boss) in South Shofukucho",
-      "5. Defeat boss + 4 members on east side of Sotenbori St."
-    ].join("\n"),
-    videoId: ""
-  },
-  {
-    index: 16,
-    rank: "Silver",
-    name: "Final Showdown: White Knights",
-    location: "Sotenbori: West Sotenbori St. (outside Kinryu Ramen)",
-    reward: "Koji Shiranita joins Joryu Clan",
-    requirements: "Complete 'Vanquish the White Knights'",
-    guide: [
-      "1. Go to area outside Kinryu Ramen on west Sotenbori St.",
-      "2. Defeat 15 White Knights including their leader (4 health bars)"
-    ].join("\n"),
-    videoId: ""
-  },
-  {
-    index: 17,
-    rank: "Silver",
-    name: "The Golden Samurai",
-    location: "Random encounter throughout city",
-    reward: "Completes Request",
-    requirements: "Reach Silver Rank",
-    guide: [
-      "1. Find Golden Samurai with purple arrow on minimap",
-      "2. Defeat him (4 health bars, uses sword)"
-    ].join("\n"),
-    videoId: ""
-  },
-  {
-    index: 18,
-    rank: "Silver",
-    name: "Reach Gold Tier",
-    location: "Akame's Hideout",
-    reward: "Advances Akame Network Rank",
-    requirements: "Reach Akame Network Rank 10 + Win 3 Silver Rank Coliseum fights",
-    guide: [
-      "1. Reach Akame Network Rank 10",
-      "2. Win 3 Silver Rank fights in Coliseum",
-      "3. Report back to Akame"
-    ].join("\n"),
-    videoId: ""
-  },
-  {
-    index: 19,
-    rank: "Gold",
-    name: "End the Destruction",
-    location: "Sotenbori: Shofukucho Construction Site → West → SE of Bishamon Bridge",
-    reward: "Masaharu Kaito and Toru Higashi assist Joryu Clan",
-    requirements: "Reach Gold Rank",
-    guide: [
-      "1. Defeat 'gorilla man' at Shofukucho construction site (2 health bars)",
-      "2. Talk to homeless guy west of construction site",
-      "3. Defeat 4 thugs",
-      "4. Defeat detective (5 health bars)",
-      "5. Go to door southeast of Bishamon Bridge",
-      "6. Defeat 9 enemies including boss (with 2 allies)"
-    ].join("\n"),
-    videoId: ""
-  },
-  {
-    index: 20,
-    rank: "Gold",
-    name: "Gotta Catch 'em Balls!",
-    location: "Various locations → Back alley near Fukuru",
-    reward: "Varies based on wish choice",
-    requirements: "Chapter 4 + Reach Gold Rank",
-    guide: [
-      "Find all 7 Gold Balls:",
-      "1. Purchase from Ebisu Pawn for ¥77,777",
-      "2. Trade 777 Pool points at Kiss Shot",
-      "3. Purchase from Akame Shop (3rd level) for 777 Akame Points",
-      "4. Use Wire on flexing fellow on eastward boat on river",
-      "5. Use Wire on muscle guy's pants in Castle dance club",
-      "6. Use Wire on oni statue's skirt in Fighter's Lounge stairwell",
-      "7. Complete 'Solve the Mysterious Note' Stroll 'n Patrol mission",
-      "8. Return to Akame, then meet guy in back alley near Fukuru",
-      "9. Choose a wish:",
-      " • 'Endless riches' = ¥1,000,000",
-      " • 'Eternal life' = Nourishment of the Sea King x100",
-      " • 'Sexy panties' = Shen-san's Panties (sell for ¥1,500,000)"
-    ].join("\n"),
-    videoId: ""
-  },
-  {
-    index: 21,
-    rank: "Gold",
-    name: "Vanquish the Black Swallowtails",
-    location: "Sotenbori: Near Coin Lockers → Various locations → Yotsudera Kaikan",
-    reward: "Completes Request",
-    requirements: "Complete 'Final Showdown: White Knights'",
-    guide: [
-      "1. Defeat 5 Black Swallowtails (1 boss with katana) near Coin Lockers",
-      "2. Defeat 4 Black Swallowtails (1 boss with katana) near Riichi Towers Mahjong",
-      "3. Defeat 4 Black Swallowtails (1 boss with hammer) near Kushikatsu Daruma",
-      "4. Defeat 5 Black Swallowtails (1 boss, most have pistols) near Shigano Cigarettes",
-      "5. Defeat 7 Black Swallowtails (armed with various weapons) on 2nd floor of Yotsudera Kaikan"
-    ].join("\n"),
-    videoId: ""
-  },
-  {
-    index: 22,
-    rank: "Gold",
-    name: "Final Showdown: Black Swallowtails",
-    location: "Sotenbori: Iwao Bridge",
-    reward: "Keita Kuroyanagi joins Joryu Clan",
-    requirements: "Complete 'Vanquish the Black Swallowtails'",
-    guide: [
-      "1. Go to Iwao Bridge",
-      "2. Defeat 16 Black Swallowtails including their leader"
-    ].join("\n"),
-    videoId: ""
-  },
-  {
-    index: 23,
-    rank: "Gold",
-    name: "The Golden Scourge",
-    location: "Random encounter throughout city",
-    reward: "Completes Request",
-    requirements: "Complete 'The Golden Samurai'",
-    guide: [
-      "1. Find Golden Samurai with purple arrow on minimap",
-      "2. Defeat him (5 health bars, increased attack power)"
-    ].join("\n"),
-    videoId: ""
-  },
-  {
-    index: 24,
-    rank: "Gold",
-    name: "Reach Platinum Tier",
-    location: "Akame's Hideout",
-    reward: "Advances Akame Network Rank",
-    requirements: "Reach Akame Network Rank 20 + Win 3 Gold Rank Coliseum fights",
-    guide: [
-      "1. Reach Akame Network Rank 20",
-      "2. Win 3 Gold Rank fights in Coliseum",
-      "3. Report back to Akame"
-    ].join("\n"),
-    videoId: ""
-  },
-  {
-    index: 25,
-    rank: "Gold",
-    name: "Friends in Special Places",
-    location: "Various bars in Sotenbori",
-    reward: "Strengthens bond with Akame",
-    requirements: "Reach Gold Rank + Akame Network Levels 13, 16, and 19",
-    guide: [
-      "1. Reach Akame Network Level 13, 16, and 19",
-      "2. Accept drink offers from Akame each time",
-      "3. On fourth outing, defeat 5 enemies including a boss"
-    ].join("\n"),
-    videoId: ""
-  },
-  {
-    index: 26,
-    rank: "Platinum",
-    name: "Golden Gauntlet Throwdown",
-    location: "Sotenbori: Yotsudera Kaikan (roof)",
-    reward: "Completes Request",
-    requirements: "Complete 'The Golden Scourge'",
-    guide: [
-      "1. Go to roof of Yotsudera Kaikan",
-      "2. Defeat Golden Samurai (6 health bars, enhanced armor and blocking)"
-    ].join("\n"),
-    videoId: ""
-  },
-  {
-    index: 27,
-    rank: "Coliseum",
-    name: "The Four Kings of the Coliseum",
-    location: "Castle: Coliseum",
-    reward: "Progresses Coliseum story",
-    requirements: "Chapter 4 (automatic after leaving Castle)",
-    guide: [
-      "1. Automatically triggered after leaving Castle in Chapter 4",
-      "2. Defeat Dan Brody (uses knife, drones, and flash grenades)"
-    ].join("\n"),
-    videoId: ""
-  },
-  {
-    index: 28,
-    rank: "Coliseum",
-    name: "King Dan Brody",
-    location: "Castle: Coliseum",
-    reward: "Progresses Coliseum story",
-    requirements: "Reach Platinum Coliseum Rank + Complete 'The Four Kings of the Coliseum'",
-    guide: [
-      "1. Reach Platinum Rank in Coliseum",
-      "2. Challenge Dan Brody in Hell Team Rumble",
-      "3. Defeat 4 teen punks + Dan Brody (approx. 15 health bars) within 3 minutes"
-    ].join("\n"),
-    videoId: ""
-  },
-  {
-    index: 29,
-    rank: "Coliseum",
-    name: "Mizorogi's Big Dreams",
-    location: "Akame's Hideout",
-    reward: "Unlocks 'Heat Action: Daidoji Martial Mastery' upgrade",
-    requirements: "Defeat first Coliseum King + Upgrade all Gadgets to Level 5",
-    guide: [
-      "1. Upgrade all Gadgets to Level 5",
-      "2. Return to Mizorogi at Akame's Hideout",
-      "3. Purchase the new Heat Action upgrade"
-    ].join("\n"),
-    videoId: ""
-  },
-  {
-    index: 30,
-    rank: "Coliseum",
-    name: "King Kunemitsu Samejima",
-    location: "Castle: Coliseum",
-    reward: "Progresses Coliseum story",
-    requirements: "Defeat first Coliseum King",
-    guide: [
-      "1. Challenge Kunemitsu Samejima in one-on-one fight",
-      "2. Defeat him (uses dual pistols and Serpent shoes)"
-    ].join("\n"),
-    videoId: ""
-  },
-  {
-    index: 31,
-    rank: "Coliseum",
-    name: "King JUSTICE",
-    location: "Castle: Coliseum",
-    reward: "Progresses Coliseum story",
-    requirements: "Defeat previous Coliseum Kings",
-    guide: [
-      "1. Challenge JUSTICE in Three King brawl (Hell Team Rumble)",
-      "2. Defeat 16 thugs + Dan Brody + Samejima + JUSTICE",
-      "3. JUSTICE uses laser beam and has healing ability"
-    ].join("\n"),
-    videoId: ""
-  },
-  {
-    index: 32,
-    rank: "Coliseum",
-    name: "King Kiyoshi Ugajin",
-    location: "Castle: Coliseum",
-    reward: "Progresses Coliseum story",
-    requirements: "Defeat previous Coliseum Kings",
-    guide: [
-      "1. Challenge Kiyoshi Ugajin in one-on-one fight",
-      "2. Defeat him (uses Spider wire, Hornets, has 6 health bars)"
-    ].join("\n"),
-    videoId: ""
-  },
-  {
-    index: 33,
-    rank: "Coliseum",
-    name: "Operation Family Welfare",
-    location: "Castle: Coliseum",
-    reward: "Completes Coliseum storyline",
-    requirements: "Defeat all Four Kings of Coliseum",
-    guide: [
-      "1. Check Requests at Akame's Hideout after defeating Four Kings",
-      "2. Automatically go to fight",
-      "3. Defeat 8 yakuza + boss (uses Hornet drones)"
-    ].join("\n"),
-    videoId: ""
-  },
-  {
-    index: 34,
-    rank: "Coliseum",
-    name: "Path to the Strongest",
-    location: "Castle: Coliseum → Helipad",
-    reward: "War God Talisman",
-    requirements: "Complete Minamida Grand Prix (all Coliseum fights and substories)",
-    guide: [
-      "Part 1 - Hell Team Rumble:",
-      "1. Defeat 10 silver bots + Tetsu Amon (gold bot)",
-      "2. Use Agent Style, Extreme Heat strategy",
-      "Part 2 - Gai Amon:",
-      "1. Defeat Gai Amon on helipad",
-      "2. Counter his attacks: Hornet heart (summon your own), explosive discs, Spider Wire, explosives, knives, caltrops, drones",
-      "3. Final phase (4 health bars): He heals when hitting you, use Tiger Drop and Heat Actions"
-    ].join("\n"),
-    videoId: ""
-  }
-],
+          {
+            index: 1,
+            rank: "No Rank",
+            name: "Investigation Request",
+            location:
+              "Sotenbori: Shofukucho (SE corner) → Sotenbori Theater → Club Heavenly",
+            reward: "Completes Request",
+            requirements: "Obtain Hornet Gadget",
+            guide: [
+              "1. Investigate Namioka Family activity in Shofukucho (SE corner)",
+              "2. Lose target, head to Sotenbori Theater (choose any option)",
+              "3. Investigate final spot near Club Heavenly",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 2,
+            rank: "No Rank",
+            name: "Film Assistant Needed",
+            location: "Sotenbori: Smile Burger (2nd floor)",
+            reward: "Completes Request",
+            requirements: "Obtain Hornet Gadget",
+            guide: [
+              "1. Meet Kitayama on 2nd floor of Smile Burger",
+              "2. Go through filming scenes",
+              "3. Defeat boss with a knife",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 3,
+            rank: "No Rank",
+            name: "Vanquish the Red Peacocks",
+            location:
+              "Sotenbori: West Shofukucho Parking Lot → Various locations",
+            reward: "Completes Request",
+            requirements: "Obtain Hornet Gadget",
+            guide: [
+              "1. Defeat 4 gang members (1 mini-boss) in West Shofukucho parking lot",
+              "2. Defeat 6 gang members (1 mini-boss) on Sotenbori Footpath",
+              "3. Defeat 4 gang members (1 boss) in East Shofukucho",
+              "4. Defeat 4 gang members (1 boss) southeast near Akame's",
+              "5. Defeat leader + 7 members in southwest Shofukucho parking lot",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 4,
+            rank: "No Rank",
+            name: "Emergency Request! - Investigate the Immersive Cabaret Club",
+            location: "Sotenbori: Club Heavenly",
+            reward: "Nutriment of the Conquering Emperor x5",
+            requirements: "Automatic story progression",
+            guide: [
+              "1. Visit Club Heavenly (bring 10,000 yen)",
+              "2. Spend time with a hostess",
+              "3. Report back to Akame",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 5,
+            rank: "Silver",
+            name: "A Simple Heavy-Lifting Job",
+            location:
+              "Sotenbori: Wild Jackson → Bishamon Bridge → Office Building → Ashitaba Park",
+            reward: "Completes Request",
+            requirements: "Reach Silver Rank",
+            guide: [
+              "1. Meet Matsumura at Wild Jackson",
+              "2. Speak to homeless man under south side of Bishamon Bridge",
+              "3. Go to office building between Bar New Momoko and Kiss Shot",
+              "4. Defeat 2 yakuza inside",
+              "5. Defeat 5 yakuza + boss at Ashitaba Park",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 6,
+            rank: "Silver",
+            name: "Ghost of Sotenbori",
+            location:
+              "Sotenbori: East Sotenbori St. → South Shofukucho → Ashitaba Park",
+            reward: "Completes Request",
+            requirements: "Reach Silver Rank",
+            guide: [
+              "1. Defeat 3 yakuza + mini-boss at east end of Sotenbori St.",
+              "2. Defeat 1 enemy in middle of South Shofukucho",
+              "3. Enter door near north end of Ashitaba Park",
+              "4. Defeat 5 yakuza + boss (3 health bars)",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 7,
+            rank: "Silver",
+            name: "Seeking Advice",
+            location:
+              "Sotenbori: Smile Burger → Iwao Bridge → Ganko Sushi → River Footpath",
+            reward: "Completes Request",
+            requirements: "Reach Silver Rank",
+            guide: [
+              "1. Talk to young person at Smile Burger",
+              "2. Find him near west edge of Iwao Bridge",
+              "3. Follow to Ganko Sushi, defeat nearby enemy",
+              "4. Chase to north side of river footpath",
+              "5. Defeat weak enemy",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 8,
+            rank: "Silver",
+            name: "Recruit Homeless Yamanaka",
+            location: "Sotenbori: Ashitaba Park",
+            reward: "Homeless Yamanaka joins Joryu Clan",
+            requirements: "Reach Silver Rank",
+            guide: [
+              "1. Find Yamanaka at Ashitaba Park",
+              "2. Accept his challenge",
+              "3. Defeat him in combat",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 9,
+            rank: "Silver",
+            name: "The Strongest Convenience Store Clerk",
+            location: "Sotenbori: Poppo (West Shofukucho)",
+            reward: "Ryusei Tobashira joins Joryu Clan",
+            requirements: "Reach Silver Rank",
+            guide: [
+              "1. Go to Poppo in West Shofukucho",
+              "2. Defeat Tobashira's manager",
+              "3. Defeat Tobashira",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 10,
+            rank: "Silver",
+            name: "Save the Pro Wrestler",
+            location:
+              "Sotenbori: River Footpath (under Iwao Bridge) → Various locations",
+            reward: "Excellent Sujiya joins Joryu Clan",
+            requirements: "Complete 'The Strongest Convenience Store Clerk'",
+            guide: [
+              "1. Meet wrestler under Iwao Bridge",
+              "2. Hand out flyers at 10 locations:",
+              " • North Iwao Bridge",
+              " • West of Club Heavenly",
+              " • North of Shigano Cigarettes",
+              " • Outside Kiss Shot",
+              " • Near Wild Jackson",
+              " • Northwest corner of Sotenbori",
+              " • North of Kushikatsu Daruma",
+              " • SW of Kushikatsu Daruma on river footpath",
+              " • Near Poppo on Sotenbori St.",
+              " • North of Hiratai on southern river footpath",
+              "3. Return and defeat the wrestler",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 11,
+            rank: "Silver",
+            name: "The Cat-Lovin' Rapper",
+            location: "Sotenbori: East Shofukucho → Various locations",
+            reward: "KATSUWO joins Joryu Clan",
+            requirements: "Complete 'Recruit Homeless Yamanaka'",
+            guide: [
+              "1. Find rapper near taxi in East Shofukucho",
+              "2. Defeat him in combat",
+              "3. Defeat cat abusers at 3 locations:",
+              " • Southwest Shofukucho Parking Lot",
+              " • Parking lot SE of Coin Lockers",
+              " • Under south side of Iwao Bridge",
+              "4. Return to rapper, defeat 4 enemies including boss",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 12,
+            rank: "Silver",
+            name: "The Struggling Host",
+            location: "Sotenbori: Central Shofukucho → Various locations",
+            reward: "Renji joins Joryu Clan",
+            requirements: "Complete 'Liberate the Hammer Man'",
+            guide: [
+              "1. Find host near Club Heavenly in central Shofukucho",
+              "2. Talk to customers at 7 locations:",
+              " • The Grand (NW corner)",
+              " • Near Poppo in Shofukucho",
+              " • Southwest Shofukucho corner",
+              " • East Sotenbori St. near Poppo",
+              " • Behind pillars at 'Hotel Turtle' in West Shofukucho",
+              " • South of Iwao Bridge (red-haired guy)",
+              " • Southwest Shofukucho near Club Sunshine",
+              "3. Defeat rival host Itsuki",
+              "4. Return and defeat Renji",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 13,
+            rank: "Silver",
+            name: "Liberate the Hammer Man",
+            location: "Sotenbori: South Sotenbori Footpath → East near river",
+            reward: "Yuji Nunokawa joins Joryu Clan",
+            requirements: "Reach Silver Rank",
+            guide: [
+              "1. Find big guy with hammer on south Sotenbori Footpath (need 1,000,000 yen)",
+              "2. Offer to pay his debt",
+              "3. Give money to foreman in high-vis vest east near river",
+              "4. Defeat the big guy",
+              "5. Defeat foreman + 5 lackeys",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 14,
+            rank: "Silver",
+            name: "Final Showdown: Red Peacocks",
+            location: "Sotenbori: Outside Four Shine",
+            reward: "Akira Guren joins Joryu Clan",
+            requirements: "Complete 'Vanquish the Red Peacocks'",
+            guide: [
+              "1. Go to area outside Four Shine",
+              "2. Defeat 16 Red Peacocks including their leader",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 15,
+            rank: "Silver",
+            name: "Vanquish the White Knights",
+            location:
+              "Sotenbori: Hiratai → Various locations → East Sotenbori St.",
+            reward: "Completes Request",
+            requirements: "Complete 'Final Showdown: Red Peacocks'",
+            guide: [
+              "1. Defeat 4 White Knights (1 mini-boss) at Hiratai on Sotenbori Footpath",
+              "2. Defeat 3 White Knights (1 mini-boss) at Bunzameon Outdoor Mall",
+              "3. Defeat 3 White Knights (1 mini-boss) in Central Shofukucho",
+              "4. Defeat 4 White Knights (1 mini-boss) in South Shofukucho",
+              "5. Defeat boss + 4 members on east side of Sotenbori St.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 16,
+            rank: "Silver",
+            name: "Final Showdown: White Knights",
+            location: "Sotenbori: West Sotenbori St. (outside Kinryu Ramen)",
+            reward: "Koji Shiranita joins Joryu Clan",
+            requirements: "Complete 'Vanquish the White Knights'",
+            guide: [
+              "1. Go to area outside Kinryu Ramen on west Sotenbori St.",
+              "2. Defeat 15 White Knights including their leader (4 health bars)",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 17,
+            rank: "Silver",
+            name: "The Golden Samurai",
+            location: "Random encounter throughout city",
+            reward: "Completes Request",
+            requirements: "Reach Silver Rank",
+            guide: [
+              "1. Find Golden Samurai with purple arrow on minimap",
+              "2. Defeat him (4 health bars, uses sword)",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 18,
+            rank: "Silver",
+            name: "Reach Gold Tier",
+            location: "Akame's Hideout",
+            reward: "Advances Akame Network Rank",
+            requirements:
+              "Reach Akame Network Rank 10 + Win 3 Silver Rank Coliseum fights",
+            guide: [
+              "1. Reach Akame Network Rank 10",
+              "2. Win 3 Silver Rank fights in Coliseum",
+              "3. Report back to Akame",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 19,
+            rank: "Gold",
+            name: "End the Destruction",
+            location:
+              "Sotenbori: Shofukucho Construction Site → West → SE of Bishamon Bridge",
+            reward: "Masaharu Kaito and Toru Higashi assist Joryu Clan",
+            requirements: "Reach Gold Rank",
+            guide: [
+              "1. Defeat 'gorilla man' at Shofukucho construction site (2 health bars)",
+              "2. Talk to homeless guy west of construction site",
+              "3. Defeat 4 thugs",
+              "4. Defeat detective (5 health bars)",
+              "5. Go to door southeast of Bishamon Bridge",
+              "6. Defeat 9 enemies including boss (with 2 allies)",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 20,
+            rank: "Gold",
+            name: "Gotta Catch 'em Balls!",
+            location: "Various locations → Back alley near Fukuru",
+            reward: "Varies based on wish choice",
+            requirements: "Chapter 4 + Reach Gold Rank",
+            guide: [
+              "Find all 7 Gold Balls:",
+              "1. Purchase from Ebisu Pawn for ¥77,777",
+              "2. Trade 777 Pool points at Kiss Shot",
+              "3. Purchase from Akame Shop (3rd level) for 777 Akame Points",
+              "4. Use Wire on flexing fellow on eastward boat on river",
+              "5. Use Wire on muscle guy's pants in Castle dance club",
+              "6. Use Wire on oni statue's skirt in Fighter's Lounge stairwell",
+              "7. Complete 'Solve the Mysterious Note' Stroll 'n Patrol mission",
+              "8. Return to Akame, then meet guy in back alley near Fukuru",
+              "9. Choose a wish:",
+              " • 'Endless riches' = ¥1,000,000",
+              " • 'Eternal life' = Nourishment of the Sea King x100",
+              " • 'Sexy panties' = Shen-san's Panties (sell for ¥1,500,000)",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 21,
+            rank: "Gold",
+            name: "Vanquish the Black Swallowtails",
+            location:
+              "Sotenbori: Near Coin Lockers → Various locations → Yotsudera Kaikan",
+            reward: "Completes Request",
+            requirements: "Complete 'Final Showdown: White Knights'",
+            guide: [
+              "1. Defeat 5 Black Swallowtails (1 boss with katana) near Coin Lockers",
+              "2. Defeat 4 Black Swallowtails (1 boss with katana) near Riichi Towers Mahjong",
+              "3. Defeat 4 Black Swallowtails (1 boss with hammer) near Kushikatsu Daruma",
+              "4. Defeat 5 Black Swallowtails (1 boss, most have pistols) near Shigano Cigarettes",
+              "5. Defeat 7 Black Swallowtails (armed with various weapons) on 2nd floor of Yotsudera Kaikan",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 22,
+            rank: "Gold",
+            name: "Final Showdown: Black Swallowtails",
+            location: "Sotenbori: Iwao Bridge",
+            reward: "Keita Kuroyanagi joins Joryu Clan",
+            requirements: "Complete 'Vanquish the Black Swallowtails'",
+            guide: [
+              "1. Go to Iwao Bridge",
+              "2. Defeat 16 Black Swallowtails including their leader",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 23,
+            rank: "Gold",
+            name: "The Golden Scourge",
+            location: "Random encounter throughout city",
+            reward: "Completes Request",
+            requirements: "Complete 'The Golden Samurai'",
+            guide: [
+              "1. Find Golden Samurai with purple arrow on minimap",
+              "2. Defeat him (5 health bars, increased attack power)",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 24,
+            rank: "Gold",
+            name: "Reach Platinum Tier",
+            location: "Akame's Hideout",
+            reward: "Advances Akame Network Rank",
+            requirements:
+              "Reach Akame Network Rank 20 + Win 3 Gold Rank Coliseum fights",
+            guide: [
+              "1. Reach Akame Network Rank 20",
+              "2. Win 3 Gold Rank fights in Coliseum",
+              "3. Report back to Akame",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 25,
+            rank: "Gold",
+            name: "Friends in Special Places",
+            location: "Various bars in Sotenbori",
+            reward: "Strengthens bond with Akame",
+            requirements:
+              "Reach Gold Rank + Akame Network Levels 13, 16, and 19",
+            guide: [
+              "1. Reach Akame Network Level 13, 16, and 19",
+              "2. Accept drink offers from Akame each time",
+              "3. On fourth outing, defeat 5 enemies including a boss",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 26,
+            rank: "Platinum",
+            name: "Golden Gauntlet Throwdown",
+            location: "Sotenbori: Yotsudera Kaikan (roof)",
+            reward: "Completes Request",
+            requirements: "Complete 'The Golden Scourge'",
+            guide: [
+              "1. Go to roof of Yotsudera Kaikan",
+              "2. Defeat Golden Samurai (6 health bars, enhanced armor and blocking)",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 27,
+            rank: "Coliseum",
+            name: "The Four Kings of the Coliseum",
+            location: "Castle: Coliseum",
+            reward: "Progresses Coliseum story",
+            requirements: "Chapter 4 (automatic after leaving Castle)",
+            guide: [
+              "1. Automatically triggered after leaving Castle in Chapter 4",
+              "2. Defeat Dan Brody (uses knife, drones, and flash grenades)",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 28,
+            rank: "Coliseum",
+            name: "King Dan Brody",
+            location: "Castle: Coliseum",
+            reward: "Progresses Coliseum story",
+            requirements:
+              "Reach Platinum Coliseum Rank + Complete 'The Four Kings of the Coliseum'",
+            guide: [
+              "1. Reach Platinum Rank in Coliseum",
+              "2. Challenge Dan Brody in Hell Team Rumble",
+              "3. Defeat 4 teen punks + Dan Brody (approx. 15 health bars) within 3 minutes",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 29,
+            rank: "Coliseum",
+            name: "Mizorogi's Big Dreams",
+            location: "Akame's Hideout",
+            reward: "Unlocks 'Heat Action: Daidoji Martial Mastery' upgrade",
+            requirements:
+              "Defeat first Coliseum King + Upgrade all Gadgets to Level 5",
+            guide: [
+              "1. Upgrade all Gadgets to Level 5",
+              "2. Return to Mizorogi at Akame's Hideout",
+              "3. Purchase the new Heat Action upgrade",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 30,
+            rank: "Coliseum",
+            name: "King Kunemitsu Samejima",
+            location: "Castle: Coliseum",
+            reward: "Progresses Coliseum story",
+            requirements: "Defeat first Coliseum King",
+            guide: [
+              "1. Challenge Kunemitsu Samejima in one-on-one fight",
+              "2. Defeat him (uses dual pistols and Serpent shoes)",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 31,
+            rank: "Coliseum",
+            name: "King JUSTICE",
+            location: "Castle: Coliseum",
+            reward: "Progresses Coliseum story",
+            requirements: "Defeat previous Coliseum Kings",
+            guide: [
+              "1. Challenge JUSTICE in Three King brawl (Hell Team Rumble)",
+              "2. Defeat 16 thugs + Dan Brody + Samejima + JUSTICE",
+              "3. JUSTICE uses laser beam and has healing ability",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 32,
+            rank: "Coliseum",
+            name: "King Kiyoshi Ugajin",
+            location: "Castle: Coliseum",
+            reward: "Progresses Coliseum story",
+            requirements: "Defeat previous Coliseum Kings",
+            guide: [
+              "1. Challenge Kiyoshi Ugajin in one-on-one fight",
+              "2. Defeat him (uses Spider wire, Hornets, has 6 health bars)",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 33,
+            rank: "Coliseum",
+            name: "Operation Family Welfare",
+            location: "Castle: Coliseum",
+            reward: "Completes Coliseum storyline",
+            requirements: "Defeat all Four Kings of Coliseum",
+            guide: [
+              "1. Check Requests at Akame's Hideout after defeating Four Kings",
+              "2. Automatically go to fight",
+              "3. Defeat 8 yakuza + boss (uses Hornet drones)",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 34,
+            rank: "Coliseum",
+            name: "Path to the Strongest",
+            location: "Castle: Coliseum → Helipad",
+            reward: "War God Talisman",
+            requirements:
+              "Complete Minamida Grand Prix (all Coliseum fights and substories)",
+            guide: [
+              "Part 1 - Hell Team Rumble:",
+              "1. Defeat 10 silver bots + Tetsu Amon (gold bot)",
+              "2. Use Agent Style, Extreme Heat strategy",
+              "Part 2 - Gai Amon:",
+              "1. Defeat Gai Amon on helipad",
+              "2. Counter his attacks: Hornet heart (summon your own), explosive discs, Spider Wire, explosives, knives, caltrops, drones",
+              "3. Final phase (4 health bars): He heals when hitting you, use Tiger Drop and Heat Actions",
+            ].join("\n"),
+            videoId: "",
+          },
+        ],
       },
     },
   },

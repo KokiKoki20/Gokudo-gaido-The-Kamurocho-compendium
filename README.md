@@ -2,7 +2,7 @@
 *The Ultimate Yakuza/Like a Dragon Substory Companion*  
 
 ### Link for easier Access:
-**https://kokikoki20.github.io/Gokudo-gaido-The-Kamurocho-compendium/ **
+https://kokikoki20.github.io/Gokudo-gaido-The-Kamurocho-compendium/
 
 🎮 Game Completion Status  
 **Legend:**  

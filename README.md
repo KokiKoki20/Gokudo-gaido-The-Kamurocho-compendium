@@ -10,7 +10,7 @@ https://kokikoki20.github.io/Gokudo-gaido-The-Kamurocho-compendium/
 
 ### Mainline Series
 `Yakuza 0` 🟡 (5%)  
-`Yakuza Kiwami` 🟡 (90%)
+`Yakuza Kiwami` 🟡 (90%)                   
 `Yakuza PS2` 🟡 (90%)            
 `Yakuza Kiwami 2` 🟢 (100%)  
 `Yakuza 2 PS2` 🔴 (0%)             

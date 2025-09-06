@@ -6,316 +6,922 @@ const gameData = {
         image: "./images/characters/Kiryu/KiryuY0.webp",
         substories: [
           {
-            name: "From a Far-off Land",
+            index: 1,
+            chapter: 5,
+            name: "The Visionary Fortune-teller",
             location:
-              "Nagasu Blvd/Ose Bridge intersection → Taxi Office → Convenience Store ATM",
-            reward: "None (story reward)",
-            requirements: "Evening in Chapter 2, 70,000 yen total",
-            guide: [
-              "1. Witness mother/son conversation at intersection",
-              "2. Visit Taxi Office and speak to Wada (back room)",
-              "3. Use any convenience store ATM:",
-              "   • Send 8 payments (one per orphanage child)",
-              "   • Total cost: 70,000 yen",
-              "   • Earn money via taxi missions if needed",
-              "4. Complete after final transfer",
-            ].join("\n"),
-            videoId: "",
-          },
-
-          {
-            name: "Taxi SOS",
-            location: "Ebisu Pawn → Nagasu Blvd → Suzukake Lane → Parking Lot",
-            reward: "Staminan Royale",
-            requirements: "Beginning of Chapter 2",
-            guide: [
-              "1. Start at parking lot near Ebisu Pawn (couple discussing taxi)",
-              "2. Head north on Nagasu Blvd to spot fleeing taxi",
-              "3. Follow sequence:",
-              "   • First chase: Taxi escapes north",
-              "   • Bystander directs you to Suzukake Lane",
-              "   • Second chase: Taxi speeds west then south",
-              "4. Final confrontation in parking lot",
-              "5. Defeat shady character in combat",
-            ].join("\n"),
-            videoId: "",
-          },
-
-          {
-            name: "King of the Mixer",
-            location: "Ose Bridge Blvd East → Mixer Venue",
-            reward: "Calming Towel",
-            requirements: "After recruiting Kiyokawa",
-            guide: [
-              "1. Find Kiyokawa and Muramatsu near Motsunabe Kaede",
-              "2. Join their mixer event",
-              "3. Success path (one possible combination):<br>",
-              "   • <b>'Drop chopstick'</b><br>",
-              "   • <b>'Introductions'</b><br>",
-              "   • <b>'Hobby'</b><br>",
-              "   • <b>'King's Game'</b><br>",
-              "   • <b>'3 and 4 kiss'</b>",
-              "4. Other combinations may also succeed",
-            ].join("\n"),
-            videoId: "",
-          },
-
-          {
-            name: "Hunt for the Kidnapper",
-            location: "Intersection near M Store",
-            reward: "20,000 yen",
-            requirements: "Evening in Chapter 2",
-            guide: [
-              "1. Find Wada north of Taxi Office near M Store",
-              "2. Witness hit-and-run kidnapping",
-              "3. Chase sequence (2:30 time limit):",
-              "   • Follow through city streets",
-              "   • Must catch up before timer expires",
-              "4. Combat against Itoda + 2 kidnappers",
-              "5. Tip: Ideal for practicing Komaki Shot Stopper",
-            ].join("\n"),
-            videoId: "",
-          },
-
-          {
-            name: "Another Haruka",
-            location: "Chikuzengawa St. → Omusubi Mura",
-            reward: "1-2-3 Gum, Beads of Good Fortune",
-            requirements: "Beginning of Chapter 2",
-            guide: [
-              "1. Walk along Chikuzengawa St. near Save Point (hear dog whining)",
-              "2. Descend to riverbank to find animal abusers",
-              "3. Intervene and defeat all attackers",
-              "4. Meet girl attempting to rescue dog",
-              "5. Travel to Nagasu Blvd near Omusubi Mura",
-              "6. Speak to girl's father",
-              "7. Return for second combat encounter",
-              "8. Tip: Good opportunity to practice Team Heat Moves",
-            ].join("\n"),
-            videoId: "",
-          },
-
-          {
-            name: "Cyberterrorism",
-            location: "Nagasu Taxi Office",
-            reward: "Staminan Spark",
-            requirements: "Evening in Chapter 2",
-            guide: [
-              "1. Find Muramatsu at computer in Taxi Office",
-              "2. Initiate dialogue about computer issues",
-              "3. Critical actions in order:<br>",
-              "   • <b>'Pull the cord'</b> (unplug LAN)<br>",
-              "   • After moaning voice appears, <b>'Put it back in'</b><br>",
-              "   • When Nakajima reaches for power cord, <b>'Stop him'</b>",
-              "4. Wait for Hirakawa to resolve the joke virus",
-            ].join("\n"),
-            videoId: "",
-          },
-
-          {
-            name: "Kiryu the Actor",
-            location: "Taxi Office exterior",
-            reward: "Up to 100,000 yen",
-            requirements: "Chapter 4",
-            guide: [
-              "1. Speak to exhausted Kudarizaka outside Taxi Office",
-              "2. Participate in yakuza film shoot",
-              "3. Critical sequence:<br>",
-              "   • Line 1: <b>'I'm here to end this, brother.'</b><br>",
-              "   • Line 2: <b>'You're a vampire, right?'</b><br>",
-              "   • Combat: Defeat zombies in EXACT order:<br>",
-              "     1. <b>Hair combed back</b><br>",
-              "     2. <b>Wearing hat</b><br>",
-              "     3. <b>Yellow jacket</b><br>",
-              "     4. <b>Glasses</b><br>",
-              "   • Line 3: <b>'Let's see if you're really immortal or not.'</b><br>",
-              "   • Combat: Finish 6 zombies with Heat Actions (Essence of Terror ideal)<br>",
-              "   • Line 4: <b>'The Hazy Moon you stole from the boss was fake.'</b><br>",
-              "   • Finale: Defeat Yamashiro with katana Heat Move<br>",
-              "   • Line 5: <b>'The boss is waiting for you in Hell.'</b>",
-              "4. Perfect execution earns maximum reward",
-            ].join("\n"),
-            videoId: "",
-          },
-
-          {
-            name: "A Chance Meeting",
-            location: "South District Phone Booth → La Seine",
-            reward: "None (story)",
-            requirements: "Chapter 4 progression",
-            guide: [
-              "1. Find Muramatsu near southern phone booth",
-              "2. Yuya arrives - play dumb twice to avoid suspicion",
-              "3. Receive follow-up text about La Seine",
-              "4. Visit La Seine twice (with time delay between)",
-              "5. Final combat against yakuza group",
-              "6. Tip: Great for Team Heat Actions with Yuya",
-            ].join("\n"),
-            videoId: "",
-          },
-
-          {
-            name: "A Knock on the Door",
-            location: "Kiryu's Apartment",
-            reward: "High-Grade Platinum",
-            requirements: "Start of Chapter 3",
-            guide: [
-              "1. Enter apartment at Chapter 3 start",
-              "2. Encounter pushy newspaper salesman",
-              "3. Reject all sales pitches",
-              "4. Combat triggers outside apartment",
-              "5. Defeat salesman to conclude",
-            ].join("\n"),
-            videoId: "",
-          },
-
-          {
-            name: "Dragon Seafood Rice Bowl",
-            location: "Chikuzengawa St. (northern riverside)",
-            reward: "Unlocks Dragon Seafood Bowl at Sushi Zanmai",
-            requirements: "Beginning of Chapter 2",
-            guide: [
-              "1. Head to the northern riverside of Chikuzengawa St.",
-              "2. Look for a group of fishermen (unusual gathering)",
-              "3. Speak to the large man in a white coat",
-              "4. Accept his fishing tutorial",
-              "5. River Fishing Phase:",
-              "   • Use provided buns as bait",
-              "   • Watch the bobber and mash confirm when it submerges",
-              "   • You get three attempts",
-              "6. Sea Fishing Phase (optional):",
-              "   • More complex mechanics (see Minigames section for details)",
-              "   • Best outcome is a draw",
-              "   • Can surrender immediately if uninterested",
-            ].join("\n"),
-            videoId: "",
-          },
-
-          {
-            name: "The Spangled Meteor",
-            location: "Joy Land → Omusubi Mura → Taxi Office",
-            reward: "30,000 yen, Mystery Stone",
-            requirements: "Chapter 2 (after some progression)",
-            guide: [
-              "1. Inspect flashy car near Joy Land (southeast)",
-              "2. Encounter Wada discussing Vixen Zeroes",
-              "3. Head to Omusubi Mura for combat against club barkers",
-              "4. Important: Confirm car's name is <b>'The Spangled Meteor'</b>",
-              "5. Return to Taxi Office for racing challenge:",
-              "   • 2 laps (Intermediate + Advanced courses)",
-              "   • Requires well-tuned vehicle",
-              "   • Opponent is faster than average",
-            ].join("\n"),
-            videoId: "",
-          },
-
-          {
-            name: "Dragon Mask Redux",
-            location: "La Seine exterior → Kiryu's Apartment → Wrestling Arena",
-            reward: "20,000 yen",
-            requirements: "Chapter 4",
-            guide: [
-              "1. Talk to Hors d'Oeuvre Morosawa outside La Seine",
-              "2. Initial combat encounter",
-              "3. Retrieve Dragon Mask from apartment corner",
-              "4. Optional: Complete immediately or later",
-              "5. Wrestling match against easy opponent",
-            ].join("\n"),
-            videoId: "",
-          },
-
-          {
-            name: "A Plea to the Gods",
-            location: "Ose Bridge",
-            reward: "Alertness Hood",
-            requirements: "Beginning of Chapter 2",
-            guide: [
-              "1. Go to Ose Bridge at the start of Chapter 2",
-              "2. Find the distressed student who lost his test answers",
-              "3. Provide the correct answers in order:<br>",
-              "   • <b>'Movement'</b><br>",
-              "   • <b>'One in six'</b><br>",
-              "   • <b>'Commodore Perry'</b><br>",
-              "   • <b>'Gravitational potential energy'</b><br>",
-              "   • <b>'Seize the day'</b>",
-              "4. Note: These answers are for the Remastered version only (PS3 version differs)",
-            ].join("\n"),
-            videoId: "",
-          },
-
-          {
-            name: "Fast Food!",
-            location: "Outside Don Quijote (north)",
-            reward: "20,000 yen, Hercules Gloves",
-            requirements: "Evening in Chapter 2",
-            guide: [
-              "1. Find collapsed man outside Don Quijote",
-              "2. Accept food stand delivery mission",
-              "3. Driving mechanics (similar to taxi but simplified):",
-              "   • Ignore acceleration/braking rules",
-              "   • Avoid crashes and road departures",
-              "   • Running red lights allowed",
-              "4. Perfect delivery earns maximum rewards",
-            ].join("\n"),
-            videoId: "",
-          },
-
-          {
-            name: "Got to be Firm",
-            location: "Southwest Food Stalls",
-            reward: "Up to 12,000 yen",
-            requirements: "Evening in Chapter 2",
-            guide: [
-              "1. Visit southwest food stalls ONLY during evening",
-              "2. Enter southernmost stall",
-              "3. Complete Tatsuya Noodles minigame:",
-              "   • Basic completion fulfills substory",
-              "   • Top ranking earns maximum 12,000 yen",
-            ].join("\n"),
-            videoId: "",
-          },
-
-          {
-            name: "Mack Returns",
-            location: "Automatic during Chapter 3",
-            reward: "Unlocks Revelations",
-            requirements: "Story progression in Chapter 3",
-            guide: [
-              "1. Unavoidable story-based substory",
-              "2. Progress through Chapter 3 naturally",
-              "3. Becomes accessible during 'The Dragon's Return' mission",
-            ].join("\n"),
-            videoId: "",
-          },
-
-          {
-            name: "Amon",
-            location: "Complete all substories first",
-            reward: "Legendary Fighter Unlock",
-            requirements: "All other substories completed",
-            guide: [
-              "1. Must complete every other substory in the game",
-              "2. Amon will appear at a designated location",
-              "3. Prepare for extremely difficult combat",
-              "4. Uses advanced techniques and weapons",
-              "5. Victory grants special title/abilities",
-            ].join("\n"),
-            videoId: "",
-          },
-
-          {
-            name: "The Perfect Seasoning",
-            location: "Cafe Alps → Theater Square",
-            reward: "Unlocks Ultimate Neapolitan",
+              "Senryo Ave. (north of Shoten) → Champion District south entrance",
+            reward: "Fortune-teller becomes business advisor",
             requirements:
-              "Complete all Tatsuya substories, Chapter 1 Finale start",
+              "Must complete Majima's 'Rise of the Dragon' substory",
             guide: [
-              "1. Visit Cafe Alps during Finale Chapter 1",
-              "2. Resolve thug confrontation",
-              "3. Requires completed Tatsuya substories:",
-              "   • If incomplete, wait for Tatsuya's call",
-              "4. Pick up Tatsuya at Theater Square when ready",
-              "5. Automatic completion after reunion",
+              "1. Find two women gossiping on Senryo Ave.",
+              "2. Find the fortune teller at the south entrance of the Champion District.",
+              "3. Beat up someone harassing her, then get a free reading.",
+              "4. Quiz answers:",
+              " • Future: 'Take my friend's place'",
+              " • Family: 'Ten billion yen'",
+              " • Career: 'A driver'",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 2,
+            chapter: 2,
+            name: "Arakure Quest",
+            location: "Outside Don Quijote",
+            reward: "Sunburst Katana",
+            requirements:
+              "Available after Kiryu returns to his apartment for the night",
+            guide: [
+              "1. Speak to the young lad at the end of the line outside Don Quijote.",
+              "2. Leave the area and return to see the kid being accosted.",
+              "3. Run down the alley towards Pink St. and follow the chain of events.",
+              "4. Defeat the final yakuza near the save point on Taihei Blvd.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 3,
+            chapter: 5,
+            name: "Passport to Pizza",
+            location: "Southeast corner of Champion District alleys",
+            reward: "Security Wallet",
+            requirements: "Available in Chapter 5",
+            guide: [
+              "1. Find Samantha on the ground and give her an energy drink.",
+              "2. She gives you a Secret Wallet and asks for pizza.",
+              "3. Go to Smile Burger and inquire to get a pizza.",
+              "4. Bring it back to her within 90 seconds (avoid bumping into people).",
+              "5. Fight a bad guy upon delivery.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 4,
+            chapter: 2,
+            name: "Kamurocho Undercover",
+            location: "Shellac (Champion District)",
+            reward: "9mm Automatic Pistol",
+            requirements: "Available in Chapter 2",
+            guide: [
+              "1. Go to Shellac and try to sit in the further seat.",
+              "2. After the scene, leave and return when a marker appears.",
+              "3. Speak to the reporter and head outside to beat up the gun dealer.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 5,
+            chapter: 5,
+            name: "The Human Trafficking Ring",
+            location: "Shellac → Pink Alley",
+            reward: "Inspires Kasuga to join business",
+            requirements: "Must complete 'Kamurocho Undercover'",
+            guide: [
+              "1. Go to Shellac and speak to the reporter.",
+              "2. He mentions a lead in Pink Alley (southwest of Telephone Club).",
+              "3. Find Kasuga there talking to a guy.",
+              "4. Return to Shellac, then go back to Pink Alley.",
+              "5. Beat up the jerk.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 6,
+            chapter: 2,
+            name: "Damned Yanki",
+            location: "South from Children's Park towards Mach Bowl",
+            reward:
+              "Wild Shirt (best), Charismatic Autobiography (good), Charismatic Photo (bad)",
+            requirements: "Available in Chapter 2",
+            guide: [
+              "1. Head south from Children's Park and witness the odd old man/punk.",
+              "2. Find him in Theater Square and speak to him.",
+              "3. Answer his three questions with the correct pairs:",
+              " • Q1: 'Start your engines!' or 'Hello in English'",
+              " • Q2: 'Fighting every day' or 'Rescuing puppies'",
+              " • Q3: 'The time you crushed a gang' or 'Stay silent'",
+              "Krazy Kyo becomes a business advisor.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 7,
+            chapter: 2,
+            name: "How To Train Your Dominatrix",
+            location: "Near Heroine Karaoke Bar",
+            reward:
+              "Fur Belly Warmer (Dominatrix) or Collapsible Steel Staff (Tsundere) or Toughness Z (Mixed)",
+            requirements: "Must complete Substory #9 first",
+            guide: [
+              "1. Find Ayu near Heroine Karaoke Bar and speak to her.",
+              "2. Defeat the jerks harassing her.",
+              "3. Go to the park for a role-play. Choose responses:",
+              " • For Dominatrix: 'Who gave you permission to speak, pig!?', (anything), 'I bet you'd like that, you pervert!', 'They're watching you get humiliated!'",
+              " • For Tsundere: 'It's not like I'm happy to see you or anything!', (anything), 'Gross! I'm the only who would do that for you!', 'Keep your eyes on me, and me alone!'",
+              "Ayu Sakurai video is viewable at Gandhara. 'Masochistic Man' becomes an advisor.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 8,
+            chapter: 2,
+            name: "Password Protected",
+            location: "Kamuro Shopping Area (south end)",
+            reward: "Access to weapon/gear dealer",
+            requirements: "Available in Chapter 2",
+            guide: [
+              "1. Find two guys at the south end of the Kamuro Shopping Area.",
+              "2. Talk to the merchant, then find the shopper at the north end.",
+              "3. He sends you to find Monmon on the east side of Taihei Blvd.",
+              "4. Say 'Plans for today' and 'Tomorrow's weather' to trigger a fight.",
+              "5. Defeat the four dudes and get the password: 'a movie date' and 'rain at noon'.",
+              "6. Return to the shopper, then go back to the dealer.",
+              "7. Type the password: 'Subotenuhigeukiro'.",
+              "Li Leung joins as security for the business.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 9,
+            chapter: 2,
+            name: "The Show Must Go On",
+            location: "Near the Shrine",
+            reward: "Magnetic Necklace (success) or Tauriner + (failure)",
+            requirements: "Available in Chapter 2",
+            guide: [
+              "1. Find two guys chatting near the Shrine and agree to help.",
+              "2. During the shoot:",
+              " • Greeting: Any response works.",
+              " • Grab an 'erasable': The food.",
+              " • 'Grocer' the food: 'Tilt it at an angle'.",
+              " • 'Jeer' and 'strike the set': 'Remove the dish'.",
+              "3. Defeat the real producer and his cronies.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 10,
+            chapter: 6,
+            name: "Sugar Daddy",
+            location: "Hotel District (north of Batting Center)",
+            reward: "Goddess of Children Amulet, Reika Aiba's video",
+            requirements: "Available in Chapter 6",
+            guide: [
+              "1. Find a guy hiding behind a pole.",
+              "2. Agree to help him find his daughter.",
+              "3. See 'Reika' in the club.",
+              "4. First reply: anything. Second reply: top two options.",
+              "5. Select 'Your father's not around?'",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 11,
+            chapter: 6,
+            name: "The Shrink-wrapped Dream",
+            location: "Tenkaichi Alley (across from Public Park 3)",
+            reward: "None specified",
+            requirements: "Available in Chapter 6",
+            guide: [
+              "1. Find a small lad on the street and speak to him.",
+              "2. Offer to help him access a vending machine.",
+              "3. Sneak past the ladies to the machine:",
+              " • Wait for Marina to walk back into the park.",
+              " • Move to the sign on the ground.",
+              " • Wait for nosy ladies to look away, then enter the alley.",
+              " • Hide behind vending machines, watch the lady in purple.",
+              " • Run to the machine when she looks left.",
+              "4. You can give up by talking to the kid anytime.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 12,
+            chapter: 2,
+            name: "Miracle on Tenkaichi Street",
+            location:
+              "Small lot near western Akaushimaru (south of Theater Square)",
+            reward: "Silent Shoes (black box) or Baseball Shirt (white box)",
+            requirements: "Must complete 'The Show Must Go On'",
+            guide: [
+              "1. Listen to two guys talking about 'Miracle Johnson'.",
+              "2. Leave and return when a marker appears to find Papillon Kato.",
+              "3. Agree to his request and protect Miracle from zombies (use Beast Style).",
+              "4. Choose your reward box.",
+              "Papillon Kato and Spining join as business managers.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 13,
+            chapter: 5,
+            name: "The Tax Lady",
+            location: "Sugita Building office",
+            reward: "Trouble Finder, Marui joins as advisor",
+            requirements: "Available after defeating the Electronics King",
+            guide: [
+              "1. Get a call at the office from the tax inspector.",
+              "2. Speak to the young lady outside, then meet the real tax lady.",
+              "3. Agree to the sting on neighbor Maguro.",
+              "4. Inside, examine the video tapes: 'something wrong', 'its presence'.",
+              "5. Stall for time: 'You have great taste in clothes', 'A house, maybe?', 'Read Maguro's Palm'.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 14,
+            chapter: 10,
+            name: "Destiny Calls",
+            location: "Pink St. (east of Kamuro Shopping Area) → West Park",
+            reward: "Super Spicy Knife",
+            requirements: "Available after the fight at Tojo HQ",
+            guide: [
+              "1. Find a clerk outside a telephone club on Pink St.",
+              "2. Agree to handle the problem customer.",
+              "3. Pick any responses during the call.",
+              "4. Go to the fountain in West Park and defeat the man there.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 15,
+            chapter: 5,
+            name: "Help Wanted!",
+            location: "South of Mach Bowl → Office",
+            reward: "Hires first applicant",
+            requirements: "Must have defeated the Leisure King",
+            guide: [
+              "1. See a boss celebrating south of Mach Bowl.",
+              "2. Return to the office; Marina mentions job applications.",
+              "3. Leave and return to meet an applicant.",
+              "4. Ask 'Why did you apply with us?', then the next three questions.",
+              "5. Accept or reject him (result is the same).",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 16,
+            chapter: 5,
+            name: "Help Wanted! Again...",
+            location: "Office",
+            reward: "Hires second applicant",
+            requirements: "Complete 'Help Wanted!'",
+            guide: [
+              "1. Return to the office for the second applicant.",
+              "2. Hear Marina's summary, then ask all three questions.",
+              "3. Point out the inconsistency: 'Summary' and 'Signature Dishes'.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 17,
+            chapter: 2,
+            name: "Underneath It All",
+            location: "East along Shichifuku St. from Maharaja",
+            reward: "None specified",
+            requirements: "Available in Chapter 2",
+            guide: [
+              "1. Find a high school couple arguing.",
+              "2. Talk to the young man, then find Mina on Senryo Ave.",
+              "3. Speak to Mina, then find Sachiko in the Hotel District (blue scarf).",
+              "4. Confront Sachiko, then walk away and deal with the problem that shows up.",
+              "Sachiko joins as a business manager.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 18,
+            chapter: 6,
+            name: "Beyond the Door",
+            location: "Story-related",
+            reward: "None specified",
+            requirements: "Unavoidable, part of the story",
+            guide: [
+              "1. Part of the main story after meeting Mr. Moneybags.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 19,
+            chapter: 5,
+            name: "Heir to the Family",
+            location: "North from Maharaja → Batting Cages → Champion District",
+            reward: "None specified",
+            requirements: "Available in Chapter 5",
+            guide: [
+              "1. Find a guy in a gray sweater north of Maharaja.",
+              "2. He tells you Daigo Dojima is at the batting cages.",
+              "3. Go to the arcade, play UFO Catcher to get Daigo a toy.",
+              "4. Go to Heroine, then Daigo gets kidnapped.",
+              "5. Trail them to the empty lot in the Champion District.",
+              "6. Defeat all the bad guys.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 20,
+            chapter: 10,
+            name: "A Shining Example",
+            location: "Northern exit of Kamuro Shopping Area → West Park",
+            reward: "None specified",
+            requirements: "Available after the fight at Tojo HQ",
+            guide: [
+              "1. Find a woman in a dark school uniform east of the Shopping Area.",
+              "2. Agree to help her and beat up the guy.",
+              "3. Head to West Park, then leave back to the streets.",
+              "4. Defeat the yakuza punks, then go to where your pal is held.",
+              "5. Defeat all the dudes.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 21,
+            chapter: 5,
+            name: "First Impressions",
+            location: "Office",
+            reward: "Koshimizu joins as security",
+            requirements: "Complete 'Help Wanted! Again...'",
+            guide: [
+              "1. Return to the office for the third applicant.",
+              "2. Pick: 'Legal Studies', 'His hobby: dining out', 'He knows the dining scene', 'Tell us about someone you admire'.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 22,
+            chapter: 5,
+            name: "A Watery Investment",
+            location: "Nakamichi Alley (south of shrine, west at T-junction)",
+            reward: "Mew Shoes, Nao Mizuki's video",
+            requirements: "Available after opening the real estate business",
+            guide: [
+              "1. Intervene when two guys harass a lady.",
+              "2. She gives you a Toughness Z and offers to thank you more.",
+              "3. Go to Café Alps with her.",
+              "4. Refuse her propositions repeatedly (fourth option, then third).",
+              "5. When asked how old she looks, say anything.",
+              "6. Refuse again to face Nao and finish.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 23,
+            chapter: 5,
+            name: "Miracle in Maharaja",
+            location: "Akaushimaru (south of Theater Square) → Maharaja",
+            reward:
+              "Encounter Finder (black box) or Tour T-Shirt (white box), Miracle Johnson as advisor",
+            requirements:
+              "Must complete 'Miracle on Tenkaichi Street' AND have begun Real Estate business",
+            guide: [
+              "1. Hear the two guys at Akaushimaru talk about Miracle at Maharaja.",
+              "2. After opening the business, go to Maharaja and fight Gomez the bodyguard.",
+              "3. Inside, lose the dance battle to Miracle (outcome doesn't matter).",
+              "4. Choose your reward box.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 24,
+            chapter: 2,
+            name: "The Girl in the Video",
+            location: "Gandhara",
+            reward: "None specified",
+            requirements: "View three videos at Gandhara first",
+            guide: [
+              "1. After viewing three videos, return to Gandhara and see another customer.",
+              "2. Agree to his proposition.",
+              "3. Find the girl at Kanrai, then return to Gandhara.",
+              "4. Go back to Kanrai and fight alongside the man.",
+              "Video Boy joins as security for the business.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 25,
+            chapter: 6,
+            name: "Postcard Rookie - Kiryu",
+            location: "Office",
+            reward: "Radio show mention",
+            requirements: "Complete at least five substories",
+            guide: [
+              "1. Marina will bring postcards to the office.",
+              "2. Interact with the desk and write about a completed substory.",
+              "3. Eligible stories: 'The Visionary Fortune-teller', 'The Quest for Ara-Q3', 'A Lesson in S&M', 'The Shrink-wrapped Dream', 'The Miracle Walk', 'Miracle in Maharaja'.",
+              "4. Leave and return, then check the radio to listen.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 26,
+            chapter: 6,
+            name: "Postcard Pro - Kiryu",
+            location: "Office",
+            reward: "Radio show mention",
+            requirements: "Complete 'Postcard Rookie - Kiryu'",
+            guide: [
+              "1. Write another postcard using an eligible story.",
+              "2. Leave and return, check the radio.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 27,
+            chapter: 6,
+            name: "Postcard Master - Kiryu",
+            location: "Office",
+            reward: "Hercules Gloves",
+            requirements: "Complete 'Postcard Pro - Kiryu'",
+            guide: [
+              "1. Write one more postcard using an eligible story.",
+              "2. Kamiya will appear and deliver the reward.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 28,
+            chapter: 2,
+            name: "Don't Dance Alone",
+            location: "Maharaja",
+            reward: "None specified",
+            requirements: "Dance three times at Maharaja",
+            guide: [
+              "1. Dance three times at Maharaja.",
+              "2. A goofy-looking fellow will challenge you to a dance battle.",
+              "3. Beat him at Friday Night (any difficulty).",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 29,
+            chapter: 2,
+            name: "Technique to Die For",
+            location: "Maharaja",
+            reward: "None specified",
+            requirements: "Complete 'Don't Dance Alone'",
+            guide: [
+              "1. Leave and return to Maharaja, go to the bar.",
+              "2. Maiko will challenge you to a dance battle.",
+              "3. Beat her at Queen of Passion.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 30,
+            chapter: 2,
+            name: "Maharaja Showdown",
+            location: "Maharaja",
+            reward: "Isobe Fan",
+            requirements: "Complete 'Technique to Die For'",
+            guide: [
+              "1. Leave and return to Maharaja to find Ogita.",
+              "2. Defeat him in a final dance battle (dance on Normal for better chances).",
+              "3. Compliment him after winning.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 31,
+            chapter: 5,
+            name: "The Innocent Hook-Up",
+            location: "Telephone Club",
+            reward: "Riku's video, ability to date Riku",
+            requirements: "Use the Telephone Club",
+            guide: [
+              "1. Use the Telephone Club.",
+              "2. For Riku: Choose 'Girl in Front'.",
+              "3. Beat up her ex if necessary.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 32,
+            chapter: 5,
+            name: "The Sexy Hook-Up",
+            location: "Telephone Club",
+            reward: "Ayaka's video, ability to date Ayaka",
+            requirements: "Use the Telephone Club",
+            guide: [
+              "1. Use the Telephone Club.",
+              "2. For Ayaka: Choose 'Move in for a better look' then 'Farther Woman'.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 33,
+            chapter: 5,
+            name: "The Flirty Hook-Up",
+            location: "Telephone Club",
+            reward: "Haruki's video, ability to date Haruki",
+            requirements: "Use the Telephone Club",
+            guide: [
+              "1. Use the Telephone Club.",
+              "2. For Haruki: Choose 'Further Woman'.",
+              "3. Beat up her ex.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 34,
+            chapter: 5,
+            name: "Sakura Shock",
+            location: "Telephone Club",
+            reward: "Leads to same result",
+            requirements: "Use the Telephone Club",
+            guide: [
+              "1. Use the Telephone Club.",
+              "2. Meet with either Asakura, Sakuraoka, or Sakurai.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 35,
+            chapter: 5,
+            name: "Verbal Warning",
+            location: "Telephone Club",
+            reward: "None specified",
+            requirements: "Use the Telephone Club",
+            guide: ["1. Use the Telephone Club.", "2. Meet with Mirei."].join(
+              "\n"
+            ),
+            videoId: "",
+          },
+
+          {
+            index: 36,
+            chapter: 2,
+            name: "I am Kazuma-kun",
+            location: "Pocket Circuit Stadium",
+            reward: "Blue Bolt decal",
+            requirements: "Win a couple of Pocket Circuit races first",
+            guide: [
+              "1. After winning some races, Takuma-kun will approach you near the shop booth.",
+              "2. Accept his challenge and defeat him.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 37,
+            chapter: 2,
+            name: "The Rocky Road of Romance",
+            location: "Children's Park → Pocket Circuit Stadium",
+            reward: "None specified",
+            requirements: "Complete 'I am Kazuma-kun'",
+            guide: [
+              "1. Find Takuma-kun and Hideki-kun at Children's Park.",
+              "2. Head back to the Pocket Circuit Stadium and find Hideki-kun.",
+              "3. Defeat him in the Beginners' Cup.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 38,
+            chapter: 2,
+            name: "Gift of Love",
+            location: "Pocket Circuit Stadium",
+            reward: "DRAG-ON car, Boost Gears",
+            requirements: "Complete 'The Rocky Road of Romance'",
+            guide: [
+              "1. Speak to Mika-chan at the Stadium.",
+              "2. Defeat her using the Rookie's Race build.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 39,
+            chapter: 2,
+            name: "Suspicion of Perversion",
+            location: "Pocket Circuit Stadium",
+            reward: "None specified",
+            requirements: "Complete 'Gift of Love'",
+            guide: [
+              "1. Leave and return to the Stadium, head to the Parts Shop.",
+              "2. Challenge Satoru-kun and defeat him using the Pro-Am build.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 40,
+            chapter: 2,
+            name: "The Prodigious Racer",
+            location: "Pocket Circuit Stadium",
+            reward: "Sunshine decal",
+            requirements: "Complete 'Suspicion of Perversion'",
+            guide: [
+              "1. Challenge Sena-chan the Ace.",
+              "2. Defeat her using the Experts' Race build.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 41,
+            chapter: 2,
+            name: "The Woman They Call Professor",
+            location: "Earth Angel → Pocket Circuit Stadium",
+            reward: "Cool Striker car, Heavy Suspension",
+            requirements: "Complete 'The Prodigious Racer'",
+            guide: [
+              "1. Head to Earth Angel to challenge Harumi-chan the Professor.",
+              "2. Defeat her using the Experts' Race build.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 42,
+            chapter: 2,
+            name: "The Greatest Glory",
+            location: "Pocket Circuit Stadium",
+            reward: "Dark Purple decal",
+            requirements: "Complete 'The Woman They Call Professor'",
+            guide: [
+              "1. Challenge Kazuyoshi-kun the Champion.",
+              "2. Defeat him using the King of Speed Cup build.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 43,
+            chapter: 2,
+            name: "The Fighter's Crown",
+            location: "Pocket Circuit Stadium",
+            reward: "Ability to challenge anyone",
+            requirements: "Complete 'The Greatest Glory' and all races",
+            guide: [
+              "1. Pocket Circuit Fighter will challenge you.",
+              "2. Use the special build from the chart to defeat him.",
+              "3. Be careful on the first two laps to avoid flying off.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 44,
+            chapter: 5,
+            name: "The Predator's Call",
+            location: "Telephone Club",
+            reward: "None specified",
+            requirements: "Use the Telephone Club",
+            guide: ["1. Use the Telephone Club.", "2. Meet with Maria."].join(
+              "\n"
+            ),
+            videoId: "",
+          },
+          {
+            index: 45,
+            chapter: 5,
+            name: "A Mother's Touch",
+            location: "Telephone Club",
+            reward: "None specified",
+            requirements: "Use the Telephone Club",
+            guide: ["1. Use the Telephone Club.", "2. Meet with Sayuri."].join(
+              "\n"
+            ),
+            videoId: "",
+          },
+
+          {
+            index: 46,
+            chapter: 2,
+            name: "The Stop-and-Search Specialist",
+            location: "South of Gandhara Kamurocho",
+            reward: "Sacrifice Stone, Nanase Otoha video",
+            requirements: "Available in Chapter 2",
+            guide: [
+              "1. Approach the cop standing south of Gandhara.",
+              "2. Show him something innocuous (like food) when asked.",
+              "3. Return to him repeatedly and show normal items to raise friendship.",
+              "4. Eventually, fight off bad guys harassing a lady.",
+              "Kikuchi joins as security for the business.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 47,
+            chapter: 2,
+            name: "The Mushroom Merchant",
+            location: "Park Alley (northeast)",
+            reward: "Enokitake (first), friendship progression",
+            requirements: "Available in Chapter 2",
+            guide: [
+              "1. Find the rotund fellow in Park Alley.",
+              "2. After the conversation, fight a dude.",
+              "3. Buy his mushrooms to raise friendship.",
+              "4. Leave and return multiple times, beating up harassers each time.",
+              "5. Offer a new suggestion and buy more mushrooms.",
+              "6. Finally, beat up four overseas guys.",
+              "Mafia Boss joins as security for the business.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 48,
+            chapter: 5,
+            name: "Kamurocho's Mr. Libido",
+            location: "Poppo (Showa St.) → Earth Angel",
+            reward: "Closes friendship",
+            requirements: "Have at least one Telephone Card",
+            guide: [
+              "1. Find the bald man with a black jacket on Pink St., east of the Poppo.",
+              "2. Talk to him about your Telephone Cards.",
+              "3. Return to him repeatedly as you get more cards (need 30 total).",
+              "4. Eventually, find him in distress and go to Earth Angel.",
+              "5. Speak to the Mama about a new girl for him.",
+            ].join("\n"),
+            videoId: "",
+          },
+
+          {
+            index: 49,
+            chapter: 6,
+            name: "Kamurocho's Mr. Moneybags",
+            location: "Vincent",
+            reward:
+              "Friendship with Fukushima, fee-free money transfer to Majima",
+            requirements: "After running into Mr. Moneybags in the story",
+            guide: [
+              "1. Find Fukushima next to Vincent.",
+              "2. Speak to him to learn about the investment fund.",
+              "3. Invest in set increments at story points:",
+              " • Ch. 6: 10 million yen",
+              " • Ch. 9+: 100 million yen (after Majima invests once)",
+              " • Ch. 13: 1 billion yen",
+              " • Finale: 10 billion yen (max friendship)",
+            ].join("\n"),
+            videoId: "",
+          },
+
+          {
+            index: 50,
+            chapter: 2,
+            name: "Pocket Circuit Fighter!",
+            location: "Pocket Circuit Stadium",
+            reward: "Friendship with PCF, Devil Killer car (max friendship)",
+            requirements: "Available in Chapter 2",
+            guide: [
+              "1. Enter the Stadium and speak to Pocket Circuit Fighter, then again for the tutorial.",
+              "2. Beat successive races to raise friendship.",
+              "3. After beating Rookies' Race, find him on east Nakamichi St. and tell him 'The kids are waiting for you'.",
+              "4. After beating Champions' Cup, find him in Public Park 3.",
+              "5. Max friendship grants the Devil Killer car and custom track creation.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 51,
+            chapter: 2,
+            name: "Miho, Convenience Store Clerk",
+            location: "Poppo (Tenkaichi St.)",
+            reward:
+              "Berserker Charm, Miso Cutlet Lunch Set, Miho's video, free property",
+            requirements: "Buy something at the Poppo",
+            guide: [
+              "1. Buy something at the Poppo on Tenkaichi St. to befriend Miho.",
+              "2. Keep buying things to raise friendship.",
+              "3. At 50%, suggest an attraction method.",
+              "4. Return later; if she uses it, get Berserker Charm.",
+              "5. Answer 'Miso Cutlets' to her next question.",
+              "Grants free property for the business.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 52,
+            chapter: 2,
+            name: "Emiri, Mach Bowl Receptionist",
+            location: "Mach Bowl",
+            reward: "Nugget (chicken manager), Emiri's video",
+            requirements: "Bowl and likely get strikes",
+            guide: [
+              "1. Bowl at Mach Bowl until Emiri is impressed.",
+              "2. Continue bowling to raise friendship.",
+              "3. At 80%, speak to her after defeating the Leisure King in Chapter 5.",
+              "4. Accept the challenge to bowl a turkey (three strikes in a row).",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 53,
+            chapter: 2,
+            name: "Sushi Gin's Chef",
+            location: "Sushi Gin",
+            reward: "Friendship maxed, free property",
+            requirements: "Eat a couple of times at Sushi Gin",
+            guide: [
+              "1. Eat at Sushi Gin a few times to befriend the chef.",
+              "2. Continue eating and talking to raise friendship.",
+              "3. He will ask for fish; head to the Pier to fish.",
+              "4. Bring him any four fish, one at a time.",
+              "5. Leave and return after the fourth for a cutscene.",
+              "Grants free property for the business.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 54,
+            chapter: 2,
+            name: "Luka at SEGA HI-TECH LAND",
+            location: "SEGA Arcade",
+            reward:
+              "Alertness Hood, Super Hang-On game, Luka's video, free property",
+            requirements: "Play Out Run",
+            guide: [
+              "1. Play Out Run at the arcade for Luka to notice.",
+              "2. Play again, then return for her to mention her 1.5 million score.",
+              "3. Beat 1.5 million to get Alertness Hood.",
+              "4. Play again, then return for her to mention a 3 million score.",
+              "5. Beat 3 million to install Super Hang-On and get her video.",
+              "Grants free property for the business.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 89,
+            chapter: 2,
+            name: "Bacchus' Training",
+            location: "Alley near homeless guys",
+            reward: "Sets up Bacchus as a Master",
+            requirements:
+              "Late Chapter 2, after giving alcohol to homeless guys",
+            guide: [
+              "1. Bacchus will call you into the alley after the alcohol event.",
+              "2. Help him take down his debt collector.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 90,
+            chapter: 2,
+            name: "Kamoji's Training",
+            location: "Shichifuku Parking Lot",
+            reward: "Sets up Kamoji as a Master",
+            requirements: "Available in Chapter 2",
+            guide: [
+              "1. Go to the Shichifuku Parking Lot.",
+              "2. Speak to Kamoji.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 91,
+            chapter: 2,
+            name: "Miss Tatsu's Training",
+            location: "Pier in Tokyo",
+            reward: "Sets up Miss Tatsu as a Master",
+            requirements: "Available in Chapter 2",
+            guide: [
+              "1. Go to the Pier in Tokyo.",
+              "2. Speak with Miss Tatsu.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 92,
+            chapter: 2,
+            name: "Apex Predator",
+            location: "Kamurocho",
+            reward: "Defeat Mr. Shakedown (Egashira)",
+            requirements: "Run into Mr. Shakedown after your first meeting",
+            guide: [
+              "1. Find Mr. Shakedown (Egashira, trilby hat).",
+              "2. Use best skills or spam Heat Actions with medicine to defeat him.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 93,
+            chapter: 2,
+            name: "A Dream Unfulfilled",
+            location: "Kamurocho",
+            reward: "Defeat Mr. Shakedown (Sato)",
+            requirements: "Available in Chapter 2",
+            guide: [
+              "1. Find the second Mr. Shakedown (Sato, purple jacket).",
+              "2. Defeat him.",
+            ].join("\n"),
+            videoId: "",
+          },
+
+          {
+            index: 94,
+            chapter: "Finale",
+            name: "The Head of the Clan",
+            location: "Bullfighting Arena (via taxi)",
+            reward: "Amon Sunglasses",
+            requirements: "Complete all other Kiryu substories",
+            guide: [
+              "1. After completing all substories, your pager will tell you to go to the bullfighting arena.",
+              "2. Take a taxi there to face So Amon.",
+              "PREPARATION: Bring Incomparable Habu Drinks, best Mail armor, Sacrifice Stones.",
+              "PHASE 1 (Cannon):",
+              " • Dodge straight shots, avoid volley, watch for laser.",
+              " • Use Legend Style, 'Finishing Hold' (Grab after Finishing Blow) to knock him down.",
+              " • Grab near his head to stun him, repeat.",
+              "PHASE 2 (Unarmed):",
+              " • Helicopter drops debris; avoid bouncing furniture.",
+              " • Look for black and gold invincibility bottles.",
+              " • Deny them to Amon, use them yourself to attack freely.",
+              " • Beast Style on furniture is effective.",
             ].join("\n"),
             videoId: "",
           },
@@ -323,7 +929,626 @@ const gameData = {
       },
       "Goro Majima": {
         image: "./images/characters/Majima/MajimaY0.webp",
-        substories: [],
+        substories: [
+          {
+            index: 49,
+            chapter: 3,
+            name: "From the Heart",
+            location: "Outside Le Marche → Shofukucho South",
+            reward: "Secret Wallet, Riri Kuribayashi video",
+            requirements: "Available after getting Slugger Style",
+            guide: [
+              "1. Find man sniffling outside Le Marche.",
+              "2. He wants a heart necklace or forgery.",
+              "3. Find two guys talking in Shofukucho South for business card.",
+              "4. Give card to man at Le Marche.",
+              "5. Return to marked spot in Shofukucho South.",
+              "6. Defeat three guys inside.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 50,
+            chapter: 3,
+            name: "The Entertainer's Throne",
+            location: "East side of Iwao Bridge",
+            reward: "Staminan Royale (success) or Staminan X (partial success)",
+            requirements: "Available in Chapter 3",
+            guide: [
+              "1. Examine human statue on east side of Iwao Bridge.",
+              "2. Leave and return to find crowd; he needs restroom.",
+              "3. Distract crowd with 'UFO' and 'singing' options.",
+              "4. Defeat tough guy.",
+              "5. Speak to Statue-san and successfully get him to restroom.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 51,
+            chapter: 3,
+            name: "Rise of the Dragon",
+            location: "Far east Shofukucho St. → Magutako",
+            reward: "None specified",
+            requirements: "Available in Chapter 3",
+            guide: [
+              "1. Find guy hiding behind pillar near taxi.",
+              "2. Learn about 'bontan hunter' near Magutako.",
+              "3. Find blond kid (Ryuji) near Magutako and defeat him (tough fight).",
+              "4. Return to Peter Pantsless to give back items.",
+              "5. Return to Magutako to complete.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 52,
+            chapter: 3,
+            name: "Be My Boyfriend",
+            location: "Sotenbori St. (near Zuboraya)",
+            reward:
+              "Sprite Belt (best), Fluorite x5 (good), Bulletproof Glass Amulet (bad), Kokoa Aisu video",
+            requirements: "Available in Chapter 3",
+            guide: [
+              "1. Woman stops you on Sotenbori St.; agree to pretend to be boyfriend.",
+              "2. Meet her dad and answer:",
+              " • 'Pleased to meet you sir. I'm Goro Majima.'",
+              " • 'I'm a dentist.'",
+              " • 'We sat next to each other at a movie.'",
+              " • 'She's so innocent and childlike.'",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 53,
+            chapter: 3,
+            name: "Man with a Stranger's Face",
+            location: "Ashitaba Park → Bunzaemon Mall",
+            reward: "Sakura Storm katana",
+            requirements: "Available in Chapter 3",
+            guide: [
+              "1. Speak to man in olive jacket staring at mom and boy in Ashitaba Park.",
+              "2. Leave and return to speak to him again.",
+              "3. Approach boy and say 'Whatcha up to?'",
+              "4. Leave and return to find mother; son is missing.",
+              "5. Find son in green jacket at south end of Bunzaemon Mall.",
+              "6. Take him back to park; defeat jerks (target gunner first).",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 54,
+            chapter: 3,
+            name: "Disciple of the New Order",
+            location: "Western exit of Ashitaba Park → Northwest corner",
+            reward: "Crystal (best), Traveler's Amulet, Iori Kagawa video",
+            requirements: "Available in Chapter 3",
+            guide: [
+              "1. Find mother speaking to cult members at western exit.",
+              "2. Speak to her; get Handmade Amulet.",
+              "3. Find cultists in northwest corner of Ashitaba Park.",
+              "4. Cult name: 'Munan Chohept Onast'.",
+              "5. When meeting Iori: 'Call her Iori' or 'Pretend to be Munan Chohept'.",
+              "6. Greeting: 'Say it with the Pose'.",
+              "7. Test answers: 'Onast', 'Shooreh Pippi', 'Circle with the Left Hand...', 'Munan Suzuki'.",
+              "8. Tell Iori 'mom's gonna be heartbroken'.",
+              "9. Defeat Suzuki.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 55,
+            chapter: 3,
+            name: "Calling the Future",
+            location: "Northwest Save Point → M Store (Shofukucho West)",
+            reward: "Mobile phone acts as Save Point",
+            requirements: "Available in Chapter 3",
+            guide: [
+              "1. Use Save Point in northwest corner; guy gets call on bag phone.",
+              "2. Agree to try it; fails.",
+              "3. Get Battery from Don Quijote and bring back.",
+              "4. Give him any energy drink.",
+              "5. Defeat two punks.",
+              "6. Go to M Store on Shofukucho West; speak to man again.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 56,
+            chapter: 3,
+            name: "A Taxing Issue",
+            location: "Northwest of Temple (Hoganji Yochoko)",
+            reward: "Primeval Spirit Stone (best)",
+            requirements: "Available in Chapter 3",
+            guide: [
+              "1. Find business guys harassing another near Temple.",
+              "2. Defeat four bozos.",
+              "3. Speak to remaining guy; answer questions:",
+              " • 'To provide public services'",
+              " • 'Tobacco'",
+              " • 'Gasoline'",
+              " • '8%'",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 57,
+            chapter: 3,
+            name: "Crossed Words",
+            location: "Front of Kani Douraku",
+            reward:
+              "Pearl x3 (success) or Quality Iron (fail), Shizuku Hasegawa video",
+            requirements: "Available in Chapter 3",
+            guide: [
+              "1. Find arguing couple in front of Kani Douraku.",
+              "2. Help with crossword answers:",
+              " • 'Mashed'",
+              " • 'Popcorn'",
+              " • 'Shoulder'",
+              " • 'Soy sauce'",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 58,
+            chapter: 3,
+            name: "Stadium Jumper Strut",
+            location: "South of Iwao Bridge (west side)",
+            reward: "Encounter Finder",
+            requirements: "Available in Chapter 3",
+            guide: [
+              "1. Find man on ground south of Iwao Bridge.",
+              "2. Give him an energy drink.",
+              "3. Protect him as he crosses bridge in varsity jacket (use Slugger Style).",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 59,
+            chapter: 8,
+            name: "Postcard Rookie - Majima",
+            location: "Club Sunshine staff room",
+            reward: "Radio show mention",
+            requirements: "Complete at least five substories",
+            guide: [
+              "1. Hear radio in staff room about postcards.",
+              "2. Write about completed substory: 'A Heart Necklace Fake', 'Pretend Boyfriend', 'A Taxing Issue', 'Crossed Words', 'The Ten Million Drug Test', 'A Courtship in Graffiti'.",
+              "3. Leave and return; use radio to hear story.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 60,
+            chapter: 8,
+            name: "Postcard Pro - Majima",
+            location: "Club Sunshine staff room",
+            reward: "Radio show mention",
+            requirements: "Complete 'Postcard Rookie - Majima'",
+            guide: [
+              "1. Write another postcard using eligible story.",
+              "2. Leave and return; use radio.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 61,
+            chapter: 8,
+            name: "Postcard Master - Majima",
+            location: "Club Sunshine staff room",
+            reward: "Benkei's Amulet",
+            requirements: "Complete 'Postcard Pro - Majima'",
+            guide: [
+              "1. Write one more postcard using eligible story.",
+              "2. Kamiya appears and delivers reward.",
+            ].join("\n"),
+            videoId: "",
+          },
+
+          {
+            index: 62,
+            chapter: 3,
+            name: "The 10 Million Drug Test",
+            location:
+              "Southwest district (south of Mahjong Jambalaya) → East Ashitaba Park",
+            reward: "10 million yen",
+            requirements: "Available in Chapter 3",
+            guide: [
+              "1. Read poster in northwest corner of back alley building.",
+              "2. Find guy in black at east side of Ashitaba Park.",
+              "3. Agree to testing; three tests:",
+              " • Test 1: Defeat guys while watching health.",
+              " • Test 2: Battle style changes randomly.",
+              " • Test 3: Vision obscured; defeat foes.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 63,
+            chapter: 3,
+            name: "Errands on the Run",
+            location:
+              "South of Mahjong Jambalaya → M Store → North river footpath",
+            reward: "'Erranda' joins club later",
+            requirements: "Available in Chapter 3",
+            guide: [
+              "1. Find running guy south of Mahjong Jambalaya.",
+              "2. Find him on ground at M Store; give energy drink.",
+              "3. Leave and return; buy Sneakers from Don Quijote and give to him.",
+              "4. Leave and return again; agree to deliver to girl on north river footpath.",
+              "5. Defeat enemy; when friend shows up, 'Tell Him the Truth'.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 64,
+            chapter: 3,
+            name: "Toilet Talk",
+            location: "Bathroom in Ashitaba Park → Phone booth on Shofukucho",
+            reward: "Calming Towel, Rina Ito video",
+            requirements: "Available in Chapter 3",
+            guide: [
+              "1. Go near bathroom in Ashitaba Park; Majima ruminates.",
+              "2. Go inside; notice graffiti and reply.",
+              "3. Leave and return when marker appears; reply.",
+              "4. Leave and return again; meet at phone booth on Shofukucho.",
+              "5. Defeat jokers who meet you.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 65,
+            chapter: 3,
+            name: "The Obatarian Strikes",
+            location: "Middle of Sotenbori St. (south side, takoyaki stand)",
+            reward: "Candy, Etsuko joins club later",
+            requirements: "Available in Chapter 3",
+            guide: [
+              "1. Interact with takoyaki stand; lady pushes you.",
+              "2. Leave and return; check stand and respond (get Candy).",
+              "3. Leave and return; Obatarian bites off more than she can chew.",
+              "4. Defeat bad guy.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 66,
+            chapter: 4,
+            name: "Party at Maharaja",
+            location: "Maharaja disco",
+            reward: "None specified",
+            requirements:
+              "Dance three times at Maharaja, then leave and return",
+            guide: [
+              "1. Dance three times at Maharaja.",
+              "2. Leave and return.",
+              "3. Approach woman in metallic finery (Isobe).",
+              "4. Defeat first opponent Kengo in dance battle.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 67,
+            chapter: 4,
+            name: "Disco Transformation",
+            location: "Maharaja disco",
+            reward: "None specified",
+            requirements: "Complete 'Party at Maharaja'",
+            guide: [
+              "1. Leave and return to Maharaja; head to bar.",
+              "2. Isobe talks to next opponent.",
+              "3. Defeat him in dance battle.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 68,
+            chapter: 4,
+            name: "Disco Dancing Goddess",
+            location: "Maharaja disco",
+            reward: "Isobe Fan, Isobe joins team later",
+            requirements: "Complete 'Disco Transformation'",
+            guide: [
+              "1. Face Isobe in third dance battle.",
+              "2. Use extra steps and Fever twice to win.",
+              "3. Hard battle; no tricks.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 69,
+            chapter: 7,
+            name: "Paternal Instincts",
+            location: "Club Sunshine",
+            reward: "None specified",
+            requirements: "After finishing Yuki's hostess training",
+            guide: [
+              "1. Tail Yuki and mystery man.",
+              "2. Choose 'Keep Observing' twice (choices don't matter much).",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 70,
+            chapter: 7,
+            name: "A Moment Shared",
+            location: "Club Sunshine",
+            reward: "Chika's video",
+            requirements: "After finishing Chika's hostess training",
+            guide: [
+              "1. Go out on walk with Chika.",
+              "2. Respond however you like.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 71,
+            chapter: 7,
+            name: "Of Love and Ramen",
+            location: "Club Sunshine",
+            reward: "Mana's video",
+            requirements: "After finishing Mana's hostess training",
+            guide: [
+              "1. Go on date with Mana.",
+              "2. Defeat two jerks that mess up your day.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 72,
+            chapter: 7,
+            name: "The First Friend",
+            location: "Club Sunshine → Bishamon Bridge",
+            reward: "Ai's video",
+            requirements: "After finishing Ai's hostess training",
+            guide: [
+              "1. Go to Bishamon Bridge with Ai.",
+              "2. Respond however you like.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 73,
+            chapter: 7,
+            name: "A Little Brotherly Love",
+            location: "Club Sunshine",
+            reward: "Hibiki's video",
+            requirements: "After finishing Hibiki's hostess training",
+            guide: [
+              "1. Have heartfelt conversation with Hibiki's little brother.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 74,
+            chapter: 7,
+            name: "Dream Chaser",
+            location: "Club Sunshine",
+            reward: "Saki's video",
+            requirements: "After finishing Saki's hostess training",
+            guide: [
+              "1. Go outside after finishing training.",
+              "2. Defeat jerks harassing Saki.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 75,
+            chapter: 7,
+            name: "Mystery Caller",
+            location: "Southern Taxi Stand Save Point → South river footpath",
+            reward: "Recruit Unknown hostess, money rewards",
+            requirements: "After first night at Club Sunshine",
+            guide: [
+              "1. Save Point near southern Taxi Stand rings; answer for 100,000 yen.",
+              "2. Task: bring 9mm Automatic Pistol (buy or find).",
+              "3. Bring to Save Point for 200,000 yen.",
+              "4. Further items: Chinese Broadsword (300,000), Tourmaline (400,000), Sakura Storm (500,000).",
+              "5. Called to south river footpath; defeat three jerks.",
+              "6. Return to Save Point; recruit Unknown hostess.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 76,
+            chapter: 7,
+            name: "Sotenbori's Mr. Moneybags",
+            location: "In front of The Grand",
+            reward: "Ability to send money to Kiryu freely",
+            requirements: "After first night at Club Sunshine",
+            guide: [
+              "1. Find busker in front of The Grand.",
+              "2. Give money in increments:",
+              " • Ch. 7: 10 million yen",
+              " • Ch. 11: 50 million yen",
+              " • Ch. 15: 100 million yen",
+              " • Finale: 500 million yen",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 77,
+            chapter: 4,
+            name: "Sotenbori's Mr. Libido",
+            location: "Gandhara video store",
+            reward: "Incomparable Habu Drink available for purchase",
+            requirements: "First encounter with Mr. Libido in story",
+            guide: [
+              "1. Head to Gandhara after story encounter.",
+              "2. Watch different videos to build friendship (15 total needed).",
+              "3. Every 5 movies, have conversation with Mr. L.",
+              "4. On fourth conversation, he needs 'Incomparable Habu Drink' from Daikoku Drugstore.",
+              "5. Bring it to him.",
+            ].join("\n"),
+            videoId: "",
+          },
+
+          {
+            index: 78,
+            chapter: 3,
+            name: "The Doll Girl",
+            location: "Outside SEGA HI-TECH LAND",
+            reward: "Security Wallet, 'Dolly' (mother) joins club later",
+            requirements: "Available in Chapter 3",
+            guide: [
+              "1. Speak to forlorn girl outside arcade.",
+              "2. Leave and return; defeat two thugs eyeing her.",
+              "3. Get Chestnut the Squirrel (Red) from UFO Catcher and give to her.",
+              "4. She runs off; return later.",
+              "5. Get Blue Chestnut and give to her.",
+              "6. Get Pink Bunchan and give to her.",
+              "7. Find her crying over busted Bunchan; follow to jerks and defeat them.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 79,
+            chapter: 3,
+            name: "Komian's Chef",
+            location: "Komian restaurant",
+            reward: "Trouble Finder, Nozomi Hakuza video, free partnership",
+            requirements: "Eat at Komian",
+            guide: [
+              "1. Eat at Komian to befriend chef.",
+              "2. Continue eating to build friendship.",
+              "3. Near end, get ingredients: salmon, turtle, eel (fish at river).",
+              "4. Bring back ingredients.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 80,
+            chapter: 3,
+            name: "STIJL's Barkeep",
+            location: "Shot Bar STIJL",
+            reward: "French Wallet, Courvoisier XO added, free partnership",
+            requirements: "Drink at STIJL",
+            guide: [
+              "1. Drink at STIJL to befriend bartender.",
+              "2. Continue ordering drinks to build friendship.",
+              "3. He asks you to tend bar; tell customers:",
+              " • 'Sherry casks'",
+              " • 'Ballantine's'",
+              " • 'Fruity aroma'",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 81,
+            chapter: 3,
+            name: "Gandhara's Clerk",
+            location: "Gandhara video store → Alley south of Utahime",
+            reward: "'The Videotape', free partnership",
+            requirements: "Watch video at Gandhara",
+            guide: [
+              "1. Watch video at Gandhara to befriend clerk.",
+              "2. Continue watching videos to build friendship.",
+              "3. At high level, he mentions special tape hidden in Sotenbori.",
+              "4. Go to alley south of Utahime; find woman in white.",
+              "5. Buy Oden Soup from M Store and give to her.",
+              "6. Get 'The Videotape'; bring back to Gandhara and watch.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 82,
+            chapter: 3,
+            name: "Kyoko at SEGA HI-TECH LAND",
+            location: "SEGA Arcade",
+            reward:
+              "Quality Iron, Fantasy Zone game, Kyoko video, free partnership",
+            requirements: "Play Space Harrier",
+            guide: [
+              "1. Play Space Harrier; Kyoko notices.",
+              "2. Leave, return, play again; she mentions high score.",
+              "3. Leave, return; she challenges 1 million points; beat it for Quality Iron.",
+              "4. Leave, return, play again; she challenges 2 million points.",
+              "5. Beat it; Fantasy Zone installed.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 95,
+            chapter: 4,
+            name: "Sparring with Komeki",
+            location: "Ashitaba Park",
+            reward: "Sets up Sometaro Komeki as Master",
+            requirements: "After date with Akko",
+            guide: [
+              "1. Head to Ashitaba Park after date.",
+              "2. Begin training with Sometaro Komeki.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 96,
+            chapter: 3,
+            name: "Fei Hu's Training",
+            location: "Fei Hu's restaurant",
+            reward: "Sets up Fei Hu as Master",
+            requirements: "After initial equipment search with Fei Hu",
+            guide: [
+              "1. Return to restaurant after first equipment search.",
+              "2. Speak to Fei Hu.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 97,
+            chapter: 4,
+            name: "Areshi's Training",
+            location: "Southwest corner district (back alley)",
+            reward: "Sets up Areshi as Master",
+            requirements: "After Areshi speaks to you",
+            guide: [
+              "1. Head to southwest corner of district.",
+              "2. Find Areshi in back alley.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 98,
+            chapter: 3,
+            name: "Play-Money Shakedown",
+            location: "Sotenbori",
+            reward: "Defeat Mr. Shakedown (Kawahashi)",
+            requirements: "Encounter Mr. Shakedown (red sleeveless shirt)",
+            guide: [
+              "1. Find Mr. Shakedown (Kawahashi).",
+              "2. Defeat him.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 99,
+            chapter: 3,
+            name: "The Ultimate Plan",
+            location: "Sotenbori",
+            reward: "Defeat Mr. Shakedown (Oe)",
+            requirements:
+              "Encounter second Mr. Shakedown (black sleeveless shirt)",
+            guide: [
+              "1. Find second Mr. Shakedown (Oe).",
+              "2. Defeat him.",
+            ].join("\n"),
+            videoId: "",
+          },
+          {
+            index: 100,
+            chapter: "Finale",
+            name: "Sotenbori in Peril",
+            location: "Bullfighting Arena (via taxi from Sotenbori)",
+            reward: "Amon Sunglasses",
+            requirements: "Complete all other Majima substories",
+            guide: [
+              "1. After completing all substories, pager tells you to go to bullfighting arena.",
+              "2. Take taxi from Sotenbori to arena.",
+              "PREPARATION: Bring Incomparable Habu Drinks, best Mail armor, Sacrifice Stones.",
+              "STRATEGY: Use Mad Dog Style, specifically Mad Dog Trick: Demonfire (hold Fighting Stance, press Heavy Attack as enemy attacks).",
+              "PHASE 1 (Legend Style): Amon throws items; use Demonfire repeatedly.",
+              "PHASE 2 (Knife): Amon uses knife; health drains fast. Continue Demonfire, heal often.",
+              "Jo Amon has 13 health bars.",
+            ].join("\n"),
+            videoId: "",
+          },
+        ],
       },
     },
   },
@@ -7756,66 +8981,76 @@ const mobileHomeBtn = document.getElementById("mobileHomeBtn");
 function showView(viewName, game = "", character = "", substoryIndex = -1) {
   // If navigating to 'characters' and only one character, skip to substories
   if (
-    viewName === 'characters' &&
+    viewName === "characters" &&
     game &&
     Object.keys(gameData[game].characters).length === 1
   ) {
     const onlyCharacter = Object.keys(gameData[game].characters)[0];
-    showView('substories', game, onlyCharacter);
+    showView("substories", game, onlyCharacter);
     return;
   }
 
   // Update URL without page reload
   const params = new URLSearchParams();
-  if (game) params.set('game', game);
-  if (character) params.set('character', character);
-  if (substoryIndex >= 0) params.set('substory', substoryIndex);
+  if (game) params.set("game", game);
+  if (character) params.set("character", character);
+  if (substoryIndex >= 0) params.set("substory", substoryIndex);
 
-  const newUrl = `${window.location.pathname}?view=${viewName}&${params.toString()}`;
-  window.history.pushState({view: viewName, game, character, substoryIndex}, '', newUrl);
+  const newUrl = `${
+    window.location.pathname
+  }?view=${viewName}&${params.toString()}`;
+  window.history.pushState(
+    { view: viewName, game, character, substoryIndex },
+    "",
+    newUrl
+  );
 
   // Update the view
   updateView(viewName, game, character, substoryIndex);
 }
 
-
 function updateView(viewName, game = "", character = "", substoryIndex = -1) {
   // Hide all views
-  document.querySelectorAll('#gamesView, #charactersView, #substoriesView, #substoryDetailView').forEach(view => {
-    view.classList.add('hidden');
-  });
-  
+  document
+    .querySelectorAll(
+      "#gamesView, #charactersView, #substoriesView, #substoryDetailView"
+    )
+    .forEach((view) => {
+      view.classList.add("hidden");
+    });
+
   // Show the requested view
-  document.getElementById(`${viewName}View`).classList.remove('hidden');
+  document.getElementById(`${viewName}View`).classList.remove("hidden");
   currentView = viewName;
   selectedGame = game;
   selectedCharacter = character;
   currentSubstoryIndex = substoryIndex;
-  
+
   // Update content based on the view
-  if (viewName === 'games') {
+  if (viewName === "games") {
     initializeGamesGrid();
-  } else if (viewName === 'characters') {
+  } else if (viewName === "characters") {
     showCharacters(game);
-  } else if (viewName === 'substories') {
+  } else if (viewName === "substories") {
     showSubstories(game, character);
-  } else if (viewName === 'substoryDetail') {
+  } else if (viewName === "substoryDetail") {
     showSubstoryDetail(game, character, substoryIndex);
   }
-  
+
   // Update mobile nav button states
-  const mobileBackBtn = document.getElementById('mobileBackBtn');
-  mobileBackBtn.style.display = viewName !== 'games' ? 'flex' : 'none';
+  const mobileBackBtn = document.getElementById("mobileBackBtn");
+  mobileBackBtn.style.display = viewName !== "games" ? "flex" : "none";
 }
 
 // Initialize games grid with logo images
 function initializeGamesGrid() {
-  const gamesGrid = document.getElementById('gamesGrid');
-  gamesGrid.innerHTML = '';
+  const gamesGrid = document.getElementById("gamesGrid");
+  gamesGrid.innerHTML = "";
 
-  Object.keys(gameData).forEach(gameName => {
-    const gameCard = document.createElement('div');
-    gameCard.className = 'game-card p-6 rounded-lg cursor-pointer text-center flex flex-col items-center';
+  Object.keys(gameData).forEach((gameName) => {
+    const gameCard = document.createElement("div");
+    gameCard.className =
+      "game-card p-6 rounded-lg cursor-pointer text-center flex flex-col items-center";
     gameCard.innerHTML = `
       <img src="${gameData[gameName].logo}" 
            alt="${gameName} Logo" 
@@ -7823,47 +9058,47 @@ function initializeGamesGrid() {
            loading="lazy">
       <h3 class="text-xl font-bold text-primary mb-2">${gameName}</h3>
     `;
-    gameCard.addEventListener('click', () => {
-      showView('characters', gameName);
+    gameCard.addEventListener("click", () => {
+      showView("characters", gameName);
     });
     gamesGrid.appendChild(gameCard);
   });
 }
 
 function showCharacters(gameName) {
-  const charactersGrid = document.getElementById('charactersGrid');
-  const gameTitle = document.getElementById('gameTitle');
+  const charactersGrid = document.getElementById("charactersGrid");
+  const gameTitle = document.getElementById("gameTitle");
   const characters = gameData[gameName].characters;
   const characterCount = Object.keys(characters).length;
 
   gameTitle.textContent = gameName;
-  charactersGrid.innerHTML = '';
+  charactersGrid.innerHTML = "";
 
   // Set grid layout based on character count
-  let gridClass = 'grid gap-4 ';
+  let gridClass = "grid gap-4 ";
   if (characterCount === 1) {
-    gridClass += 'grid-cols-1 justify-items-center';
+    gridClass += "grid-cols-1 justify-items-center";
   } else if (characterCount === 2) {
-    gridClass += 'grid-cols-2 justify-items-center';
+    gridClass += "grid-cols-2 justify-items-center";
   } else {
-    gridClass += 'grid-cols-2 md:grid-cols-3 lg:grid-cols-4';
+    gridClass += "grid-cols-2 md:grid-cols-3 lg:grid-cols-4";
   }
   charactersGrid.className = gridClass;
 
-  Object.keys(characters).forEach(characterName => {
+  Object.keys(characters).forEach((characterName) => {
     const character = characters[characterName];
-    const characterCard = document.createElement('div');
+    const characterCard = document.createElement("div");
 
     // Card sizing logic
-    let cardClass = 'character-card p-4 rounded-lg cursor-pointer text-center ';
-    let imageClass = 'character-image mb-3 mx-auto object-cover ';
+    let cardClass = "character-card p-4 rounded-lg cursor-pointer text-center ";
+    let imageClass = "character-image mb-3 mx-auto object-cover ";
 
     if (characterCount <= 2) {
-      cardClass += 'h-80 w-full max-w-xs ';
-      imageClass += 'w-full h-48 ';
+      cardClass += "h-80 w-full max-w-xs ";
+      imageClass += "w-full h-48 ";
     } else {
-      cardClass += 'h-64 ';
-      imageClass += 'w-full h-36 ';
+      cardClass += "h-64 ";
+      imageClass += "w-full h-36 ";
     }
 
     characterCard.className = cardClass;
@@ -7872,54 +9107,59 @@ function showCharacters(gameName) {
            alt="${characterName}" 
            class="${imageClass}"
            style="aspect-ratio: 902/439">
-      <h4 class="font-semibold text-primary ${characterCount <= 2 ? 'text-lg' : 'text-sm'} mt-2">${characterName}</h4>
-      <p class="text-secondary ${characterCount <= 2 ? 'text-sm' : 'text-xs'} mt-1">${character.substories.length} Substories</p>
+      <h4 class="font-semibold text-primary ${
+        characterCount <= 2 ? "text-lg" : "text-sm"
+      } mt-2">${characterName}</h4>
+      <p class="text-secondary ${
+        characterCount <= 2 ? "text-sm" : "text-xs"
+      } mt-1">${character.substories.length} Substories</p>
     `;
 
-    characterCard.addEventListener('click', (e) => {
+    characterCard.addEventListener("click", (e) => {
       e.stopPropagation();
-      showView('substories', gameName, characterName);
+      showView("substories", gameName, characterName);
     });
     charactersGrid.appendChild(characterCard);
   });
 }
 
 function showSubstories(gameName, characterName) {
-  const substoriesList = document.getElementById('substoriesList');
-  const characterTitle = document.getElementById('characterTitle');
+  const substoriesList = document.getElementById("substoriesList");
+  const characterTitle = document.getElementById("characterTitle");
 
   characterTitle.textContent = `${characterName} - ${gameName}`;
-  substoriesList.innerHTML = '';
+  substoriesList.innerHTML = "";
 
   const substories = gameData[gameName].characters[characterName].substories;
-  const isGaiden = gameName.startsWith('Like a Dragon Gaiden');
-  const HiddenChapter = document.getElementById('chapter');
-  const HiddenRank = document.getElementById('rank');
+  const isGaiden = gameName.startsWith("Like a Dragon Gaiden");
+  const HiddenChapter = document.getElementById("chapter");
+  const HiddenRank = document.getElementById("rank");
 
   substories.forEach((substory, index) => {
-    let chapterHtml = '';
-    let rankHtml = '';
+    let chapterHtml = "";
+    let rankHtml = "";
     if (isGaiden) {
-      HiddenRank.style.display = '';
-      HiddenChapter.style.display = 'none';
+      HiddenRank.style.display = "";
+      HiddenChapter.style.display = "none";
       // Only show Rank for Gaiden
       if (substory.rank) {
         rankHtml = `<p class="text-secondary text-sm"> 🔍 Rank(Gaiden) : ${substory.rank}</p>`;
       }
     } else {
-      HiddenRank.style.display = 'none';
-      HiddenChapter.style.display = '';
+      HiddenRank.style.display = "none";
+      HiddenChapter.style.display = "";
       // Only show Chapter for non-Gaiden
       if (substory.chapter) {
         chapterHtml = `<p class="text-secondary text-sm"> 🔍 Chapter ${substory.chapter}</p>`;
       }
     }
 
-    const substoryItem = document.createElement('div');
-    substoryItem.className = 'substory-item p-4 rounded cursor-pointer flex items-start gap-3';
+    const substoryItem = document.createElement("div");
+    substoryItem.className =
+      "substory-item p-4 rounded cursor-pointer flex items-start gap-3";
     substoryItem.innerHTML = `
       <div class="bg-accent text-white rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0 mt-1">
-        ${index + 1}
+        ${substory.index}
       </div>
       <div>
         <h4 class="font-semibold text-primary mb-2">${substory.name}</h4>
@@ -7931,29 +9171,34 @@ function showSubstories(gameName, characterName) {
       </div>
     `;
 
-    substoryItem.addEventListener('click', (e) => {
+    substoryItem.addEventListener("click", (e) => {
       e.stopPropagation();
-      showView('substoryDetail', gameName, characterName, index);
+      showView("substoryDetail", gameName, characterName, index);
     });
     substoriesList.appendChild(substoryItem);
   });
 }
 
 function showSubstoryDetail(gameName, characterName, substoryIndex) {
-  const substory = gameData[gameName].characters[characterName].substories[substoryIndex];
+  const substory =
+    gameData[gameName].characters[characterName].substories[substoryIndex];
 
-  document.getElementById('substoryTitle').textContent = substory.name;
-  document.getElementById('substoryLocation').textContent = substory.location;
-  document.getElementById('substoryReward').textContent = substory.reward;
-  document.getElementById('substoryRequirements').textContent = substory.requirements;
-  document.getElementById('substoryChapter').textContent = substory.chapter;
-  document.getElementById('substoryRank').textContent = substory.rank;
-  
+  document.getElementById("substoryTitle").textContent = substory.name;
+  document.getElementById("substoryLocation").textContent = substory.location;
+  document.getElementById("substoryReward").textContent = substory.reward;
+  document.getElementById("substoryRequirements").textContent =
+    substory.requirements;
+  document.getElementById("substoryChapter").textContent = substory.chapter;
+  document.getElementById("substoryRank").textContent = substory.rank;
+
   // Format the guide with proper line breaks
-  document.getElementById('substoryGuide').innerHTML = substory.guide.replace(/\n/g, '<br>');
+  document.getElementById("substoryGuide").innerHTML = substory.guide.replace(
+    /\n/g,
+    "<br>"
+  );
 
   // Video embed
-  const videoContainer = document.getElementById('videoContainer');
+  const videoContainer = document.getElementById("videoContainer");
   if (substory.videoId) {
     videoContainer.innerHTML = `
       <iframe 
@@ -7966,90 +9211,95 @@ function showSubstoryDetail(gameName, characterName, substoryIndex) {
       ></iframe>
     `;
   } else {
-    videoContainer.innerHTML = '<p class="text-secondary">No video available for this substory</p>';
+    videoContainer.innerHTML =
+      '<p class="text-secondary">No video available for this substory</p>';
   }
 }
 
 // Handle browser back/forward navigation
-window.addEventListener('popstate', (event) => {
+window.addEventListener("popstate", (event) => {
   if (event.state) {
     updateView(
-      event.state.view, 
-      event.state.game || '', 
-      event.state.character || '', 
+      event.state.view,
+      event.state.game || "",
+      event.state.character || "",
       event.state.substoryIndex || -1
     );
   } else {
     // Default to games view if no state
-    updateView('games');
+    updateView("games");
   }
 });
 
 // Event listeners for navigation
-homeBtn.addEventListener('click', () => {
-  showView('games');
+homeBtn.addEventListener("click", () => {
+  showView("games");
 });
 
-mobileHomeBtn.addEventListener('click', () => {
-  showView('games');
+mobileHomeBtn.addEventListener("click", () => {
+  showView("games");
 });
 
 // Mobile back button
-document.getElementById('mobileBackBtn').addEventListener('click', () => {
+document.getElementById("mobileBackBtn").addEventListener("click", () => {
   window.history.back();
 });
 
 // Initialize the app based on URL parameters
 function initializeFromURL() {
   const urlParams = new URLSearchParams(window.location.search);
-  const view = urlParams.get('view') || 'games';
-  const game = urlParams.get('game') || '';
-  const character = urlParams.get('character') || '';
-  const substory = parseInt(urlParams.get('substory')) || -1;
-  
+  const view = urlParams.get("view") || "games";
+  const game = urlParams.get("game") || "";
+  const character = urlParams.get("character") || "";
+  const substory = parseInt(urlParams.get("substory")) || -1;
+
   // Set initial history state
-  window.history.replaceState({view, game, character, substoryIndex: substory}, '');
-  
+  window.history.replaceState(
+    { view, game, character, substoryIndex: substory },
+    ""
+  );
+
   // Update the view
   updateView(view, game, character, substory);
 }
 
 function updateView(viewName, game = "", character = "", substoryIndex = -1) {
   // Hide all views
-  document.querySelectorAll('#gamesView, #charactersView, #substoriesView, #substoryDetailView').forEach(view => {
-    view.classList.add('hidden');
-  });
-  
+  document
+    .querySelectorAll(
+      "#gamesView, #charactersView, #substoriesView, #substoryDetailView"
+    )
+    .forEach((view) => {
+      view.classList.add("hidden");
+    });
+
   // Show the requested view
-  document.getElementById(`${viewName}View`).classList.remove('hidden');
+  document.getElementById(`${viewName}View`).classList.remove("hidden");
   currentView = viewName;
   selectedGame = game;
   selectedCharacter = character;
   currentSubstoryIndex = substoryIndex;
-  
+
   // Scroll to top of the page
-  window.scrollTo({ top: 0, behavior: 'smooth' });
-  
+  window.scrollTo({ top: 0, behavior: "smooth" });
+
   // Update content based on the view
-  if (viewName === 'games') {
+  if (viewName === "games") {
     initializeGamesGrid();
-  } else if (viewName === 'characters') {
+  } else if (viewName === "characters") {
     showCharacters(game);
-  } else if (viewName === 'substories') {
+  } else if (viewName === "substories") {
     showSubstories(game, character);
-  } else if (viewName === 'substoryDetail') {
+  } else if (viewName === "substoryDetail") {
     showSubstoryDetail(game, character, substoryIndex);
   }
-  
+
   // Update mobile nav button states
-  const mobileBackBtn = document.getElementById('mobileBackBtn');
-  mobileBackBtn.style.display = viewName !== 'games' ? 'flex' : 'none';
+  const mobileBackBtn = document.getElementById("mobileBackBtn");
+  mobileBackBtn.style.display = viewName !== "games" ? "flex" : "none";
 }
 
-
-
 // Initialize the app when DOM is loaded
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener("DOMContentLoaded", () => {
   initializeFromURL();
 });
-

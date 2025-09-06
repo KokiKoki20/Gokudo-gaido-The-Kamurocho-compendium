@@ -4851,16 +4851,22 @@ function showSubstories(gameName, characterName) {
 
   const substories = gameData[gameName].characters[characterName].substories;
   const isGaiden = gameName.startsWith('Like a Dragon Gaiden');
+  const HiddenChapter = document.getElementById('chapter');
+  const HiddenRank = document.getElementById('rank');
 
   substories.forEach((substory, index) => {
     let chapterHtml = '';
     let rankHtml = '';
     if (isGaiden) {
+      HiddenRank.style.display = '';
+      HiddenChapter.style.display = 'none';
       // Only show Rank for Gaiden
       if (substory.rank) {
         rankHtml = `<p class="text-secondary text-sm"> 🔍 Rank(Gaiden) : ${substory.rank}</p>`;
       }
     } else {
+      HiddenRank.style.display = 'none';
+      HiddenChapter.style.display = '';
       // Only show Chapter for non-Gaiden
       if (substory.chapter) {
         chapterHtml = `<p class="text-secondary text-sm"> 🔍 Chapter ${substory.chapter}</p>`;
@@ -4966,9 +4972,42 @@ function initializeFromURL() {
   updateView(view, game, character, substory);
 }
 
+function updateView(viewName, game = "", character = "", substoryIndex = -1) {
+  // Hide all views
+  document.querySelectorAll('#gamesView, #charactersView, #substoriesView, #substoryDetailView').forEach(view => {
+    view.classList.add('hidden');
+  });
+  
+  // Show the requested view
+  document.getElementById(`${viewName}View`).classList.remove('hidden');
+  currentView = viewName;
+  selectedGame = game;
+  selectedCharacter = character;
+  currentSubstoryIndex = substoryIndex;
+  
+  // Scroll to top of the page
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+  
+  // Update content based on the view
+  if (viewName === 'games') {
+    initializeGamesGrid();
+  } else if (viewName === 'characters') {
+    showCharacters(game);
+  } else if (viewName === 'substories') {
+    showSubstories(game, character);
+  } else if (viewName === 'substoryDetail') {
+    showSubstoryDetail(game, character, substoryIndex);
+  }
+  
+  // Update mobile nav button states
+  const mobileBackBtn = document.getElementById('mobileBackBtn');
+  mobileBackBtn.style.display = viewName !== 'games' ? 'flex' : 'none';
+}
+
 
 
 // Initialize the app when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
   initializeFromURL();
 });
+

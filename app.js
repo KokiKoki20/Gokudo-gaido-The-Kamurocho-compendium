@@ -8903,7 +8903,7 @@ const gameData = {
       },
     },
   },
-  Judgment: {
+  "Judgment": {
     logo: "./images/logos/Judgment.webp",
     characters: {
       "Takayuki Yagami": {
@@ -9153,6 +9153,8 @@ function showSubstories(gameName, characterName) {
         chapterHtml = `<p class="text-secondary text-sm"> 🔍 Chapter ${substory.chapter}</p>`;
       }
     }
+
+
 
     const substoryItem = document.createElement("div");
     substoryItem.className =

@@ -24,7 +24,7 @@ https://kokikoki20.github.io/Gokudo-gaido-The-Kamurocho-compendium/
 ### Spin-Offs
 `Judgment` 🔴 (0%)  
 `Lost Judgment` 🔴 (0%)  
-`Ishin! Kiwami` 🔴 (0%)  
+`Ishin! Kiwami` 🟢 (100%)  
 `Gaiden` 🟢 (100%)  
 
 ### Japanese Exclusives

@@ -3700,7 +3700,1198 @@ const gameData = {
     characters: {
       "Kazuma Kiryu": {
         image: "👨‍💼",
-        substories: [],
+        substories: [
+          {
+            index: 1,
+            chapter: 5,
+            name: "Be My Baby",
+            location: "East of Kotobuki Drugs",
+            reward: "Unlocks Gondawara as employee",
+            requirements: "Available in Chapter 5",
+            guide: [
+              "1. Speak to tough guys east of Kotobuki Drugs",
+              "2. Beat them up",
+              "3. Patriarch appears and takes you to club",
+              "4. Defeat boss (prioritize him first)",
+              "5. After Clan Creator access: find Gondawara in Theater Square east side stairs"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 2,
+            chapter: 5,
+            name: "The Legendary Dragon",
+            location: "North of Earth Angel → Jewel club",
+            reward: "Completes substory",
+            requirements: "Available in Chapter 5",
+            guide: [
+              "1. Find group north of Earth Angel",
+              "2. They mention heading to Jewel club",
+              "3. Go to Jewel (west of Kanrai)",
+              "4. Beat up the duo"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 3,
+            chapter: 8,
+            name: "Embracing my True Self",
+            location: "Stardust → Earth Angel → Club",
+            reward: "Yuya joins Majima Construction",
+            requirements: "Available in Chapter 8",
+            guide: [
+              "1. Speak to Yuya in front of Stardust",
+              "2. Meet biker gang in club",
+              "3. Go to Earth Angel, talk to Ako (former Okano)",
+              "4. Return to club, beat up bikers",
+              "5. Ako brings Yuya's old coat, fight round 2",
+              "6. Find Yuya at Construction Site near Purgatory entrance"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 4,
+            chapter: 13,
+            name: "Rooftop Revenge",
+            location: "Near Kanrai (rooftop)",
+            reward: "Spy Gloves",
+            requirements: "Chapter 13, nighttime, Haruka with you",
+            guide: [
+              "1. Notice arguing couple on roof near Kanrai",
+              "2. Businessman asks for help",
+              "3. Go to roof, talk down the guy",
+              "4. Choices don't affect outcome"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 5,
+            chapter: 5,
+            name: "Supporting Sunflower",
+            location: "South end of Nakamichi St.",
+            reward: "Progresses Sunflower orphanage storyline",
+            requirements: "Available in Chapter 5",
+            guide: [
+              "1. Talk to Suenaga at south Nakamichi St.",
+              "2. Donate money (any amount, 100,000 recommended for trophy)",
+              "3. Speak to Suenaga about Hayato-kun",
+              "4. Haruka suggests puppy from last year",
+              "5. Call Purgatory, get dog from Theater Square",
+              "6. Return to Suenaga with puppy"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 6,
+            chapter: 5,
+            name: "Renovating Sunflower",
+            location: "South Nakamichi St. → Champion District",
+            reward: "Children's Drawing",
+            requirements: "Complete Substory #5",
+            guide: [
+              "1. Return to Suenaga",
+              "2. Donate 250,000 yen for roof repair",
+              "3. Contractor demands more money",
+              "4. Go to northeast Champion District",
+              "5. Beat up contractor's crony, get business card",
+              "6. Return to Suenaga"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 7,
+            chapter: 5,
+            name: "Sunflower in Bloom",
+            location: "South Nakamichi St. → Champion District",
+            reward: "Handmade Scarf, Sunflower Amulet, Picture of Haruka 1",
+            requirements: "Complete Substory #6",
+            guide: [
+              "1. Return to Suenaga",
+              "2. Call shady contractor, meet in northeast Champion District",
+              "3. Beat up yakuza harassing contractor",
+              "4. Get text from Haruka",
+              "5. Return to Suenaga",
+              "6. Suenaga available at Four Shine in Sotenbori for Cabaret Club"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 8,
+            chapter: 5,
+            name: "Mr. Try and Hit Me",
+            location: "Shichifuku Parking Lot (east of Kanrai)",
+            reward: "30,000 yen, unlocks as employee",
+            requirements: "Available in Chapter 5",
+            guide: [
+              "1. Find purple jacket guy in parking lot",
+              "2. Pay 5000 yen to try hitting him",
+              "3. Corner him near cars, use light attacks",
+              "4. After Clan Creator: find him in east construction site"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 9,
+            chapter: 5,
+            name: "An Eccentric Errand",
+            location: "Northwest Smile Burger → Public Park 3",
+            reward: "150,000 yen, unlocks as employee",
+            requirements: "Available in Chapter 5",
+            guide: [
+              "1. Talk to scary dude near Smile Burger",
+              "2. Get text to go to Public Park 3 (Tenkaichi Alley)",
+              "3. Check bench for Locker Key C1",
+              "4. Get Green Box from lockers",
+              "5. Drop behind Club Shine in Pink Alley",
+              "6. Find red jacket guy in Theater Square underground",
+              "7. Fight both guys"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 10,
+            chapter: 8,
+            name: "Smart Futures",
+            location: "Showa St. Poppo → Pink Street",
+            reward: "300,000 yen profit",
+            requirements: "Available in Chapter 8",
+            guide: [
+              "1. Intervene in argument at Showa St. Poppo",
+              "2. Beat up yakuza",
+              "3. Invest 500,000 yen in Hiro-yan's company",
+              "4. Return when marker reappears",
+              "5. Refuse first offer, accept 800,000 yen total",
+              "6. Find out Hiro-yan is broke on Pink Street",
+              "7. Talk to original yakuza"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 11,
+            chapter: 8,
+            name: "Kamurocho Forestry Association",
+            location: "Taihei Akaushimaru → Theater Square → Park Blvd",
+            reward: "100,000 yen",
+            requirements: "Available in Chapter 8",
+            guide: [
+              "1. Sign petition at Taihei Akaushimaru",
+              "2. Get debt collector text and call from Yuya",
+              "3. Talk to Morita at Theater Square",
+              "4. Go to Gravure Studio building (3rd floor)",
+              "5. Fight scammer, destroy all 4 PCs",
+              "6. Use PCs as weapons or throw them"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 12,
+            chapter: 13,
+            name: "The Cabaret Killer",
+            location: "Pink St. → Nakamichi Alley → Various locations",
+            reward: "Heavenly Beasts Bracelet, Yuka joins club",
+            requirements: "Chapter 13, Haruka with you",
+            guide: [
+              "1. Hear about Cabaret Killer near Shine",
+              "2. Intervene in attack north of Ebisu Pawn",
+              "3. Find hostess's friend northeast",
+              "4. Go to Stardust (dead end)",
+              "5. Get call from Yuka",
+              "6. Investigate alley behind Kotobuki Drugs",
+              "7. Haruka solves case",
+              "8. Yuka available at Four Shine"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 13,
+            chapter: 6,
+            name: "Rags to Riches",
+            location: "West of Wette Kitchen → Various locations",
+            reward: "100,000 yen (sell Swiss Watch), Michael joins construction",
+            requirements: "Available in Chapter 6",
+            guide: [
+              "1. Listen to Michael Naoya west of Wette Kitchen",
+              "2. Get Michael's CD",
+              "3. Give CD to old guy at Stardust (get Slick Fountain Pen)",
+              "4. Trade pen for Chic Boots at Ebisu Pawn",
+              "5. Give boots to homeless guy in Children's Park (get Pink Scarf)",
+              "6. Return scarf to woman at Earth Angel (get Swiss Watch)",
+              "7. Sell watch for 100,000 yen",
+              "8. Find Michael north of coin lockers"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 14,
+            chapter: 7,
+            name: "A Whirlwind Dirt Tour",
+            location: "Kanrai → Various locations",
+            reward: "300,000 yen, Photo of Il Yu-Jin (if no fans spotted), Yu-Jin joins construction",
+            requirements: "Available in Chapter 7",
+            guide: [
+              "1. Bump into Yu-Jin at Kanrai",
+              "2. Escort him while avoiding fans (red arrows)",
+              "3. First: Fusion - go west/south around Bantam, east around Beam",
+              "4. Second: Earth Angel - through Champion District alleys",
+              "5. Third: Kyushu No.1 Star - west from Champion District, north then west",
+              "6. If caught: escape to Public Park 3",
+              "7. Find Yu-Jin under stairs south of Ikinari Steak"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 15,
+            chapter: 6,
+            name: "Rising from the Shadows",
+            location: "Champion District south → Fusion → Senryo Ave",
+            reward: "Exorcism Stone",
+            requirements: "Available in Chapter 6",
+            guide: [
+              "1. Get Dirty Video from haggard man at Champion District south",
+              "2. Watch video at Fusion",
+              "3. Meet medium on Senryo Ave southeast",
+              "4. Pay 100,000 yen for exorcism"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 16,
+            chapter: 6,
+            name: "Secret Stash",
+            location: "Hotel District → Lockers → Cafe Alps",
+            reward: "200,000 yen",
+            requirements: "Available in Chapter 6",
+            guide: [
+              "1. Buy locker key for 20,000 yen in Hotel District alcove",
+              "2. Get Suspicious Video from lockers (B1)",
+              "3. Watch at Fusion, recognize Cafe Alps location",
+              "4. Confront manager at Cafe Alps",
+              "5. Chase employee to Ebisu Pawn",
+              "6. Fight jerks, recover tapes"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 17,
+            chapter: 6,
+            name: "Beam's Backroom Cache",
+            location: "Theater Square → Club Debolah → Beam",
+            reward: "Access to Beam arms shop",
+            requirements: "Available after speaking to Tamura",
+            guide: [
+              "1. Talk to Tamura in Theater Square",
+              "2. Buy password from Nitta in Club Debolah (50,000 yen)",
+              "3. Go to Beam counter",
+              "4. Ask for 'Take-chan's High School Heaven'",
+              "5. Answer '2600' (Cafe Alps drink total)"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 18,
+            chapter: 6,
+            name: "Welcome to the Modern Age",
+            location: "Nakamichi Smile Burger → Lullaby Mahjong building",
+            reward: "Completes substory",
+            requirements: "Available in Chapter 6",
+            guide: [
+              "1. Help Date at Smile Burger with internet scam",
+              "2. Get scam calls and emails",
+              "3. Go to Lullaby Mahjong building (3rd floor)",
+              "4. Confront Tanabe and fight"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 19,
+            chapter: 5,
+            name: "We're All In This Together",
+            location: "Suppon St. → Park Boulevard",
+            reward: "Japanese Diver's Watch",
+            requirements: "Available in Chapter 5",
+            guide: [
+              "1. Meet job seekers at Suppon St. southwest",
+              "2. Pick up Job Seeker's Amulet",
+              "3. Find trio at Park Boulevard near Gravure Studio",
+              "4. Participate in mock interview with correct responses:",
+              " • 'It's nice to meet you!'",
+              " • 'Being a team player is important.'",
+              " • 'He really helped people get along.'",
+              " • 'It shows she's a diligent worker.'",
+              " • 'It's good to experience other cultures.'",
+              " • 'That's a future-proof industry.'",
+              " • 'That's a great workplace attitude.'",
+              " • 'I used to be in real estate.'",
+              " • 'I'm thinking of starting an orphanage.'",
+              " • 'Thank you for having us!'"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 20,
+            chapter: 1,
+            name: "Living the American Dream",
+            location: "Batting Center",
+            reward: "Signed Ball, Dandy becomes employee",
+            requirements: "Available in Chapter 1",
+            guide: [
+              "1. Complete all three Beginner Challenge courses",
+              "2. Meet Bob 'Dandy' Johnson outside",
+              "3. Get 5 home runs in 10 pitches against specific pattern:",
+              " • Pitch 1: 2-seam",
+              " • Pitch 2: Fastball",
+              " • Pitch 3: Freedom Fastball (swing immediately)",
+              " • Pitch 4: Slider",
+              " • Pitch 5: American Dream (weird curve, same spot)",
+              " • Pitch 6: Shoot",
+              " • Pitch 7: Fastball",
+              " • Pitch 8: Soaring Eagle (rises full square)",
+              " • Pitch 9: Shoot",
+              " • Pitch 10: American Dream",
+              "4. After Clan Creator: find Dandy on batting center roof"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 21,
+            chapter: 1,
+            name: "Against All Odds",
+            location: "Lullaby Mahjong building",
+            reward: "100,000 yen",
+            requirements: "Available in Chapter 1",
+            guide: [
+              "1. Help man being harassed near Lullaby Mahjong",
+              "2. Play mahjong starting with 1000 points",
+              "3. Recommended: use Peerless Tile (found in office downstairs)",
+              "4. Use tile to get Thirteen Orphans, choose 'Tsumo'",
+              "5. Alternative: set game to 'Full' size for more hands"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 22,
+            chapter: 5,
+            name: "To the Dragon Palace",
+            location: "Tenkaichi St. & Tenkaichi Alley",
+            reward: "Access to Kamurocho Casino",
+            requirements: "Available in Chapter 5",
+            guide: [
+              "1. Stop thugs harassing homeless man at Tenkaichi intersection",
+              "2. Homeless man takes you to Dragon Palace casino",
+              "3. Access to koi-koi, oicho-kabu, blackjack, poker",
+              "4. Arms dealer with rotating stock available"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 23,
+            chapter: 7,
+            name: "Granny in Peril",
+            location: "Outside Serena → Various locations",
+            reward: "Scroll of Spearmanship",
+            requirements: "Automatic after Bantam fight",
+            guide: [
+              "1. Meet Granny White outside Serena",
+              "2. Give directions, exchange emails",
+              "3. First email: Shichifuku Parking Lot - fight triads",
+              "4. Second email: Theater Square - fight Yen Long",
+              "5. Learn she taught Lau Ka Long"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 24,
+            chapter: 1,
+            name: "A Pervy Peddler",
+            location: "Tenkaichi Alley (behind butatuki shop)",
+            reward: "Access to Kamiyama's shop, weapon repair",
+            requirements: "Available in Chapter 1",
+            guide: [
+              "1. Save Kamiyama from thugs behind butatuki shop",
+              "2. Access to Kali Sticks, Tonfas, Beam videos",
+              "3. Sell weapons to expand his stock",
+              "4. Pay to repair used weapons"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 25,
+            chapter: 5,
+            name: "An Eye for Work",
+            location: "Dragon Palace (4th floor)",
+            reward: "Flattening Throw Primer",
+            requirements: "Complete Substory #22",
+            guide: [
+              "1. Meet Cyclops Oba on Dragon Palace 4th floor",
+              "2. Sparring match - no items, weapons, or Heat Actions",
+              "3. Gear allowed, straight fisticuffs"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 26,
+            chapter: 5,
+            name: "An Eye for Meat",
+            location: "Dragon Palace",
+            reward: "Tiger Crash Primer, Dynamic Throw Primer",
+            requirements: "Complete Substory #25",
+            guide: [
+              "1. Return to Cyclops Oba",
+              "2. Buy Luxury Yakiniku Bento from Poppo",
+              "3. Another sparring match"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 27,
+            chapter: 5,
+            name: "An Eye for Power",
+            location: "Dragon Palace",
+            reward: "Mighty Primer, Oba joins Coliseum",
+            requirements: "Complete Substory #26",
+            guide: [
+              "1. Return to Cyclops Oba",
+              "2. Buy Staminan XX from Kotobuki Drugs",
+              "3. Final sparring match (more health and power)"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 28,
+            chapter: 5,
+            name: "Feel the Heat!",
+            location: "Champion District lot",
+            reward: "Learn Extreme Heat Mode",
+            requirements: "Automatic after leaving Serena with Sayama",
+            guide: [
+              "1. Automatically approached by Komaki's student",
+              "2. Go to Champion District lot",
+              "3. Learn Extreme Heat Mode from Komaki",
+              "4. Practice on gathered enemies"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 29,
+            chapter: 5,
+            name: "Komaki Fist Reversal",
+            location: "Champion District lot",
+            reward: "Learn Komaki Fist Reversal",
+            requirements: "Complete Substory #28",
+            guide: [
+              "1. Return to Komaki",
+              "2. Learn Komaki Fist Reversal: stand still, press Heavy Attack as enemy attacks"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 30,
+            chapter: 5,
+            name: "Komaki Firearm Flip",
+            location: "Champion District lot",
+            reward: "Learn Komaki Firearm Flip",
+            requirements: "Complete Substory #29",
+            guide: [
+              "1. Return to Komaki",
+              "2. Learn Komaki Firearm Flip: be in Fighting Stance, press Heavy Attack",
+              "3. Works on pistol and shotgun users"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 31,
+            chapter: 5,
+            name: "Duel With the Mentor",
+            location: "Champion District lot",
+            reward: "Peerless Tile",
+            requirements: "Complete Substory #30",
+            guide: [
+              "1. Return to Komaki",
+              "2. Pure fist fight - no weapons or items",
+              "3. Watch for Komaki's Heat mode (super armor, knockback)",
+              "4. Defeat him"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 32,
+            chapter: 3,
+            name: "Befriending the Barker",
+            location: "Kamurocho: south end of Senryo Ave.",
+            reward: "Ally gained",
+            requirements: "Available in Chapter 3",
+            guide: [
+              "1. Find thug harassing guy at south Senryo Ave.",
+              "2. Beat up thug"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 33,
+            chapter: 3,
+            name: "Mama Under Attack",
+            location: "Kamurocho: Earth Angel",
+            reward: "Tauriner, Mama-san becomes ally and employee",
+            requirements: "Available in Chapter 3",
+            guide: [
+              "1. Intervene at Earth Angel",
+              "2. Beat up jerk harassing Mama-san",
+              "3. After Clan Creator: return to bar for employment"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 34,
+            chapter: 3,
+            name: "A Soupy Sidekick",
+            location: "Kamurocho: Kyushu No.1 Star",
+            reward: "Ally gained",
+            requirements: "Available in Chapter 3",
+            guide: [
+              "1. Eat anything at Kyushu No.1 Star",
+              "2. Eat entire menu",
+              "3. Chef becomes ally"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 35,
+            chapter: 5,
+            name: "Exhausted on the Job",
+            location: "Construction Site → Park Boulevard",
+            reward: "Ally gained, becomes employee",
+            requirements: "After unlocking Construction Site",
+            guide: [
+              "1. Talk to tired worker at Construction Site",
+              "2. Give any energy drink (Toughness, Tauriner, etc.)",
+              "3. After Clan Creator: find him on Park Boulevard outside"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 36,
+            chapter: 3,
+            name: "Knee Deep in Trouble",
+            location: "Kamurocho: Children's Park bathroom",
+            reward: "Ally gained, Baba joins construction",
+            requirements: "Available in Chapter 3",
+            guide: [
+              "1. Check stall door in Children's Park bathroom",
+              "2. Buy Pure White Briefs at Don Quijote",
+              "3. Return to man",
+              "4. In Chapter 8: find Baba in Millennium Tower for Majima Construction"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 37,
+            chapter: 3,
+            name: "A High Energy Worker",
+            location: "Kamurocho: W. Shichifuku Poppo",
+            reward: "Ally gained",
+            requirements: "Available in Chapter 3",
+            guide: [
+              "1. Buy something from clerk",
+              "2. Return and speak to clerk 6 more times (no purchase needed)",
+              "3. Clerk becomes ally"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 38,
+            chapter: 13,
+            name: "Kazuya Amon",
+            location: "Shichifuku Parking Lot",
+            reward: "Kazuya joins Majima Construction",
+            requirements: "Complete 71 other substories",
+            guide: [
+              "1. Find Kazuya Amon in Shichifuku Parking Lot",
+              "2. Fight with battle axes - cannot block without weapon",
+              "3. At low health: uses shield and Heat mode",
+              "4. Use Photon Blade weapon or wait out shield",
+              "5. Find him later at east end of Shichifuku St."
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 39,
+            chapter: 13,
+            name: "Jiro Amon",
+            location: "Behind Serena",
+            reward: "Jiro joins Majima Construction",
+            requirements: "Complete Substory #38",
+            guide: [
+              "1. Find Jiro behind Serena",
+              "2. Use Sacred Wood Armor and Heavenly Beasts Bracelet",
+              "3. He uses submachine gun with status effects and flash grenades",
+              "4. At shield: hide behind stairs, use Heat Actions",
+              "5. Find him later near Ringer Hut stairs"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 40,
+            chapter: 13,
+            name: "Sango Amon",
+            location: "Theater Square",
+            reward: "Sango joins Majima Construction",
+            requirements: "Complete Substory #39",
+            guide: [
+              "1. Find Sango in Theater Square",
+              "2. High defense recommended",
+              "3. He uses rocket launcher - keep moving",
+              "4. Use structure for cover, weapon Heat Actions",
+              "5. At shield: run around structure until it drops",
+              "6. Find him later north of Showa St. Poppo"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 41,
+            chapter: 13,
+            name: "The Ultimate Assassin",
+            location: "Champion District → Millennium Tower",
+            reward: "Book of Ultimate Secrets, Ultimate Essence, Jo Amon joins construction, final tournament unlocked",
+            requirements: "Complete Substory #40",
+            guide: [
+              "1. Find Jo Amon collapsed in Champion District lot",
+              "2. Go to Millennium Tower atrium",
+              "3. Phase 1: sakura petal sword → blue light sword",
+              "4. Phase 2: flaming sword with Heat (cannot block, run and use Heat Actions)",
+              "5. Phase 3: shield with two swords (shield doesn't drop)",
+              "6. Use triple Charge Attacks from Fists of Fury",
+              "7. Watch for spin moves and incendiary grenades",
+              "8. After victory: get Weaponomicon from Kamiyama for 9,990,000 yen"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 42,
+            chapter: 5,
+            name: "Kiryu the Bouncer",
+            location: "Theater Square → Club Debolah",
+            reward: "Unlocks Bouncer Missions",
+            requirements: "Available in Chapter 5",
+            guide: [
+              "1. Meet young man at Theater Square east side",
+              "2. Go to Club Debolah (northwest Theater Square)",
+              "3. Talk to bartender to unlock Bouncer Missions"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 43,
+            chapter: 2,
+            name: "Lend a Claw",
+            location: "Sotenbori Club SEGA → Iwao Bridge",
+            reward: "Gold Robo CEO",
+            requirements: "Available in Chapter 2",
+            guide: [
+              "1. Help dejected man at Club SEGA",
+              "2. Get Robo Manager doll from UFO Catcher",
+              "3. Find doll discarded at Iwao Bridge",
+              "4. Return to Club SEGA, get Robot Chief instead",
+              "5. Get Italian Ring (sells well)",
+              "6. Return later for Gold Robo CEO"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 44,
+            chapter: 4,
+            name: "Overwhelming Affluence",
+            location: "Sotenbori: Don Quijote → Club SEGA → Various",
+            reward: "Charismatic Photo (best choice)",
+            requirements: "Available in Chapter 4",
+            guide: [
+              "1. Bump into fancy gent at Don Quijote south entrance",
+              "2. Get 100,000 yen, meet at Club SEGA",
+              "3. Beat 4 Virtua Fighter 2 fights (use Jeffry McWild hip check)",
+              "4. Find Kanematsu shaking down guy at Iwao Bridge east",
+              "5. Return later, guy gives Silver Plate",
+              "6. Final meeting at Shofukucho south near Taxi Stand",
+              "7. Offer choice: 100 yen (Staminan X), 10,000 (Strength Ring), 100,000 (Charismatic Photo)"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 45,
+            chapter: 4,
+            name: "The Charming Councilor",
+            location: "Sotenbori: West Shofukucho → Iwao Bridge",
+            reward: "Modded Model Gun, councilor becomes employee",
+            requirements: "Available in Chapter 4",
+            guide: [
+              "1. Beat thug harassing councilor at west Shofukucho",
+              "2. Get Councilor Saeki's Book",
+              "3. Give book to blue jacket guy at Iwao Bridge east",
+              "4. Find Saeki perving on woman at west Shofukucho",
+              "5. Beat Saeki's aide",
+              "6. After Clan Creator: find him outside Karaoke Snack Bar"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 46,
+            chapter: 4,
+            name: "That's No Joke",
+            location: "Sotenbori: Stijl bar → Various",
+            reward: "Completes substory, comedians become employees",
+            requirements: "Available in Chapter 4",
+            guide: [
+              "1. Meet manzai comedian at Stijl",
+              "2. Respond however you want",
+              "3. Leave bar, fight thug",
+              "4. After Clan Creator: find comedians under Bishamon Bridge and northeast alcove"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 47,
+            chapter: 10,
+            name: "Stolen",
+            location: "Sotenbori: Southwest Shofukucho → Various",
+            reward: "Locker Key J4, Yuriko joins club",
+            requirements: "Available in Chapter 10",
+            guide: [
+              "1. Stop lady attacking guy in southwest Shofukucho",
+              "2. Find Mr. Purple Suit west of Ebisu Pawn",
+              "3. Find Kajiwara at Golf Center",
+              "4. Find Kojima at Midoriyama Building (above Wild Jackson)",
+              "5. Rescue Miki at Gandhara",
+              "6. Get 150,000 yen from guard",
+              "7. Yuriko available at Four Shine"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 48,
+            chapter: 10,
+            name: "The Hunt for Tatsu",
+            location: "Sotenbori: Iwao Bridge → River footpath → Various",
+            reward: "Access to boat arms dealer",
+            requirements: "Available in Chapter 10",
+            guide: [
+              "1. Talk to thug at Iwao Bridge southwest",
+              "2. Find him harassing someone on north river footpath",
+              "3. Throw thug in river",
+              "4. Find Kanoshita north of Bishamon Bridge",
+              "5. Throw Kanoshita in river",
+              "6. Return to original guy on east footpath",
+              "7. Access boat arms dealer"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 49,
+            chapter: 11,
+            name: "The Obatarian Strikes Again",
+            location: "Sotenbori: South of Four Shine",
+            reward: "Granny's Candy, Etsuko joins club",
+            requirements: "Available in Chapter 11",
+            guide: [
+              "1. Encounter Obatarian south of Four Shine",
+              "2. Respond to guys however you want",
+              "3. Fight bad guy",
+              "4. Etsuko available at Four Shine"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 50,
+            chapter: 10,
+            name: "The Man Who Can't Sing",
+            location: "Sotenbori: In front of Grand",
+            reward: "Leads to next substory",
+            requirements: "Available in Chapter 10",
+            guide: [
+              "1. Help busker being harassed in front of Grand",
+              "2. Beat thug",
+              "3. Get guitarist's name: Takuo Yoshioka"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 51,
+            chapter: 10,
+            name: "The Woman Who Can't Play",
+            location: "Sotenbori: Don Quijote south",
+            reward: "Patriarch's Bowling Ball, Miki joins club",
+            requirements: "Complete Substory #50",
+            guide: [
+              "1. Help singer being harassed at Don Quijote south",
+              "2. Beat goons",
+              "3. Mention Takuo Yoshioka",
+              "4. Miki available at Four Shine"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 52,
+            chapter: 4,
+            name: "Crazy for Cathy",
+            location: "Sotenbori: Southwest of Iwao Bridge",
+            reward: "50,000 yen",
+            requirements: "Available in Chapter 4",
+            guide: [
+              "1. Examine parked car southwest of Iwao Bridge",
+              "2. Fight yakuza and thugs",
+              "3. Use Heat Action near car for best results"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 53,
+            chapter: 11,
+            name: "The Elusive Model 12",
+            location: "Sotenbori: West Shofukucho Poppo",
+            reward: "Model 7, 10,000 yen",
+            requirements: "Available in Chapter 11",
+            guide: [
+              "1. Help complaining guy at West Shofukucho Poppo",
+              "2. Buy Space Samurai figurines from counter (5 at a time)",
+              "3. Check Valuables tab for model numbers",
+              "4. Find Model 12, give to guy",
+              "5. Refuse offer twice"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 54,
+            chapter: 10,
+            name: "Clearing the Fog",
+            location: "Sotenbori: North river footpath near Bishamon Bridge",
+            reward: "Completes substory",
+            requirements: "Available in Chapter 10",
+            guide: [
+              "1. Meet amnesiac bald guy on north river footpath",
+              "2. Take 20,000 yen",
+              "3. Use Paralysis weapon (stun gun available nearby)",
+              "4. Shock him to restore memory",
+              "5. Fight him for real"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 55,
+            chapter: 10,
+            name: "Yakuza Sunset",
+            location: "Sotenbori: Shofukucho → Bishamon Bridge → Various",
+            reward: "Bloody Binding, Director Sugano joins construction",
+            requirements: "Available in Chapter 10",
+            guide: [
+              "1. Listen to teens in southwest Shofukucho",
+              "2. Get script at Bishamon Bridge",
+              "3. Go to Stijl, talk to director",
+              "4. Watch Yakuza Sunset 3 at Gandhara",
+              "5. Return to Stijl, answer: 'A yakuza who fights for the woman he loves', 'The action was subpar'",
+              "6. Mock yakuza scene: 'Welcome home, young Master', 'I've failed you, Patriarch!'",
+              "7. Fight 3 goons",
+              "8. Find Sugano behind Turtle Hotel pillar"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 56,
+            chapter: 3,
+            name: "In the Name of Art",
+            location: "Sotenbori: Iwao Bridge → Studio",
+            reward: "Conservative Cell Phone, Mitsuo and producer become employees",
+            requirements: "Available in Chapter 3",
+            guide: [
+              "1. Meet blond man in yellow jacket on Iwao Bridge",
+              "2. Agree to modeling",
+              "3. Do photo shoot poses as you like",
+              "4. Fight Poison Mitsuo",
+              "5. After Clan Creator: find them southeast of Shofukucho"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 57,
+            chapter: 11,
+            name: "Kazuma Kiryu, Professional Voice Actor",
+            location: "Sotenbori: Smile Burger → Recording studio",
+            reward: "Straight-laced Suit, Ryuzaki joins construction",
+            requirements: "Available in Chapter 11",
+            guide: [
+              "1. Help distraught dude outside Smile Burger",
+              "2. Record lines for Amigo Picante",
+              "3. Correct answers (optional):",
+              " • 'You're right. It's nice to be alone.'",
+              " • 'I've always seen you as a man.'",
+              " • 'I want you to be my first.'",
+              " • 'Please be gentle with me.'",
+              "4. Find Ryuzaki at Le Miel cafe downstairs"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 58,
+            chapter: 3,
+            name: "Albatross Akagi's Challenge",
+            location: "Golf Center",
+            reward: "Albatross Akagi's Club",
+            requirements: "Complete Intermediate Closest to the Pin",
+            guide: [
+              "1. Complete Intermediate Closest to the Pin",
+              "2. Talk to dressed-up fellow in back left",
+              "3. Beat 290 points on Advanced course",
+              "4. Practice and use golf strategies"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 59,
+            chapter: 2,
+            name: "A Nose for Music",
+            location: "Sotenbori: Bishamon Bridge",
+            reward: "Ally gained, becomes employee",
+            requirements: "Available in Chapter 2",
+            guide: [
+              "1. Notice sneezing guitarist at Bishamon Bridge",
+              "2. Buy Pocket Tissues from Poppo",
+              "3. Give to guitarist",
+              "4. After Clan Creator: find him at Iwao Bridge southwest"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 60,
+            chapter: 2,
+            name: "Helping the Barker",
+            location: "Sotenbori: East side of Sotenbori St. near Kani Douraku",
+            reward: "Ally gained",
+            requirements: "Available in Chapter 2",
+            guide: [
+              "1. Find barker in blue coat being accosted",
+              "2. Beat thug"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 61,
+            chapter: 5,
+            name: "An Ancient Rivalry",
+            location: "Sotenbori: Bunzaemon Outdoor Mall → Coliseum",
+            reward: "Kawauchi's Primer, Gensho becomes employee",
+            requirements: "After starting Clan Creator",
+            guide: [
+              "1. Meet Kawauchi students near taxi stand",
+              "2. Fight using only throws (judo rules)",
+              "3. Meet Motoe Kawauchi",
+              "4. Go to Coliseum, find Gensho in Tempest Tournament",
+              "5. Cycle for 'Jujutsu' fighters",
+              "6. Beat Gensho",
+              "7. Return to Sotenbori for reward",
+              "8. Find Gensho on Senryo Ave east of Kyushu No.1 Star"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 62,
+            chapter: 7,
+            name: "Granny's Request, Part 1",
+            location: "Sotenbori: Bishamon Bridge",
+            reward: "Scroll of the Golden Wall",
+            requirements: "Complete Substory #23",
+            guide: [
+              "1. Take taxi to Sotenbori after Substory #23",
+              "2. Get text from Granny White",
+              "3. Meet under south side of Bishamon Bridge",
+              "4. Buy Handmade Cookies from West Shichifuku Poppo in Kamurocho",
+              "5. Give to Granny"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 63,
+            chapter: 8,
+            name: "Granny's Request, Part 2",
+            location: "Kamurocho: Theater Square → Sotenbori",
+            reward: "Scroll of Impenetrable Body",
+            requirements: "Complete Substories #3 and #62",
+            guide: [
+              "1. Get text from Granny at Theater Square",
+              "2. Get Yuya's photo from Stardust",
+              "3. Return to Granny under Bishamon Bridge in Sotenbori"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 64,
+            chapter: 8,
+            name: "Granny's Request, Part 3",
+            location: "Kamurocho: South Nakamichi St.",
+            reward: "Scroll of Furious Fists",
+            requirements: "Complete Substory #63, must have Haruka in Chapter 13",
+            guide: [
+              "1. Get text at south Nakamichi St.",
+              "2. Wait until Chapter 13 with Haruka",
+              "3. Take Haruka to Granny White"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 65,
+            chapter: 2,
+            name: "No Means No",
+            location: "Sotenbori: Ebisu Pawn",
+            reward: "Kazuha becomes ally",
+            requirements: "Available in Chapter 2",
+            guide: [
+              "1. Talk to lady in front of Ebisu Pawn",
+              "2. Intervene when creeps approach",
+              "3. Fight 2 jerks"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 66,
+            chapter: 2,
+            name: "A Mother's Love",
+            location: "Sotenbori: South river footpath east side",
+            reward: "Ally gained",
+            requirements: "Available in Chapter 2",
+            guide: [
+              "1. Help older lady with sunglasses",
+              "2. Find amulet on lower footpath northwest of her location",
+              "3. Return amulet"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 67,
+            chapter: 2,
+            name: "The Sharpest Blade",
+            location: "Sotenbori: Komian restaurant",
+            reward: "Ally gained",
+            requirements: "Available in Chapter 2",
+            guide: [
+              "1. Listen to chef at Komian",
+              "2. Get Butcher Knife from Ebisu Pawn or Locker Key F2",
+              "3. Return to restaurant, give knife via hostess"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 68,
+            chapter: 2,
+            name: "Overcoming Your Fears",
+            location: "Sotenbori: Northeast Poppo",
+            reward: "Ally gained",
+            requirements: "Available in Chapter 2",
+            guide: [
+              "1. Talk to skittish clerk at northeast Poppo",
+              "2. Speak to him multiple times (no purchase needed)",
+              "3. Complete conversations"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 69,
+            chapter: 4,
+            name: "Operation Panty Bait",
+            location: "Cabaret Club Grand Prix",
+            reward: "Koyuki's substory completion",
+            requirements: "Three dinners with Koyuki",
+            guide: [
+              "1. Have three dinners with Koyuki",
+              "2. Monitor sting operation: 'Wait and See' first three, catch fourth",
+              "3. Fight dude",
+              "4. Choose what to do with panties"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 70,
+            chapter: 4,
+            name: "What Was Passed Down",
+            location: "Cabaret Club Grand Prix",
+            reward: "Kana's substory completion",
+            requirements: "Three dinners with Kana",
+            guide: [
+              "1. Have three dinners with Kana",
+              "2. Check on old colleague at lousy club",
+              "3. Beat up guy"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 71,
+            chapter: 4,
+            name: "Aika, the Party Queen",
+            location: "Cabaret Club Grand Prix",
+            reward: "Aika's substory completion",
+            requirements: "Three dinners with Aika",
+            guide: [
+              "1. Have three dinners with Aika",
+              "2. Meet friend and mother",
+              "3. Fight breaks out, smash faces"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 72,
+            chapter: 6,
+            name: "Something Important",
+            location: "Cabaret Club Grand Prix",
+            reward: "Shoko's substory completion",
+            requirements: "Three dinners with Shoko",
+            guide: [
+              "1. Have three dinners with Shoko",
+              "2. Attend bookstore manga presentation",
+              "3. Choose 'Four Shine'",
+              "4. Leave and return to club"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 73,
+            chapter: 6,
+            name: "Big Scoop: Yua in Love!?",
+            location: "Cabaret Club Grand Prix",
+            reward: "Yua's substory completion",
+            requirements: "Three dinners with Yua",
+            guide: [
+              "1. Have three dinners with Yua",
+              "2. Help with paparazzi",
+              "3. Smash his face in"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 74,
+            chapter: 6,
+            name: "Foil the Wedding Fraud!",
+            location: "Cabaret Club Grand Prix",
+            reward: "Kirara's substory completion",
+            requirements: "Three dinners with Kirara",
+            guide: [
+              "1. Have three dinners with Kirara",
+              "2. Night out to horse races sidetracked",
+              "3. Notice something about Yuki",
+              "4. Similar to Yakuza 0 substory"
+            ].join("\n"),
+            "videoId": ""
+          },
+          {
+            index: 75,
+            chapter: 6,
+            name: "Treat Me Right",
+            location: "Cabaret Club Grand Prix",
+            reward: "Yuki's appreciation",
+            requirements: "Complete Final Match in Cabaret Club Grand Prix",
+            guide: [
+              "1. Complete Final Match",
+              "2. Return to club, Yuki gives money",
+              "3. Ask everyone what Yuki might like",
+              "4. Make decision on gift"
+            ].join("\n"),
+            "videoId": ""
+          }
+        ]
+,
       },
     },
   },
@@ -10202,7 +11393,6 @@ function showSubstories(gameName, characterName) {
         <p class="text-secondary text-sm">🎁 ${substory.reward}</p>
         ${chapterHtml}
         ${rankHtml}
-        <p class="text-secondary text-sm"> 📌 Substory number #${substory.index}</p>
       </div>
     `;
 

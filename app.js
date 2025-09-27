@@ -11384,7 +11384,7 @@ function showSubstories(gameName, characterName) {
     substoryItem.className =
       "substory-item p-4 rounded cursor-pointer flex items-start gap-3";
     substoryItem.innerHTML = `
-      <div class="bg-accent text-white rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0 mt-1">
+     <div class="bg-accent text-white rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0 mt-1 ">
         ${substory.index}
       </div>
       <div>
@@ -11407,12 +11407,17 @@ function showSubstories(gameName, characterName) {
 function showSubstoryDetail(gameName, characterName, substoryIndex) {
   const substory =
     gameData[gameName].characters[characterName].substories[substoryIndex];
-
-  document.getElementById("substoryTitle").textContent = substory.name;
-  document.getElementById("substoryLocation").textContent = substory.location;
+  const titleElement = document.getElementById("substoryTitle");
+  titleElement.innerHTML = `
+    <div class="flex  gap-3">
+      <div>
+        ${substory.index} . 
+      </div>
+      <span>${substory.name}</span>
+    </div>
+  `;  document.getElementById("substoryLocation").textContent = substory.location;
   document.getElementById("substoryReward").textContent = substory.reward;
-  document.getElementById("substoryRequirements").textContent =
-    substory.requirements;
+  document.getElementById("substoryRequirements").textContent = substory.requirements;
   document.getElementById("substoryChapter").textContent = substory.chapter;
   document.getElementById("substoryRank").textContent = substory.rank;
 
@@ -11528,4 +11533,5 @@ function updateView(viewName, game = "", character = "", substoryIndex = -1) {
 document.addEventListener("DOMContentLoaded", () => {
   initializeFromURL();
 });
+
 

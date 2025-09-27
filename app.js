@@ -9034,7 +9034,7 @@ const gameData = {
             name: "Table for One",
             location: "Wette Kitchen (2nd floor) → Bar District",
             reward: "Maximum Mittens, Noboru joins Business",
-            requirements: "Available in Chapter 5",
+            requirements: "Nighttime",
             guide: [
               "1. Defeat extortionist at Wette Kitchen (Slashing Boxcutter)",
               "2. Return to Wette Kitchen",
@@ -11533,5 +11533,6 @@ function updateView(viewName, game = "", character = "", substoryIndex = -1) {
 document.addEventListener("DOMContentLoaded", () => {
   initializeFromURL();
 });
+
 
 

@@ -13,102 +13,102 @@
 <body class="min-h-screen bg-primary">
     <!-- Header -->
     <header class="bg-secondary border-b border-custom p-4">
-        <div class="container mx-auto">
-            <div class="flex items-center justify-center gap-2">
-                <div class="flex flex-col md:flex-row items-center gap-2 text-center">
+        <section class="container mx-auto">
+            <section class="flex items-center justify-center gap-2">
+                <section class="flex flex-col md:flex-row items-center gap-2 text-center">
                     <h1 class="text-3xl font-black japanese-text accent-primary home-btn" id="homeBtn">極道ガイド</h1>
                     <p class="text-sm text-secondary hidden sm:block">The Yakuza Guide for All Substories(Still In
                         Progress of making)</p>
-                </div>
-            </div>
-        </div>
+                </section>
+            </section>
+        </section>
     </header>
     <!-- Mobile Navigation (shown only on mobile) -->
-    <div class="mobile-nav md:hidden">
-        <div class="mobile-nav-btn" id="mobileHomeBtn">
+    <section class="mobile-nav md:hidden">
+        <section class="mobile-nav-btn" id="mobileHomeBtn">
             <i class="fas fa-home"></i>
             <span>Home</span>
-        </div>
-        <div class="mobile-nav-btn" id="mobileBackBtn">
+        </section>
+        <section class="mobile-nav-btn" id="mobileBackBtn">
             <i class="fas fa-arrow-left"></i>
             <span>Back</span>
-        </div>
-    </div>
+        </section>
+    </section>
 
     <!-- Main Content -->
     <main class="container mx-auto p-6">
         <!-- Games Grid -->
-        <div id="gamesView" class="fade-in">
+        <section id="gamesView" class="fade-in">
             <h2 class="text-2xl font-bold mb-6 text-center japanese-text">Choose Your Game</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="gamesGrid">
+            <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="gamesGrid">
                 <!-- Games will be populated here -->
-            </div>
-        </div>
+            </section>
+        </section>
 
         <!-- Characters View -->
-        <div id="charactersView" class="hidden fade-in">
+        <section id="charactersView" class="hidden fade-in">
             <h2 class="text-2xl font-bold mb-6 text-center japanese-text" id="gameTitle"></h2>
-            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4" id="charactersGrid">
+            <section class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4" id="charactersGrid">
                 <!-- Characters will be populated here -->
-            </div>
-        </div>
+            </section>
+        </section>
 
         <!-- Substories View -->
-        <div id="substoriesView" class="hidden fade-in">
+        <section id="substoriesView" class="hidden fade-in">
             <h2 class="text-2xl font-bold mb-6 text-center japanese-text" id="characterTitle"></h2>
-            <div class="space-y-3" id="substoriesList">
+            <section class="space-y-3" id="substoriesList">
                 <!-- Substories will be populated here -->
-            </div>
-        </div>
+            </section>
+        </section>
 
         <!-- Substory Detail View -->
-        <div id="substoryDetailView" class="hidden fade-in">
-            <div class="bg-secondary rounded-lg p-6 border border-custom">
+        <section id="substoryDetailView" class="hidden fade-in">
+            <section class="bg-secondary rounded-lg p-6 border border-custom">
                 <h2 class="text-2xl font-bold mb-4 japanese-text" id="substoryTitle"></h2>
-                <div class="grid md:grid-cols-2 gap-6">
-                    <div>
+                <section class="grid md:grid-cols-2 gap-6">
+                    <section>
                         <h3 class="text-lg font-semibold mb-3 accent-primary">Substory Details</h3>
-                        <div class="space-y-3">
-                            <div class="bg-primary p-3 rounded">
+                        <section class="space-y-3">
+                            <section class="bg-primary p-3 rounded">
                                 <strong class="accent-primary">Location:</strong>
                                 <p id="substoryLocation" class="text-secondary mt-1"></p>
-                            </div>
-                            <div class="bg-primary p-3 rounded">
+                            </section>
+                            <section class="bg-primary p-3 rounded">
                                 <strong class="accent-primary">Reward:</strong>
                                 <p id="substoryReward" class="text-secondary mt-1"></p>
-                            </div>
-                            <div class="bg-primary p-3 rounded">
+                            </section>
+                            <section class="bg-primary p-3 rounded">
                                 <strong class="accent-primary">Requirements:</strong>
                                 <p id="substoryRequirements" class="text-secondary mt-1"></p>
-                            </div>
-                            <div class="bg-primary p-3 rounded" id="chapter">
+                            </section>
+                            <section class="bg-primary p-3 rounded" id="chapter">
                                 <strong class="accent-primary">Chapter:</strong>
                                 <p id="substoryChapter" class="text-secondary mt-1"></p>
-                            </div>
-                            <div class="bg-primary p-3 rounded" id="rank">
+                            </section>
+                            <section class="bg-primary p-3 rounded" id="rank">
                                 <strong class="accent-primary">Rank:</strong>
                                 <p id="substoryRank" class="text-secondary mt-1"></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
+                            </section>
+                        </section>
+                    </section>
+                    <section>
                         <h3 class="text-lg font-semibold mb-3 accent-primary">How to Complete</h3>
-                        <div class="bg-primary p-4 rounded">
+                        <section class="bg-primary p-4 rounded">
                             <p id="substoryGuide" class="text-secondary leading-relaxed"></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="mt-6">
+                        </section>
+                    </section>
+                </section>
+                <section class="mt-6">
                     <h3 class="text-lg font-semibold mb-3 accent-primary">Video Guide</h3>
-                    <div class="bg-primary p-4 rounded">
-                        <div id="videoContainer"
+                    <section class="bg-primary p-4 rounded">
+                        <section id="videoContainer"
                             class="aspect-video bg-secondary rounded flex items-center justify-center">
                             <p class="text-secondary">Loading video guide...</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+                        </section>
+                    </section>
+                </section>
+            </section>
+        </section>
         <img src="ralseismokingafatblunt.jpg" style="display:none">
     </main>
     <script src="app.js">

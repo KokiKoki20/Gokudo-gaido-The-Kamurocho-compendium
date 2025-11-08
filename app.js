@@ -11273,7 +11273,7 @@ function initializeGamesGrid() {
   gamesGrid.innerHTML = "";
 
   Object.keys(gameData).forEach((gameName) => {
-    const gameCard = document.createElement("div");
+    const gameCard = document.createElement("section");
     gameCard.className =
       "game-card p-6 rounded-lg cursor-pointer text-center flex flex-col items-center";
     gameCard.innerHTML = `
@@ -11312,7 +11312,7 @@ function showCharacters(gameName) {
 
   Object.keys(characters).forEach((characterName) => {
     const character = characters[characterName];
-    const characterCard = document.createElement("div");
+    const characterCard = document.createElement("section");
 
     // Card sizing logic
     let cardClass = "character-card p-4 rounded-lg cursor-pointer text-center ";
@@ -11381,20 +11381,20 @@ function showSubstories(gameName, characterName) {
 
 
 
-    const substoryItem = document.createElement("div");
+    const substoryItem = document.createElement("section");
     substoryItem.className =
       "substory-item p-4 rounded cursor-pointer flex items-start gap-3";
     substoryItem.innerHTML = `
-     <div class="bg-accent text-white rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0 mt-1 ">
+     <section class="bg-accent text-white rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0 mt-1 ">
         ${substory.index}
-      </div>
-      <div>
+      </section>
+      <section>
         <h4 class="font-semibold text-primary mb-2">${substory.name}</h4>
         <p class="text-secondary text-sm mb-1">📍 ${substory.location}</p>
         <p class="text-secondary text-sm">🎁 ${substory.reward}</p>
         ${chapterHtml}
         ${rankHtml}
-      </div>
+      </section>
     `;
 
     substoryItem.addEventListener("click", (e) => {
@@ -11410,12 +11410,12 @@ function showSubstoryDetail(gameName, characterName, substoryIndex) {
     gameData[gameName].characters[characterName].substories[substoryIndex];
   const titleElement = document.getElementById("substoryTitle");
   titleElement.innerHTML = `
-    <div class="flex  gap-3">
-      <div>
+    <section class="flex  gap-3">
+      <section>
         ${substory.index} . 
-      </div>
+      </section>
       <span>${substory.name}</span>
-    </div>
+    </section>
   `;  document.getElementById("substoryLocation").textContent = substory.location;
   document.getElementById("substoryReward").textContent = substory.reward;
   document.getElementById("substoryRequirements").textContent = substory.requirements;

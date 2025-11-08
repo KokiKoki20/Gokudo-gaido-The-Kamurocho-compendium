@@ -9295,12 +9295,13 @@ const gameData = {
             reward: "Soulshield Bracelet, Chau Ka Long Poundmate",
             requirements: "Available when exploring",
             guide: [
-              "1. Get password from Iroha at Survive Bar",
-              "2. Go to Zhou Long Distribution on Ijin St.",
-              "3. Password: 'Lau Chau Chau Ya'",
-              "4. Defeat 3 Level 28 guys",
-              "5. Meet contact under Kinka Bridge (Confidence 4 required)",
-              "6. Talk to Chau multiple times (Confidence 7 required)",
+              "1. Unlock Gambling Hall Located next to the Kinka Pharmacy",
+              "2. Get password from Iroha at Survive Bar",
+              "3. Go to Zhou Long Distribution on Ijin St.",
+              "4. Password: 'Lau Chau Chau Ya'",
+              "5. Defeat 3 Level 28 guys",
+              "6. Meet contact under Kinka Bridge (Confidence 4 required)",
+              "7. Talk to Chau multiple times (Confidence 7 required)",
             ].join("\n"),
             videoId: "",
           },
@@ -11533,6 +11534,7 @@ function updateView(viewName, game = "", character = "", substoryIndex = -1) {
 document.addEventListener("DOMContentLoaded", () => {
   initializeFromURL();
 });
+
 
 
 

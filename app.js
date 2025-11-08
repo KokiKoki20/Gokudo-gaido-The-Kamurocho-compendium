@@ -3715,7 +3715,7 @@ const gameData = {
               "4. Defeat boss (prioritize him first)",
               "5. After Clan Creator access: find Gondawara in Theater Square east side stairs"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 2,
@@ -3730,7 +3730,7 @@ const gameData = {
               "3. Go to Jewel (west of Kanrai)",
               "4. Beat up the duo"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 3,
@@ -3747,7 +3747,7 @@ const gameData = {
               "5. Ako brings Yuya's old coat, fight round 2",
               "6. Find Yuya at Construction Site near Purgatory entrance"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 4,
@@ -3762,7 +3762,7 @@ const gameData = {
               "3. Go to roof, talk down the guy",
               "4. Choices don't affect outcome"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 5,
@@ -3779,7 +3779,7 @@ const gameData = {
               "5. Call Purgatory, get dog from Theater Square",
               "6. Return to Suenaga with puppy"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 6,
@@ -3796,7 +3796,7 @@ const gameData = {
               "5. Beat up contractor's crony, get business card",
               "6. Return to Suenaga"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 7,
@@ -3813,7 +3813,7 @@ const gameData = {
               "5. Return to Suenaga",
               "6. Suenaga available at Four Shine in Sotenbori for Cabaret Club"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 8,
@@ -3828,7 +3828,7 @@ const gameData = {
               "3. Corner him near cars, use light attacks",
               "4. After Clan Creator: find him in east construction site"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 9,
@@ -3846,7 +3846,7 @@ const gameData = {
               "6. Find red jacket guy in Theater Square underground",
               "7. Fight both guys"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 10,
@@ -3864,7 +3864,7 @@ const gameData = {
               "6. Find out Hiro-yan is broke on Pink Street",
               "7. Talk to original yakuza"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 11,
@@ -3881,7 +3881,7 @@ const gameData = {
               "5. Fight scammer, destroy all 4 PCs",
               "6. Use PCs as weapons or throw them"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 12,
@@ -3900,7 +3900,7 @@ const gameData = {
               "7. Haruka solves case",
               "8. Yuka available at Four Shine"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 13,
@@ -3919,7 +3919,7 @@ const gameData = {
               "7. Sell watch for 100,000 yen",
               "8. Find Michael north of coin lockers"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 14,
@@ -3937,7 +3937,7 @@ const gameData = {
               "6. If caught: escape to Public Park 3",
               "7. Find Yu-Jin under stairs south of Ikinari Steak"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 15,
@@ -3952,7 +3952,7 @@ const gameData = {
               "3. Meet medium on Senryo Ave southeast",
               "4. Pay 100,000 yen for exorcism"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 16,
@@ -3969,7 +3969,7 @@ const gameData = {
               "5. Chase employee to Ebisu Pawn",
               "6. Fight jerks, recover tapes"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 17,
@@ -3985,7 +3985,7 @@ const gameData = {
               "4. Ask for 'Take-chan's High School Heaven'",
               "5. Answer '2600' (Cafe Alps drink total)"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 18,
@@ -4000,7 +4000,7 @@ const gameData = {
               "3. Go to Lullaby Mahjong building (3rd floor)",
               "4. Confront Tanabe and fight"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 19,
@@ -4025,7 +4025,7 @@ const gameData = {
               " • 'I'm thinking of starting an orphanage.'",
               " • 'Thank you for having us!'"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 20,
@@ -4050,7 +4050,7 @@ const gameData = {
               " • Pitch 10: American Dream",
               "4. After Clan Creator: find Dandy on batting center roof"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 21,
@@ -4066,7 +4066,7 @@ const gameData = {
               "4. Use tile to get Thirteen Orphans, choose 'Tsumo'",
               "5. Alternative: set game to 'Full' size for more hands"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 22,
@@ -4081,7 +4081,7 @@ const gameData = {
               "3. Access to koi-koi, oicho-kabu, blackjack, poker",
               "4. Arms dealer with rotating stock available"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 23,
@@ -4097,7 +4097,7 @@ const gameData = {
               "4. Second email: Theater Square - fight Yen Long",
               "5. Learn she taught Lau Ka Long"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 24,
@@ -4112,7 +4112,7 @@ const gameData = {
               "3. Sell weapons to expand his stock",
               "4. Pay to repair used weapons"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 25,
@@ -4126,7 +4126,7 @@ const gameData = {
               "2. Sparring match - no items, weapons, or Heat Actions",
               "3. Gear allowed, straight fisticuffs"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 26,
@@ -4140,7 +4140,7 @@ const gameData = {
               "2. Buy Luxury Yakiniku Bento from Poppo",
               "3. Another sparring match"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 27,
@@ -4154,7 +4154,7 @@ const gameData = {
               "2. Buy Staminan XX from Kotobuki Drugs",
               "3. Final sparring match (more health and power)"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 28,
@@ -4169,7 +4169,7 @@ const gameData = {
               "3. Learn Extreme Heat Mode from Komaki",
               "4. Practice on gathered enemies"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 29,
@@ -4182,7 +4182,7 @@ const gameData = {
               "1. Return to Komaki",
               "2. Learn Komaki Fist Reversal: stand still, press Heavy Attack as enemy attacks"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 30,
@@ -4196,7 +4196,7 @@ const gameData = {
               "2. Learn Komaki Firearm Flip: be in Fighting Stance, press Heavy Attack",
               "3. Works on pistol and shotgun users"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 31,
@@ -4211,7 +4211,7 @@ const gameData = {
               "3. Watch for Komaki's Heat mode (super armor, knockback)",
               "4. Defeat him"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 32,
@@ -4224,7 +4224,7 @@ const gameData = {
               "1. Find thug harassing guy at south Senryo Ave.",
               "2. Beat up thug"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 33,
@@ -4238,7 +4238,7 @@ const gameData = {
               "2. Beat up jerk harassing Mama-san",
               "3. After Clan Creator: return to bar for employment"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 34,
@@ -4252,7 +4252,7 @@ const gameData = {
               "2. Eat entire menu",
               "3. Chef becomes ally"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 35,
@@ -4266,7 +4266,7 @@ const gameData = {
               "2. Give any energy drink (Toughness, Tauriner, etc.)",
               "3. After Clan Creator: find him on Park Boulevard outside"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 36,
@@ -4281,7 +4281,7 @@ const gameData = {
               "3. Return to man",
               "4. In Chapter 8: find Baba in Millennium Tower for Majima Construction"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 37,
@@ -4295,7 +4295,7 @@ const gameData = {
               "2. Return and speak to clerk 6 more times (no purchase needed)",
               "3. Clerk becomes ally"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 38,
@@ -4311,7 +4311,7 @@ const gameData = {
               "4. Use Photon Blade weapon or wait out shield",
               "5. Find him later at east end of Shichifuku St."
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 39,
@@ -4327,7 +4327,7 @@ const gameData = {
               "4. At shield: hide behind stairs, use Heat Actions",
               "5. Find him later near Ringer Hut stairs"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 40,
@@ -4344,7 +4344,7 @@ const gameData = {
               "5. At shield: run around structure until it drops",
               "6. Find him later north of Showa St. Poppo"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 41,
@@ -4363,7 +4363,7 @@ const gameData = {
               "7. Watch for spin moves and incendiary grenades",
               "8. After victory: get Weaponomicon from Kamiyama for 9,990,000 yen"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 42,
@@ -4377,7 +4377,7 @@ const gameData = {
               "2. Go to Club Debolah (northwest Theater Square)",
               "3. Talk to bartender to unlock Bouncer Missions"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 43,
@@ -4394,7 +4394,7 @@ const gameData = {
               "5. Get Italian Ring (sells well)",
               "6. Return later for Gold Robo CEO"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 44,
@@ -4412,7 +4412,7 @@ const gameData = {
               "6. Final meeting at Shofukucho south near Taxi Stand",
               "7. Offer choice: 100 yen (Staminan X), 10,000 (Strength Ring), 100,000 (Charismatic Photo)"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 45,
@@ -4429,7 +4429,7 @@ const gameData = {
               "5. Beat Saeki's aide",
               "6. After Clan Creator: find him outside Karaoke Snack Bar"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 46,
@@ -4444,7 +4444,7 @@ const gameData = {
               "3. Leave bar, fight thug",
               "4. After Clan Creator: find comedians under Bishamon Bridge and northeast alcove"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 47,
@@ -4462,7 +4462,7 @@ const gameData = {
               "6. Get 150,000 yen from guard",
               "7. Yuriko available at Four Shine"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 48,
@@ -4480,7 +4480,7 @@ const gameData = {
               "6. Return to original guy on east footpath",
               "7. Access boat arms dealer"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 49,
@@ -4495,7 +4495,7 @@ const gameData = {
               "3. Fight bad guy",
               "4. Etsuko available at Four Shine"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 50,
@@ -4509,7 +4509,7 @@ const gameData = {
               "2. Beat thug",
               "3. Get guitarist's name: Takuo Yoshioka"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 51,
@@ -4524,7 +4524,7 @@ const gameData = {
               "3. Mention Takuo Yoshioka",
               "4. Miki available at Four Shine"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 52,
@@ -4538,7 +4538,7 @@ const gameData = {
               "2. Fight yakuza and thugs",
               "3. Use Heat Action near car for best results"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 53,
@@ -4554,7 +4554,7 @@ const gameData = {
               "4. Find Model 12, give to guy",
               "5. Refuse offer twice"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 54,
@@ -4570,7 +4570,7 @@ const gameData = {
               "4. Shock him to restore memory",
               "5. Fight him for real"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 55,
@@ -4589,7 +4589,7 @@ const gameData = {
               "7. Fight 3 goons",
               "8. Find Sugano behind Turtle Hotel pillar"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 56,
@@ -4605,7 +4605,7 @@ const gameData = {
               "4. Fight Poison Mitsuo",
               "5. After Clan Creator: find them southeast of Shofukucho"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 57,
@@ -4624,7 +4624,7 @@ const gameData = {
               " • 'Please be gentle with me.'",
               "4. Find Ryuzaki at Le Miel cafe downstairs"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 58,
@@ -4639,7 +4639,7 @@ const gameData = {
               "3. Beat 290 points on Advanced course",
               "4. Practice and use golf strategies"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 59,
@@ -4654,7 +4654,7 @@ const gameData = {
               "3. Give to guitarist",
               "4. After Clan Creator: find him at Iwao Bridge southwest"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 60,
@@ -4667,7 +4667,7 @@ const gameData = {
               "1. Find barker in blue coat being accosted",
               "2. Beat thug"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 61,
@@ -4686,7 +4686,7 @@ const gameData = {
               "7. Return to Sotenbori for reward",
               "8. Find Gensho on Senryo Ave east of Kyushu No.1 Star"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 62,
@@ -4702,7 +4702,7 @@ const gameData = {
               "4. Buy Handmade Cookies from West Shichifuku Poppo in Kamurocho",
               "5. Give to Granny"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 63,
@@ -4716,7 +4716,7 @@ const gameData = {
               "2. Get Yuya's photo from Stardust",
               "3. Return to Granny under Bishamon Bridge in Sotenbori"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 64,
@@ -4730,7 +4730,7 @@ const gameData = {
               "2. Wait until Chapter 13 with Haruka",
               "3. Take Haruka to Granny White"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 65,
@@ -4744,7 +4744,7 @@ const gameData = {
               "2. Intervene when creeps approach",
               "3. Fight 2 jerks"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 66,
@@ -4758,7 +4758,7 @@ const gameData = {
               "2. Find amulet on lower footpath northwest of her location",
               "3. Return amulet"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 67,
@@ -4772,7 +4772,7 @@ const gameData = {
               "2. Get Butcher Knife from Ebisu Pawn or Locker Key F2",
               "3. Return to restaurant, give knife via hostess"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 68,
@@ -4786,7 +4786,7 @@ const gameData = {
               "2. Speak to him multiple times (no purchase needed)",
               "3. Complete conversations"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 69,
@@ -4801,7 +4801,7 @@ const gameData = {
               "3. Fight dude",
               "4. Choose what to do with panties"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 70,
@@ -4815,7 +4815,7 @@ const gameData = {
               "2. Check on old colleague at lousy club",
               "3. Beat up guy"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 71,
@@ -4829,7 +4829,7 @@ const gameData = {
               "2. Meet friend and mother",
               "3. Fight breaks out, smash faces"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 72,
@@ -4844,7 +4844,7 @@ const gameData = {
               "3. Choose 'Four Shine'",
               "4. Leave and return to club"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 73,
@@ -4858,7 +4858,7 @@ const gameData = {
               "2. Help with paparazzi",
               "3. Smash his face in"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 74,
@@ -4873,7 +4873,7 @@ const gameData = {
               "3. Notice something about Yuki",
               "4. Similar to Yakuza 0 substory"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
             index: 75,
@@ -4888,7 +4888,7 @@ const gameData = {
               "3. Ask everyone what Yuki might like",
               "4. Make decision on gift"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           }
         ]
 ,
@@ -10120,42 +10120,42 @@ const gameData = {
         image: "",
         substories:  [
           {
-            "index": 1,
-            "chapter": 3,
-            "name": "Nichibuza's Newest Fan",
-            "location": "Nichibuza Dance School (Rakunai)",
-            "reward": "Unlocks Buyo Dancing minigame",
-            "requirements": "Available in Chapter 3",
-            "guide": [
+            index: 1,
+            chapter: 3,
+            name: "Nichibuza's Newest Fan",
+            location: "Nichibuza Dance School (Rakunai)",
+            reward: "Unlocks Buyo Dancing minigame",
+            requirements: "Available in Chapter 3",
+            guide: [
               "1. Witness encounter outside dance school gate",
               "2. Defeat 4 guys",
               "3. Complete first trial dance"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 2,
-            "chapter": 3,
-            "name": "Deceitful Deity",
-            "location": "South of Ginryu's Dojo → Shijo Street → Teramachi",
-            "reward": "No reward",
-            "requirements": "Must have spoken to Ginryu first",
-            "guide": [
+            index: 2,
+            chapter: 3,
+            name: "Deceitful Deity",
+            location: "South of Ginryu's Dojo → Shijo Street → Teramachi",
+            reward: "No reward",
+            requirements: "Must have spoken to Ginryu first",
+            guide: [
               "1. Speak to doshin south of dojo",
               "2. Find old woman praying near Kamatora restaurant",
               "3. Go to alley south of Hanamaru Udon in Teramachi",
               "4. Defeat con artist"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 3,
-            "chapter": 3,
-            "name": "Who's Entertaining Who?",
-            "location": "South of Ebisu Pawn Rakunai → Watami → Singing Bar → Buyo Dance",
-            "reward": "Ancient Amulet (best performance)",
-            "requirements": "Must have visited Singing Bar and Buyo Dance at least once",
-            "guide": [
+            index: 3,
+            chapter: 3,
+            name: "Who's Entertaining Who?",
+            location: "South of Ebisu Pawn Rakunai → Watami → Singing Bar → Buyo Dance",
+            reward: "Ancient Amulet (best performance)",
+            requirements: "Must have visited Singing Bar and Buyo Dance at least once",
+            guide: [
               "1. Speak to lady innkeeper south of Ebisu Pawn",
               "2. Find Kanda-sensei at Watami on Shijo Street",
               "3. Perform Iji Sakura at Singing Bar",
@@ -10164,16 +10164,16 @@ const gameData = {
               "6. Comment 'it's bold yet elegant'",
               "7. Defeat 4 bad guys"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 4,
-            "chapter": 3,
-            "name": "I'll Miss You, Miho",
-            "location": "Nichibuza Dance School → Shrine → Chase sequence",
-            "reward": "Rainbow Fabric",
-            "requirements": "Available in Chapter 3",
-            "guide": [
+            index: 4,
+            chapter: 3,
+            name: "I'll Miss You, Miho",
+            location: "Nichibuza Dance School → Shrine → Chase sequence",
+            reward: "Rainbow Fabric",
+            requirements: "Available in Chapter 3",
+            guide: [
               "1. Get bumped by kid near dance school",
               "2. Speak to Miho alone",
               "3. Find Shinta-kun at Shrine to west",
@@ -10181,32 +10181,32 @@ const gameData = {
               "5. Return to Miho, chase palanquin",
               "6. Press Grab button when close"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 5,
-            "chapter": 3,
-            "name": "Talkin' Tosa",
-            "location": "Northeast corner of Rakunai",
-            "reward": "Phoenix Feather (all correct)",
-            "requirements": "Available in Chapter 3",
-            "guide": [
+            index: 5,
+            chapter: 3,
+            name: "Talkin' Tosa",
+            location: "Northeast corner of Rakunai",
+            reward: "Phoenix Feather (all correct)",
+            requirements: "Available in Chapter 3",
+            guide: [
               "1. Speak to mopey guy in corner",
               "2. First letter answers: 'It's been a while', 'I', 'She means \"you\"' (Fine Silk Fabric)",
               "3. Leave and return for second letter",
               "4. Second letter answers: 'She means \"is that every day\"?', 'Her heart aches', 'Meet soon' (Platinum Chunk)",
               "5. Final letter answers: 'Stumble and fall', 'Cowardly men', 'Tell her how you feel' (Phoenix Feather)"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 6,
-            "chapter": 3,
-            "name": "The Mochi Mystery",
-            "location": "North of Kurogane Smithing",
-            "reward": "Godslayer's Talisman",
-            "requirements": "Available in Chapter 3",
-            "guide": [
+            index: 6,
+            chapter: 3,
+            name: "The Mochi Mystery",
+            location: "North of Kurogane Smithing",
+            reward: "Godslayer's Talisman",
+            requirements: "Available in Chapter 3",
+            guide: [
               "1. Approach group of people in corner",
               "2. Question all suspects:",
               " • Higashihara: 'I saw Kitajima do it'",
@@ -10216,434 +10216,434 @@ const gameData = {
               " • Kitajima: 'Either Nakagawa or Minamino did it, but not both'",
               "3. Guilty parties are Higashihara and Minamino"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 7,
-            "chapter": 3,
-            "name": "Ee Ja Nai For Justice",
-            "location": "West of Shogi parlor",
-            "reward": "Tranquil Towel",
-            "requirements": "Must complete Substory #22 first",
-            "guide": [
+            index: 7,
+            chapter: 3,
+            name: "Ee Ja Nai For Justice",
+            location: "West of Shogi parlor",
+            reward: "Tranquil Towel",
+            requirements: "Must complete Substory #22 first",
+            guide: [
               "1. Find dancers west of Shogi parlor",
               "2. Intervene when official tries to remove them",
               "3. Defeat 3 swordsmen"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 8,
-            "chapter": 5,
-            "name": "The Unwilling Courier",
-            "location": "Bridge to Gion",
-            "reward": "Gold Seal",
-            "requirements": "Available from chapter start",
-            "guide": [
+            index: 8,
+            chapter: 5,
+            name: "The Unwilling Courier",
+            location: "Bridge to Gion",
+            reward: "Gold Seal",
+            requirements: "Available from chapter start",
+            guide: [
               "1. Collide with courier on bridge to Gion",
               "2. Deliver 6 marked letters in time",
               "3. Use dash button for speed"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 9,
-            "chapter": 5,
-            "name": "Enter the Black Panther Couriers",
-            "location": "Bridge to Gion",
-            "reward": "Courier race completion",
-            "requirements": "Complete Substory #8",
-            "guide": [
+            index: 9,
+            chapter: 5,
+            name: "Enter the Black Panther Couriers",
+            location: "Bridge to Gion",
+            reward: "Courier race completion",
+            requirements: "Complete Substory #8",
+            guide: [
               "1. Return to bridge after Substory #8",
               "2. Race to deliver 10 letters against Hoshi",
               "3. Upgrade Sprint at Shrine recommended"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 10,
-            "chapter": 5,
-            "name": "The Panthers' Leading Man",
-            "location": "Gate west of Sushi Zanmai",
-            "reward": "Courier race completion",
-            "requirements": "Must have spoken to Yamazaki",
-            "guide": [
+            index: 10,
+            chapter: 5,
+            name: "The Panthers' Leading Man",
+            location: "Gate west of Sushi Zanmai",
+            reward: "Courier race completion",
+            requirements: "Must have spoken to Yamazaki",
+            guide: [
               "1. Find Kiyokawa at gate west of Sushi Zanmai",
               "2. Race to deliver 12 letters"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 11,
-            "chapter": 3,
-            "name": "Global Fraud",
-            "location": "Teramachi neighborhood (Rakunai)",
-            "reward": "European Fabric (all correct)",
-            "requirements": "Available in Chapter 3",
-            "guide": [
+            index: 11,
+            chapter: 3,
+            name: "Global Fraud",
+            location: "Teramachi neighborhood (Rakunai)",
+            reward: "European Fabric (all correct)",
+            requirements: "Available in Chapter 3",
+            guide: [
               "1. Find school teacher in Teramachi",
               "2. Answer geography questions:",
               " • First: 'Japan'",
               " • Second: 'The Great Qing'",
               " • Third: '4'"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 12,
-            "chapter": 5,
-            "name": "The Hungry Sumo Wrestler",
-            "location": "East of Shogi Parlor (Rakunai)",
-            "reward": "Starts Friendship",
-            "requirements": "Available in Chapter 5",
-            "guide": [
+            index: 12,
+            chapter: 5,
+            name: "The Hungry Sumo Wrestler",
+            location: "East of Shogi Parlor (Rakunai)",
+            reward: "Starts Friendship",
+            requirements: "Available in Chapter 5",
+            guide: [
               "1. Find fallen man east of Shogi Parlor",
               "2. Give him food to begin Friendship"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 13,
-            "chapter": 4,
-            "name": "The Love-Starved Husband",
-            "location": "Kamo River coast (Rakunai)",
-            "reward": "Starts Friendship",
-            "requirements": "Must have started Another Life with Haruka",
-            "guide": [
+            index: 13,
+            chapter: 4,
+            name: "The Love-Starved Husband",
+            location: "Kamo River coast (Rakunai)",
+            reward: "Starts Friendship",
+            requirements: "Must have started Another Life with Haruka",
+            guide: [
               "1. Find man gazing at water between bridges",
               "2. Bring meal cooked from farm",
               "3. Choose to enjoy it with him"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 14,
-            "chapter": 4,
-            "name": "The Oblivious Woman",
-            "location": "Next to Palanquin (Rakunai)",
-            "reward": "Starts Friendship",
-            "requirements": "Must have started Another Life with Haruka",
-            "guide": [
+            index: 14,
+            chapter: 4,
+            name: "The Oblivious Woman",
+            location: "Next to Palanquin (Rakunai)",
+            reward: "Starts Friendship",
+            requirements: "Must have started Another Life with Haruka",
+            guide: [
               "1. Find woman who lost her purse",
               "2. Give her vegetables grown on farm"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 15,
-            "chapter": 3,
-            "name": "The Injured Grandma",
-            "location": "East of Gambling Den → riverside",
-            "reward": "Starts Friendship",
-            "requirements": "Available in Chapter 3",
-            "guide": [
+            index: 15,
+            chapter: 3,
+            name: "The Injured Grandma",
+            location: "East of Gambling Den → riverside",
+            reward: "Starts Friendship",
+            requirements: "Available in Chapter 3",
+            guide: [
               "1. Find old woman by riverside",
               "2. Offer to help escort her home"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 16,
-            "chapter": 4,
-            "name": "The Barking Dog",
-            "location": "Southwest of Ebisu Pawn (Rakunai)",
-            "reward": "Starts Friendship",
-            "requirements": "Must have started Another Life with Haruka",
-            "guide": [
+            index: 16,
+            chapter: 4,
+            name: "The Barking Dog",
+            location: "Southwest of Ebisu Pawn (Rakunai)",
+            reward: "Starts Friendship",
+            requirements: "Must have started Another Life with Haruka",
+            guide: [
               "1. Find barking dog southwest of Ebisu Pawn",
               "2. Give him a Bone (sold at Ebisu Pawn)"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 17,
-            "chapter": 4,
-            "name": "The Lucky Cat",
-            "location": "North of Ginryu's Dojo",
-            "reward": "Starts Friendship",
-            "requirements": "Must have started Another Life with Haruka",
-            "guide": [
+            index: 17,
+            chapter: 4,
+            name: "The Lucky Cat",
+            location: "North of Ginryu's Dojo",
+            reward: "Starts Friendship",
+            requirements: "Must have started Another Life with Haruka",
+            guide: [
               "1. Find man praying to cat north of dojo",
               "2. Speak to cat and give 1000 mon"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 18,
-            "chapter": 3,
-            "name": "The Reclusive Son",
-            "location": "North of William Bradley's training ground",
-            "reward": "Rainbow Shard (best outcome)",
-            "requirements": "Available in Chapter 3",
-            "guide": [
+            index: 18,
+            chapter: 3,
+            name: "The Reclusive Son",
+            location: "North of William Bradley's training ground",
+            reward: "Rainbow Shard (best outcome)",
+            requirements: "Available in Chapter 3",
+            guide: [
               "1. Witness mother/son argument",
               "2. Speak to mother after son runs off",
               "3. Talk to son inside house",
               "4. Choose: 'ask what he does all day', 'make a personal connection', 'boost his self-confidence'",
               "5. Defeat 5 ruffians outside"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 19,
-            "chapter": 6,
-            "name": "Palanquin Paladin",
-            "location": "South of Chicken Races (Rakugai)",
-            "reward": "Crimson Bead",
-            "requirements": "Available from chapter start",
-            "guide": [
+            index: 19,
+            chapter: 6,
+            name: "Palanquin Paladin",
+            location: "South of Chicken Races (Rakugai)",
+            reward: "Crimson Bead",
+            requirements: "Available from chapter start",
+            guide: [
               "1. Approach old man and palanquin",
               "2. Protect palanquin while moving to eastern bridge",
               "3. Defeat ~15 enemies along the way",
               "4. Defeat leader at end"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 20,
-            "chapter": 7,
-            "name": "Can I Quote You On That?",
-            "location": "Northwest of Scarecrow Chateau → Barracks",
-            "reward": "Eye of the Dragon (best answers)",
-            "requirements": "Must have received orders at Barracks",
-            "guide": [
+            index: 20,
+            chapter: 7,
+            name: "Can I Quote You On That?",
+            location: "Northwest of Scarecrow Chateau → Barracks",
+            reward: "Eye of the Dragon (best answers)",
+            requirements: "Must have received orders at Barracks",
+            guide: [
               "1. Find kawaraban vendor northwest of Scarecrow Chateau",
               "2. Defend against ronin",
               "3. Meet vendor at Barracks entrance for interview",
               "4. Answers: 'It's my duty, nothing more', 'Better have a will ready', 'Someone I get along with', 'It's a place for true warriors', 'Maintain your innocence'"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 21,
-            "chapter": 3,
-            "name": "Sonno Joui",
-            "location": "South of Kurogane Smithing → Mukurogai",
-            "reward": "No reward",
-            "requirements": "Available in Chapter 3",
-            "guide": [
+            index: 21,
+            chapter: 3,
+            name: "Sonno Joui",
+            location: "South of Kurogane Smithing → Mukurogai",
+            reward: "No reward",
+            requirements: "Available in Chapter 3",
+            guide: [
               "1. Listen to blond-haired man in Umekojicho",
               "2. Follow him to bridge at north end of Mukurogai",
               "3. Defeat 4 Kakumei Joui thugs",
               "4. Find man on east side of Mukurogai second level",
               "5. Defeat 5 more bad guys"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 22,
-            "chapter": 3,
-            "name": "Ee Ja Not Ka",
-            "location": "Northwest of Jizo Statue (Sannocho, Rakugai)",
-            "reward": "Vermilion Fabric",
-            "requirements": "Must complete Substory #47 first",
-            "guide": [
+            index: 22,
+            chapter: 3,
+            name: "Ee Ja Not Ka",
+            location: "Northwest of Jizo Statue (Sannocho, Rakugai)",
+            reward: "Vermilion Fabric",
+            requirements: "Must complete Substory #47 first",
+            guide: [
               "1. Find dancers northwest of Jizo Statue",
               "2. Approach after they knock over old lady",
               "3. Defeat 6 varied foes"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 23,
-            "chapter": 6,
-            "name": "Bluffin' Up the Wrong Alley",
-            "location": "Gambling Den → Mukurogai",
-            "reward": "Substory completion",
-            "requirements": "Must be wearing Shinsengumi haori",
-            "guide": [
+            index: 23,
+            chapter: 6,
+            name: "Bluffin' Up the Wrong Alley",
+            location: "Gambling Den → Mukurogai",
+            reward: "Substory completion",
+            requirements: "Must be wearing Shinsengumi haori",
+            guide: [
               "1. Witness jerks accosting man at Gambling Den",
               "2. Return later to find gambler with info",
               "3. Go to Mukurogai north gate",
               "4. Follow gambler to fight",
               "5. Defeat 5 ronin"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 24,
-            "chapter": 5,
-            "name": "The Panthers' Playmaker",
-            "location": "Farmhouse → Bridge in Rakugai",
-            "reward": "Courier race completion",
-            "requirements": "Complete Substory #10",
-            "guide": [
+            index: 24,
+            chapter: 5,
+            name: "The Panthers' Playmaker",
+            location: "Farmhouse → Bridge in Rakugai",
+            reward: "Courier race completion",
+            requirements: "Complete Substory #10",
+            guide: [
               "1. Return to farmhouse for challenge letter",
               "2. Meet Inamoto at bridge in Rakugai",
               "3. Race to deliver 12 letters in Rakugai"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 25,
-            "chapter": 3,
-            "name": "The Sword Nut",
-            "location": "East of bridge to Mukurogai (Rakugai)",
-            "reward": "Starts Friendship",
-            "requirements": "Available in Chapter 3",
-            "guide": [
+            index: 25,
+            chapter: 3,
+            name: "The Sword Nut",
+            location: "East of bridge to Mukurogai (Rakugai)",
+            reward: "Starts Friendship",
+            requirements: "Available in Chapter 3",
+            guide: [
               "1. Find portly fellow east of bridge",
               "2. Show him your sword when requested"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 26,
-            "chapter": 5,
-            "name": "The Battered Defender",
-            "location": "North of Fushimi/Rakugai gate",
-            "reward": "Starts Friendship",
-            "requirements": "Must have met Yamazaki",
-            "guide": [
+            index: 26,
+            chapter: 5,
+            name: "The Battered Defender",
+            location: "North of Fushimi/Rakugai gate",
+            reward: "Starts Friendship",
+            requirements: "Must have met Yamazaki",
+            guide: [
               "1. Find samurai north of gate",
               "2. Watch scene about justice",
               "3. Give him any Medicine"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 27,
-            "chapter": 4,
-            "name": "The Mysterious Merchant",
-            "location": "Well in Rakugai → west wall",
-            "reward": "2 ryo, starts Friendship",
-            "requirements": "Must have started Another Life with Haruka",
-            "guide": [
+            index: 27,
+            chapter: 4,
+            name: "The Mysterious Merchant",
+            location: "Well in Rakugai → west wall",
+            reward: "2 ryo, starts Friendship",
+            requirements: "Must have started Another Life with Haruka",
+            guide: [
               "1. Go to well south of Uji Tea Parlor",
               "2. Check west wall for feet behind dilapidated wall",
               "3. Bring him 10 tomatoes from farm"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 28,
-            "chapter": 4,
-            "name": "The Hungry Cat",
-            "location": "Northeast of William Bradley's hideout (Rakugai)",
-            "reward": "Starts Friendship",
-            "requirements": "Must have started Another Life with Haruka",
-            "guide": [
+            index: 28,
+            chapter: 4,
+            name: "The Hungry Cat",
+            location: "Northeast of William Bradley's hideout (Rakugai)",
+            reward: "Starts Friendship",
+            requirements: "Must have started Another Life with Haruka",
+            guide: [
               "1. Find cat northeast of training hideout",
               "2. Give him a fish"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 29,
-            "chapter": 3,
-            "name": "The Bad Side of Town",
-            "location": "West end of Mukurogai",
-            "reward": "Substory completion",
-            "requirements": "Available in Chapter 3",
-            "guide": [
+            index: 29,
+            chapter: 3,
+            name: "The Bad Side of Town",
+            location: "West end of Mukurogai",
+            reward: "Substory completion",
+            requirements: "Available in Chapter 3",
+            guide: [
               "1. Go to west end of Mukurogai near stairs",
               "2. Encounter and defeat jerks"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 30,
-            "chapter": 3,
-            "name": "Brawler for Hire",
-            "location": "Central clearing (Mukurogai)",
-            "reward": "Substory completion",
-            "requirements": "Must complete Substory #7 first",
-            "guide": [
+            index: 30,
+            chapter: 3,
+            name: "Brawler for Hire",
+            location: "Central clearing (Mukurogai)",
+            reward: "Substory completion",
+            requirements: "Must complete Substory #7 first",
+            guide: [
               "1. Find serious dude in central clearing",
               "2. Learn about punching for profit",
               "3. Defeat Corrupt Official"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 31,
-            "chapter": 6,
-            "name": "Brawler Incarnate",
-            "location": "Central clearing (Mukurogai)",
-            "reward": "Substory completion",
-            "requirements": "Complete Substory #30 first",
-            "guide": [
+            index: 31,
+            chapter: 6,
+            name: "Brawler Incarnate",
+            location: "Central clearing (Mukurogai)",
+            reward: "Substory completion",
+            requirements: "Complete Substory #30 first",
+            guide: [
               "1. Return to central clearing",
               "2. Accept Sumi Bozu's challenge",
               "3. Defeat him in fight"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 32,
-            "chapter": 10,
-            "name": "Brawler Enlightened",
-            "location": "Central clearing (Mukurogai)",
-            "reward": "Berserker Charm",
-            "requirements": "Complete Substory #31 first",
-            "guide": [
+            index: 32,
+            chapter: 10,
+            name: "Brawler Enlightened",
+            location: "Central clearing (Mukurogai)",
+            reward: "Berserker Charm",
+            requirements: "Complete Substory #31 first",
+            guide: [
               "1. Return to central clearing",
               "2. Fight stronger Sumi Bozu",
               "3. Defeat him to complete substory"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 33,
-            "chapter": 7,
-            "name": "Night of the Living Rumor",
-            "location": "East end of Mukurogai (nighttime only)",
-            "reward": "Nishikigoi Amulet",
-            "requirements": "Must be nighttime",
-            "guide": [
+            index: 33,
+            chapter: 7,
+            name: "Night of the Living Rumor",
+            location: "East end of Mukurogai (nighttime only)",
+            reward: "Nishikigoi Amulet",
+            requirements: "Must be nighttime",
+            guide: [
               "1. Overhear men talking in tunnel during daytime",
               "2. Return to same spot at nighttime",
               "3. Defeat ghostly Warrior"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 34,
-            "chapter": 3,
-            "name": "The Servile Beggar",
-            "location": "Southeast of north gate (Mukurogai)",
-            "reward": "Starts Friendship",
-            "requirements": "Available in Chapter 3",
-            "guide": [
+            index: 34,
+            chapter: 3,
+            name: "The Servile Beggar",
+            location: "Southeast of north gate (Mukurogai)",
+            reward: "Starts Friendship",
+            requirements: "Available in Chapter 3",
+            guide: [
               "1. Find crouching man southeast of north gate",
               "2. Give him any food item"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 35,
-            "chapter": 4,
-            "name": "The Trash Dealer",
-            "location": "Northwest corner (Mukurogai)",
-            "reward": "Starts Friendship",
-            "requirements": "Must have started Another Life with Haruka",
-            "guide": [
+            index: 35,
+            chapter: 4,
+            name: "The Trash Dealer",
+            location: "Northwest corner (Mukurogai)",
+            reward: "Starts Friendship",
+            requirements: "Must have started Another Life with Haruka",
+            guide: [
               "1. Find shifty fellow in northwest corner",
               "2. Give him any item"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 36,
-            "chapter": 4,
-            "name": "The Injured Dog",
-            "location": "Center clearing (Mukurogai)",
-            "reward": "Starts Friendship",
-            "requirements": "Must have started Another Life with Haruka",
-            "guide": [
+            index: 36,
+            chapter: 4,
+            name: "The Injured Dog",
+            location: "Center clearing (Mukurogai)",
+            reward: "Starts Friendship",
+            requirements: "Must have started Another Life with Haruka",
+            guide: [
               "1. Find injured dog in center clearing",
               "2. Give him Medicine (Ointment is cheapest)"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 37,
-            "chapter": 2,
-            "name": "Death of the Author",
-            "location": "Teradaya (second floor)",
-            "reward": "European Fabric (correct answers)",
-            "requirements": "Obtain Diligence Records in story",
-            "guide": [
+            index: 37,
+            chapter: 2,
+            name: "Death of the Author",
+            location: "Teradaya (second floor)",
+            reward: "European Fabric (correct answers)",
+            requirements: "Obtain Diligence Records in story",
+            guide: [
               "1. Investigate shouting man on Teradaya second floor",
               "2. First answer: suggest 'a cat'",
               "3. Leave and return, get Broken Compass",
@@ -10651,74 +10651,74 @@ const gameData = {
               "5. Leave and return, get Fine Silk Fabric",
               "6. Final answer: respond 'Heart' for European Fabric"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 38,
-            "chapter": 7,
-            "name": "Precious Packages",
-            "location": "Northwest of Teradaya → Southeast Mukurogai",
-            "reward": "Great Serpent Skin",
-            "requirements": "Complete Substory #71 first",
-            "guide": [
+            index: 38,
+            chapter: 7,
+            name: "Precious Packages",
+            location: "Northwest of Teradaya → Southeast Mukurogai",
+            reward: "Great Serpent Skin",
+            requirements: "Complete Substory #71 first",
+            guide: [
               "1. Witness package switch northwest of Teradaya",
               "2. Find guy in southeast corner of Mukurogai near water",
               "3. Defeat bad guys and retrieve package",
               "4. Return to person behind Teradaya"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 39,
-            "chapter": 3,
-            "name": "A Clean Streak",
-            "location": "Bathhouse",
-            "reward": "Crystal",
-            "requirements": "Available in Chapter 3",
-            "guide": [
+            index: 39,
+            chapter: 3,
+            name: "A Clean Streak",
+            location: "Bathhouse",
+            reward: "Crystal",
+            requirements: "Available in Chapter 3",
+            guide: [
               "1. Take bath at Bathhouse",
               "2. Chase clothes thief, press Grab when close",
               "3. Avoid detection while returning to bathhouse"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 40,
-            "chapter": 3,
-            "name": "A Man and His Sack",
-            "location": "West of Fushimi General Goods",
-            "reward": "Substory completion",
-            "requirements": "Available in Chapter 3",
-            "guide": [
+            index: 40,
+            chapter: 3,
+            name: "A Man and His Sack",
+            location: "West of Fushimi General Goods",
+            reward: "Substory completion",
+            requirements: "Available in Chapter 3",
+            guide: [
               "1. Join line for inari sushi",
               "2. Leave and return when stand runs out",
               "3. Join line again, stand runs out again",
               "4. Return third time, chase pickpocket"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 41,
-            "chapter": 2,
-            "name": "All in the Hips",
-            "location": "Umai Udon Shop",
-            "reward": "Unlocks Udon minigame",
-            "requirements": "Eat at Umai Udon twice",
-            "guide": [
+            index: 41,
+            chapter: 2,
+            name: "All in the Hips",
+            location: "Umai Udon Shop",
+            reward: "Unlocks Udon minigame",
+            requirements: "Eat at Umai Udon twice",
+            guide: [
               "1. Eat at Umai Udon Shop twice",
               "2. On second visit, get free bowl and trigger scene",
               "3. Make 3 ryo worth of udon without losing all hearts"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 42,
-            "chapter": 7,
-            "name": "Invasion of the Black Ships?",
-            "location": "South end of Ichibangai (Fushimi)",
-            "reward": "Precise Machinery",
-            "requirements": "Available in Chapter 7",
-            "guide": [
+            index: 42,
+            chapter: 7,
+            name: "Invasion of the Black Ships?",
+            location: "South end of Ichibangai (Fushimi)",
+            reward: "Precise Machinery",
+            requirements: "Available in Chapter 7",
+            guide: [
               "1. Listen to men discussing Black Ships",
               "2. Leave and return to find seasick ship captain",
               "3. Get suggestions from locals:",
@@ -10727,85 +10727,85 @@ const gameData = {
               " • Old man in gray suggests umeboshi (correct answer)",
               "4. Defeat 3 samurai"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 43,
-            "chapter": 2,
-            "name": "It's a Long Story",
-            "location": "West of Hanako (Fushimi)",
-            "reward": "Gold Seal (all correct)",
-            "requirements": "Available in Chapter 2",
-            "guide": [
+            index: 43,
+            chapter: 2,
+            name: "It's a Long Story",
+            location: "West of Hanako (Fushimi)",
+            reward: "Gold Seal (all correct)",
+            requirements: "Available in Chapter 2",
+            guide: [
               "1. Find two ladies talking west of Hanako",
               "2. Agree to hear her story",
               "3. Answer quiz: 'bamboo shoots', 'outside a tea shop', 'Sakiko'"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 44,
-            "chapter": 2,
-            "name": "It's a Long Story: The Final Chapter",
-            "location": "West of Hanako (Fushimi)",
-            "reward": "Tear of the Dragon (all correct)",
-            "requirements": "Complete Substory #43",
-            "guide": [
+            index: 44,
+            chapter: 2,
+            name: "It's a Long Story: The Final Chapter",
+            location: "West of Hanako (Fushimi)",
+            reward: "Tear of the Dragon (all correct)",
+            requirements: "Complete Substory #43",
+            guide: [
               "1. Return to Sakiko's location",
               "2. Answer quiz: 'red, white, and green', 'amazake', 'Sumire'"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 45,
-            "chapter": 2,
-            "name": "It's a Long Story: Epilogue",
-            "location": "West of Hanako (Fushimi)",
-            "reward": "Golden Medicine Case (all correct)",
-            "requirements": "Complete Substory #44",
-            "guide": [
+            index: 45,
+            chapter: 2,
+            name: "It's a Long Story: Epilogue",
+            location: "West of Hanako (Fushimi)",
+            reward: "Golden Medicine Case (all correct)",
+            requirements: "Complete Substory #44",
+            guide: [
               "1. Return to Sakiko for final round",
               "2. Answer quiz: 'a scarecrow', 'pickled daikon', 'a tuna'"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 46,
-            "chapter": 3,
-            "name": "Scented Water",
-            "location": "East of Komaki Dojo → Mukurogai → Chase sequence",
-            "reward": "Keep 3 ryo",
-            "requirements": "Available in Chapter 3",
-            "guide": [
+            index: 46,
+            chapter: 3,
+            name: "Scented Water",
+            location: "East of Komaki Dojo → Mukurogai → Chase sequence",
+            reward: "Keep 3 ryo",
+            requirements: "Available in Chapter 3",
+            guide: [
               "1. Find woman犹豫 at ferry to Mukurogai",
               "2. Offer to get perfume for her",
               "3. Find perfume dealer in southwest corner of Mukurogai second level",
               "4. Defeat him when spooked",
               "5. Chase sequence back to Fushimi pier"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 47,
-            "chapter": 2,
-            "name": "Ee Ja Nai Ka",
-            "location": "Front of Ebisu Pawn (Fushimi)",
-            "reward": "Exquisite Cogwheel",
-            "requirements": "Available in Chapter 2",
-            "guide": [
+            index: 47,
+            chapter: 2,
+            name: "Ee Ja Nai Ka",
+            location: "Front of Ebisu Pawn (Fushimi)",
+            reward: "Exquisite Cogwheel",
+            requirements: "Available in Chapter 2",
+            guide: [
               "1. Find crowd of dancers at Ebisu Pawn",
               "2. Beat up misusing dudes"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 48,
-            "chapter": 6,
-            "name": "The Way of the Sammerai",
-            "location": "Northwest corner of Yashikimachi (Fushimi) → Dojo → Ichibangai",
-            "reward": "Substory completion",
-            "requirements": "Daytime only",
-            "guide": [
+            index: 48,
+            chapter: 6,
+            name: "The Way of the Sammerai",
+            location: "Northwest corner of Yashikimachi (Fushimi) → Dojo → Ichibangai",
+            reward: "Substory completion",
+            requirements: "Daytime only",
+            guide: [
               "1. Find three people in northwest corner",
               "2. Agree to train 'Tom'",
               "3. Defeat him in dojo (no Heat Actions with wooden swords)",
@@ -10813,343 +10813,343 @@ const gameData = {
               "5. Find him being mocked, train again",
               "6. Help him fight jerk samurai at Ichibangai"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 49,
-            "chapter": 5,
-            "name": "Last Stand of the Panthers",
-            "location": "Southeast Fushimi near River Fishing",
-            "reward": "Great Serpent Skin",
-            "requirements": "Complete Substory #24 first",
-            "guide": [
+            index: 49,
+            chapter: 5,
+            name: "Last Stand of the Panthers",
+            location: "Southeast Fushimi near River Fishing",
+            reward: "Great Serpent Skin",
+            requirements: "Complete Substory #24 first",
+            guide: [
               "1. Find Takeda near River Fishing spot",
               "2. Deliver 12 letters in Fushimi"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 50,
-            "chapter": 2,
-            "name": "The Desperate Fisherman",
-            "location": "South of Teradaya entrance (Fushimi)",
-            "reward": "Starts Friendship",
-            "requirements": "Available in Chapter 2",
-            "guide": [
+            index: 50,
+            chapter: 2,
+            name: "The Desperate Fisherman",
+            location: "South of Teradaya entrance (Fushimi)",
+            reward: "Starts Friendship",
+            requirements: "Available in Chapter 2",
+            guide: [
               "1. Find fisherman with blue headwrap",
               "2. Give him any fish you caught",
               "3. Return three more times with fish (4 total)",
               "4. Speak to him final time to complete Friendship"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 51,
-            "chapter": 2,
-            "name": "The Junk Boy",
-            "location": "North of Teradaya between warehouses (Fushimi)",
-            "reward": "Starts Friendship",
-            "requirements": "Available in Chapter 2",
-            "guide": [
+            index: 51,
+            chapter: 2,
+            name: "The Junk Boy",
+            location: "North of Teradaya between warehouses (Fushimi)",
+            reward: "Starts Friendship",
+            requirements: "Available in Chapter 2",
+            guide: [
               "1. Find boy lamenting between warehouses",
               "2. Give him any item from inventory",
               "3. Return three more times with items (4 total)",
               "4. Speak to him final time to complete Friendship"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 52,
-            "chapter": 2,
-            "name": "The Wood Cutter",
-            "location": "South of Hanako (Fushimi)",
-            "reward": "Starts Friendship",
-            "requirements": "Available in Chapter 2",
-            "guide": [
+            index: 52,
+            chapter: 2,
+            name: "The Wood Cutter",
+            location: "South of Hanako (Fushimi)",
+            reward: "Starts Friendship",
+            requirements: "Available in Chapter 2",
+            guide: [
               "1. Approach woodcutter on ground",
               "2. Chop 20 pieces of wood",
               "3. Return to chop 100 total pieces",
               "4. Return to chop 300 total pieces",
               "5. Speak to him final time to complete Friendship"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 53,
-            "chapter": 3,
-            "name": "The Frequently Lost Courier",
-            "location": "East of Teradaya → Various locations",
-            "reward": "Starts Friendship",
-            "requirements": "Available in Chapter 3",
-            "guide": [
+            index: 53,
+            chapter: 3,
+            name: "The Frequently Lost Courier",
+            location: "East of Teradaya → Various locations",
+            reward: "Starts Friendship",
+            requirements: "Available in Chapter 3",
+            guide: [
               "1. Find courier east of Teradaya at Jizo Statue",
               "2. Give him directions three times",
               "3. Help with deliveries starting with 'Kankichi in Yashikimachi'"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 54,
-            "chapter": 4,
-            "name": "The Patient Dog",
-            "location": "West side of Fushimi",
-            "reward": "Starts Friendship",
-            "requirements": "Must have started Another Life with Haruka",
-            "guide": [
+            index: 54,
+            chapter: 4,
+            name: "The Patient Dog",
+            location: "West side of Fushimi",
+            reward: "Starts Friendship",
+            requirements: "Must have started Another Life with Haruka",
+            guide: [
               "1. Find lying dog on west path",
               "2. Offer him any food"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 55,
-            "chapter": 4,
-            "name": "The Filthy Cat",
-            "location": "West of farm boat pier (Fushimi)",
-            "reward": "Starts Friendship",
-            "requirements": "Must have started Another Life with Haruka",
-            "guide": [
+            index: 55,
+            chapter: 4,
+            name: "The Filthy Cat",
+            location: "West of farm boat pier (Fushimi)",
+            reward: "Starts Friendship",
+            requirements: "Must have started Another Life with Haruka",
+            guide: [
               "1. Find cat at edge of pier",
               "2. Press Look button to notice it",
               "3. Follow into water for cleaning scene",
               "4. Return to clean again for Friendship"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 56,
-            "chapter": 4,
-            "name": "Finders Weepers",
-            "location": "East end of first street (Gion)",
-            "reward": "Substory completion",
-            "requirements": "Must have spoken to Akari at Temple",
-            "guide": [
+            index: 56,
+            chapter: 4,
+            name: "Finders Weepers",
+            location: "East end of first street (Gion)",
+            reward: "Substory completion",
+            requirements: "Must have spoken to Akari at Temple",
+            guide: [
               "1. Find dropped diary in front of temple",
               "2. Read it and offer message",
               "3. Leave Gion via west gate and return",
               "4. Read and add new advice repeatedly"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 57,
-            "chapter": 3,
-            "name": "Soft and Supple",
-            "location": "North end of Gion (evening only)",
-            "reward": "3 ryo",
-            "requirements": "Evening, access to Gion",
-            "guide": [
+            index: 57,
+            chapter: 3,
+            name: "Soft and Supple",
+            location: "North end of Gion (evening only)",
+            reward: "3 ryo",
+            requirements: "Evening, access to Gion",
+            guide: [
               "1. Find barker at north end of Gion",
               "2. Agree to attend establishment",
               "3. Deny paying and fight 3 sumo wrestlers"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 58,
-            "chapter": 4,
-            "name": "The Revolutionary Chef",
-            "location": "Outside Yamabuki (Gion)",
-            "reward": "Starts Friendship",
-            "requirements": "Must have cooked at least one meal",
-            "guide": [
+            index: 58,
+            chapter: 4,
+            name: "The Revolutionary Chef",
+            location: "Outside Yamabuki (Gion)",
+            reward: "Starts Friendship",
+            requirements: "Must have cooked at least one meal",
+            guide: [
               "1. Find sniffing chef outside Yamabuki",
               "2. Give him any cooked dish"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 59,
-            "chapter": 4,
-            "name": "The Sexy Madam",
-            "location": "First street area (Gion)",
-            "reward": "Starts Friendship",
-            "requirements": "Must have started Another Life with Haruka",
-            "guide": [
+            index: 59,
+            chapter: 4,
+            name: "The Sexy Madam",
+            location: "First street area (Gion)",
+            reward: "Starts Friendship",
+            requirements: "Must have started Another Life with Haruka",
+            guide: [
               "1. Find woman in purple floral print",
               "2. Give her a Cucumber"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 60,
-            "chapter": 5,
-            "name": "It's What's on the Inside",
-            "location": "West of Tea Parlor (Mibu) → Bridge to Gion → Shrine",
-            "reward": "Gion Hood, Aguri Juntaro Trooper Card",
-            "requirements": "Available in Chapter 5",
-            "guide": [
+            index: 60,
+            chapter: 5,
+            name: "It's What's on the Inside",
+            location: "West of Tea Parlor (Mibu) → Bridge to Gion → Shrine",
+            reward: "Gion Hood, Aguri Juntaro Trooper Card",
+            requirements: "Available in Chapter 5",
+            guide: [
               "1. Witness scene with Aguri west of Tea Parlor",
               "2. Speak to him at Tea Parlor",
               "3. Find woman on west shore of bridge to Gion",
               "4. Tell Aguri 'Have faith in Suzu'",
               "5. Defeat 5 bad guys at shrine in Mibu"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 61,
-            "chapter": 4,
-            "name": "Hope Blossoms Again",
-            "location": "West path of Shinsengumi Barracks (Mibu) → Farm",
-            "reward": "Substory completion",
-            "requirements": "Must have started Another Life with Haruka",
-            "guide": [
+            index: 61,
+            chapter: 4,
+            name: "Hope Blossoms Again",
+            location: "West path of Shinsengumi Barracks (Mibu) → Farm",
+            reward: "Substory completion",
+            requirements: "Must have started Another Life with Haruka",
+            guide: [
               "1. Hear commotion west of Barracks",
               "2. Stop jerk who killed dog",
               "3. Find cherry blossom tree at farm",
               "4. Return to couple with news"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 62,
-            "chapter": 5,
-            "name": "A Warlord's Ambition",
-            "location": "Farmhouse",
-            "reward": "Dragon's Whisker (well made)",
-            "requirements": "Must have cooked at least 10 dishes",
-            "guide": [
+            index: 62,
+            chapter: 5,
+            name: "A Warlord's Ambition",
+            location: "Farmhouse",
+            reward: "Dragon's Whisker (well made)",
+            requirements: "Must have cooked at least 10 dishes",
+            guide: [
               "1. Get knock on farmhouse door from Akechi",
               "2. Prepare Thoroughly Grilled Fish with provided ingredients"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 63,
-            "chapter": 5,
-            "name": "The Boy Who Cried Bear",
-            "location": "Shrine at west end (Mibu)",
-            "reward": "Inviting Hat",
-            "requirements": "Complete Substory #60",
-            "guide": [
+            index: 63,
+            chapter: 5,
+            name: "The Boy Who Cried Bear",
+            location: "Shrine at west end (Mibu)",
+            reward: "Inviting Hat",
+            requirements: "Complete Substory #60",
+            guide: [
               "1. Find boy at shrine",
               "2. Defeat powerful bear (4 swings then dodge)"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 64,
-            "chapter": 4,
-            "name": "Mama Ryoma",
-            "location": "East of Tea Parlor (Mibu)",
-            "reward": "Substory completion",
-            "requirements": "Complete Substory #61 first",
-            "guide": [
+            index: 64,
+            chapter: 4,
+            name: "Mama Ryoma",
+            location: "East of Tea Parlor (Mibu)",
+            reward: "Substory completion",
+            requirements: "Complete Substory #61 first",
+            guide: [
               "1. Find three kids east of Tea Parlor",
               "2. Play House with them (choices don't matter)",
               "3. Defeat man at end"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 65,
-            "chapter": 4,
-            "name": "The Amnesiac",
-            "location": "Path to Kiyomizu Temple",
-            "reward": "Dead Branch, starts Friendship",
-            "requirements": "Must have objective to go to temple",
-            "guide": [
+            index: 65,
+            chapter: 4,
+            name: "The Amnesiac",
+            location: "Path to Kiyomizu Temple",
+            reward: "Dead Branch, starts Friendship",
+            requirements: "Must have objective to go to temple",
+            guide: [
               "1. Find incapacitated man on path",
               "2. Give him any Medicine"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 66,
-            "chapter": 4,
-            "name": "The Boy Who Loves Veggies",
-            "location": "East of Tea Parlor (Mibu)",
-            "reward": "Starts Friendship",
-            "requirements": "Must have started Another Life with Haruka",
-            "guide": [
+            index: 66,
+            chapter: 4,
+            name: "The Boy Who Loves Veggies",
+            location: "East of Tea Parlor (Mibu)",
+            reward: "Starts Friendship",
+            requirements: "Must have started Another Life with Haruka",
+            guide: [
               "1. Find crying boy east of Tea Parlor",
               "2. Give him a vegetable"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 67,
-            "chapter": 4,
-            "name": "The Spitfire Debt Collector",
-            "location": "Kurogane Smithing → Various locations",
-            "reward": "3 ryo",
-            "requirements": "Complete Substory #69 first",
-            "guide": [
+            index: 67,
+            chapter: 4,
+            name: "The Spitfire Debt Collector",
+            location: "Kurogane Smithing → Various locations",
+            reward: "3 ryo",
+            requirements: "Complete Substory #69 first",
+            guide: [
               "1. Speak to Yae at Kurogane Smithing",
               "2. Rescue client from strong guys"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 68,
-            "chapter": 4,
-            "name": "The Spitfire Lie Detector",
-            "location": "Kurogane Smithing",
-            "reward": "Substory completion",
-            "requirements": "Complete Substory #67 first",
-            "guide": [
+            index: 68,
+            chapter: 4,
+            name: "The Spitfire Lie Detector",
+            location: "Kurogane Smithing",
+            reward: "Substory completion",
+            requirements: "Complete Substory #67 first",
+            guide: [
               "1. Find Yae with client at Kurogane",
               "2. Get 3 ryo upfront",
               "3. Defeat 7 guys including major foe",
               "4. Defeat another 8 guys and major foe"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 69,
-            "chapter": 4,
-            "name": "The Spitfire Town Protector",
-            "location": "East of Chicken Races (Rakugai)",
-            "reward": "3 ryo",
-            "requirements": "Must have started Another Life with Haruka",
-            "guide": [
+            index: 69,
+            chapter: 4,
+            name: "The Spitfire Town Protector",
+            location: "East of Chicken Races (Rakugai)",
+            reward: "3 ryo",
+            requirements: "Must have started Another Life with Haruka",
+            guide: [
               "1. Find arguing couple east of Chicken Races",
               "2. Help Yae defeat 4 high-health enemies"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 70,
-            "chapter": 5,
-            "name": "The Captain and the Curious",
-            "location": "North of Umai Udon Shop (Fushimi)",
-            "reward": "Unlocks Memoirs hunt",
-            "requirements": "Must have Inviting Hat",
-            "guide": [
+            index: 70,
+            chapter: 5,
+            name: "The Captain and the Curious",
+            location: "North of Umai Udon Shop (Fushimi)",
+            reward: "Unlocks Memoirs hunt",
+            requirements: "Must have Inviting Hat",
+            guide: [
               "1. Find Ernest Satow north of Udon Shop",
               "2. Accept drink offer",
               "3. Defeat Kawakami Gensai"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 71,
-            "chapter": 7,
-            "name": "Diplomacy in Darkness",
-            "location": "Izakaya → Southeast Mukurogai",
-            "reward": "Substory completion",
-            "requirements": "Complete #70, find 73% Memoirs (19), discuss with Ernest",
-            "guide": [
+            index: 71,
+            chapter: 7,
+            name: "Diplomacy in Darkness",
+            location: "Izakaya → Southeast Mukurogai",
+            reward: "Substory completion",
+            requirements: "Complete #70, find 73% Memoirs (19), discuss with Ernest",
+            guide: [
               "1. Find Ernest missing from izakaya",
               "2. Go to marked spot in southeast Mukurogai",
               "3. Defeat Tanaka Shinbei and cronies"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           },
           {
-            "index": 72,
-            "chapter": "Finale",
-            "name": "A Lasting Thirst for Peace",
-            "location": "Footbridge south of izakaya → Izakaya",
-            "reward": "Final Memoir, Kiwami Hammer",
-            "requirements": "Complete #71, collect 25/26 Memoirs (96%), discuss with Ernest, noon time",
-            "guide": [
+            index: 72,
+            chapter: "Finale",
+            name: "A Lasting Thirst for Peace",
+            location: "Footbridge south of izakaya → Izakaya",
+            reward: "Final Memoir, Kiwami Hammer",
+            requirements: "Complete #71, collect 25/26 Memoirs (96%), discuss with Ernest, noon time",
+            guide: [
               "1. Find Ernest on footbridge at noon",
               "2. Defeat Nakamura Hanjiro and crew (tough fight)",
               "3. Return to izakaya for final rewards"
             ].join("\n"),
-            "videoId": ""
+            videoId: ""
           }
         ],
       },

@@ -10081,7 +10081,11 @@ const gameData = {
     logo: "./images/logos/LADIW.webp",
     characters: {
       "Ichiban Kasuga": {
-        image: "",
+        image: "./images/characters/Ichiban/IchibanIW.webp",
+        substories: [],
+      },
+      "Kiryu Kazuma": {
+        image: "./images/characters/Kiryu/KiryuIW.webp",
         substories: [],
       },
     },

@@ -19,7 +19,7 @@ https://kokikoki20.github.io/Gokudo-gaido-The-Kamurocho-compendium/
 `Yakuza 5` 🟢 (100%)  
 `Yakuza 6` 🟢 (100%)  
 `Like a Dragon` 🟢 (100%)  
-`Infinite Wealth` 🔴 (0%)  
+`Infinite Wealth` 🟡 (100%?)  
 
 ### Spin-Offs
 `Judgment` 🔴 (0%)  
